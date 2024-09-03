@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>Test</title>
+	<style>
+		img {
+			width: 400px;
+			height: 200px;
+		}
+
+		.d-none {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Simple password auth</h1>
+	<img src="data/16.jpg" title="Ascii Table" class="d-none" />
+	<button id="login">Show ascii</button>
+
+	<script>
+		// TASK Show Ascii just if password is entered correctly
+		// TASK2 trigger login on button click
+		// TODO Add html button
+		// TODO Add event listener to button
+		// TODO run validation as function
+
+
+		const loginButton = document.getElementById("login")
+		loginButton.addEventListener('click', function (event) {
+			console.log(event)
+
+			const enteredPassword = prompt("Please enter the password to see the image")
+			console.log(enteredPassword)
+			// TASK: DONT WRITE THIS IN PLAINTEXT	
+			// TOOD write base64 hash here (still unsafe)
+			// TODO encrypt password with btoa
+
+								// btoa('tommy')
+			const base64Password = btoa(enteredPassword)
+			console.log(base64Password)
+			if (base64Password === "dG9tbXk=") {
+				const asciiElement = document.querySelector("img")
+				asciiElement.classList.remove("d-none")
+			}
+		})
+	</script>
+</body>
+
+</html>
