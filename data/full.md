@@ -1,34 +1,30 @@
-# Basic digital literacy
-
-by Thomas Kuhnert
-
-Speaker Notes:
-
-- Start with joke
-  - Ideas:
-    - BuzzwordBoomin
-    - Let chatgpt create a joke
-    - Better GH-Copilot
+# Intro
 
 
-# Today's agenda
-
-- Agenda <!-- .element: class="fragment" data-fragment-index="2" -->
-- General overview <!-- .element: class="fragment" data-fragment-index="3" -->
-- Tools <!-- .element: class="fragment" data-fragment-index="4" -->
-- HTML / HTTP <!-- .element: class="fragment" data-fragment-index="5" -->
-- Programming History <!-- .element: class="fragment" data-fragment-index="6" -->
-- Funny things (happens for sure before the end) <!-- .element: class="fragment" data-fragment-index="7" -->
-
-
-# Agenda
+# Timetable
 
 No worries - this is a flexible timeframe
 
-- 09:30 - 11:00 (16:30 - 18:00 JST)
-- 11:15 - 12:45 (18:15 - 19:45 JST)
-- 13:45 - 15:00 (20:45 - 22:15 JST)
-- 15:15 - 16:30 (22:30 - 23:30 JST)
+<!--- Class 9:00 - 10:30 (16.00 - 17.30 JST)-->
+<!--- Break 10:30 - 10:40 -->
+<!--- Class 10:40 - 12:10 -->
+<!--- Break 12:10 - 12:20 -->
+<!--- Class 12:20 - 13:05 (SAP learning platform together)-->
+<!--- `Lunch break`-->
+<!--- Class 14:05 - 15:35 (self paced learning)-->
+<!--- Break 15:35 - 15:45-->
+<!--- Class 15:45 - 17:15 (self paced learning)-->
+<!--- Break 17:15 - 17:25-->
+<!--- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)-->
+
+**Time** | **Block**
+---------|---------
+09:30 - 10:30 | Lesson
+10:45 - 12:00 | Lesson
+12:00 - 13:00 | Lunch Break
+13:00 - 14:45 | Lesson
+15:00 - 16:30 | Lesson
+
 
 
 # General overview
@@ -90,36 +86,51 @@ Speaker Notes:
 - Mention how it affects coding experience
 
 
-# Ecosystem
+
+# The "internet"
 
 
-# What do you think developers are doing?
+# Today's agenda
 
-Speaker Notes:
+- General overview <!-- .element: class="fragment" data-fragment-index="2" -->
+- Tools <!-- .element: class="fragment" data-fragment-index="3" -->
+- HTML / HTTP <!-- .element: class="fragment" data-fragment-index="4" -->
+- Programming History <!-- .element: class="fragment" data-fragment-index="5" -->
+- Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
 
-- Coding all day
-- Making fancy animations
-- Creating artificial intelligence
-- Building robots
-- Solving puzzles
-- Learning new languages
-- Debugging issues
-- Meeting with other teams
+
+# Lets start with something scary
+
+- [How normal am I](https://www.hownormalami.eu/)
+
+
+# Folklore
+## What do you think developers are doing?
+
+- Coding all day <!-- .element: class="fragment" data-fragment-index="2" -->
+- Making fancy animations <!-- .element: class="fragment" data-fragment-index="2" -->
+- Creating artificial intelligence <!-- .element: class="fragment" data-fragment-index="2" -->
+- Building robots <!-- .element: class="fragment" data-fragment-index="2" -->
+- Solving puzzles <!-- .element: class="fragment" data-fragment-index="2" -->
+- Learning new languages <!-- .element: class="fragment" data-fragment-index="2" -->
+- Debugging issues <!-- .element: class="fragment" data-fragment-index="2" -->
+- Meeting with other teams <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 # What they are actually doing
 
 <div class="d-flex">
 
-- Day-to-day programming experiences <!-- .element: class="fragment" data-fragment-index="2" -->
-- Fixed vs freelance vs remote work environments <!-- .element: class="fragment" data-fragment-index="3" -->
-- Research and problem-solving strategies <!-- .element: class="fragment" data-fragment-index="4" -->
-- Understanding abstract concepts over syntax details <!-- .element: class="fragment" data-fragment-index="5" -->
-- Debugging and finding small issues in large systems <!-- .element: class="fragment" data-fragment-index="6" -->
-- Unpredictable motivation (it often works at the end) <!-- .element: class="fragment" data-fragment-index="7" -->
-- Wide range of industries and applications (e-commerce, biology, etc.) <!-- .element: class="fragment" data-fragment-index="8" -->
-- Future-proofing and scalability <!-- .element: class="fragment" data-fragment-index="9" -->
-- Digital nomadism: working from anywhere <!-- .element: class="fragment" data-fragment-index="10" -->
+- [Meme](https://mastodon.sdf.org/@stunder/112293480292078612) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Day-to-day programming experiences <!-- .element: class="fragment" data-fragment-index="3" -->
+- Fixed vs freelance vs remote work environments <!-- .element: class="fragment" data-fragment-index="4" -->
+- Research and problem-solving strategies <!-- .element: class="fragment" data-fragment-index="5" -->
+- Understanding abstract concepts over syntax details <!-- .element: class="fragment" data-fragment-index="6" -->
+- Debugging and finding small issues in large systems <!-- .element: class="fragment" data-fragment-index="7" -->
+- Unpredictable motivation (it often works at the end) <!-- .element: class="fragment" data-fragment-index="8" -->
+- Wide range of industries and applications (e-commerce, biology, etc.) <!-- .element: class="fragment" data-fragment-index="9" -->
+- Future-proofing and scalability <!-- .element: class="fragment" data-fragment-index="10" -->
+- Digital nomadism: working from anywhere <!-- .element: class="fragment" data-fragment-index="11" -->
 
 <img src="./data/img/meme.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
 </div>
@@ -138,7 +149,7 @@ Speaker Notes:
 <img src="./data/img/2.jpg" alt="image" width="100%" height="auto" style="float: right;"><!-- .element: class="fragment" data-fragment-index="9" -->
 
 - Arrive at "office" <!-- .element: class="fragment" data-fragment-index="2" -->
-- Daily-stand <!-- .element: class="fragment" data-fragment-index="3" -->
+- Daily-standup <!-- .element: class="fragment" data-fragment-index="3" -->
 - Pull code from the repository <!-- .element: class="fragment" data-fragment-index="4" -->
 - Check project management tool <!-- .element: class="fragment" data-fragment-index="5" -->
 - Write code  <!-- .element: class="fragment" data-fragment-index="6" -->
@@ -149,7 +160,7 @@ Speaker Notes:
 </div>
 
 
-# The "internet"
+# The humans behind
 
 - <span>[History of webdesign](https://www.smamarketing.net/blog/the-history-of-website-design)</span> <!-- .element: class="fragment" data-fragment-index="2" -->
 - <span>[State of JS](https://2019.stateofjs.com/demographics/#gender)</span> <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -189,16 +200,15 @@ Speaker Notes:
 - Old fashioned banks or airlines <!-- .element: class="fragment" data-fragment-index="4" -->
 - Hipster startups <!-- .element: class="fragment" data-fragment-index="5" -->
 
-<img src="./data/img/4.jpg" alt="image" width="100%" height="auto" style="float: right;">
 </div>
 
 
 # Mobile first
 
-Browser usage
-What is a framework - bootstrap is one!
-Mobile statistics
-Analytics google
+- Browser usage <!-- .element: class="fragment" data-fragment-index="2" -->
+- What is a framework - bootstrap is one! <!-- .element: class="fragment" data-fragment-index="3" -->
+- Mobile statistics <!-- .element: class="fragment" data-fragment-index="4" -->
+- Analytics google <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Exercise:
@@ -265,7 +275,7 @@ Speaker Notes:
 # Exercise:
 - Use the browser console to calculate some numbers. <!-- .element: class="fragment" data-fragment-index="2" -->
 - Use alert, confirm("Really?") and combine it with timeout <!-- .element: class="fragment" data-fragment-index="3" -->
-- Take some time and browse the D3.jsexamples. <!-- .element: class="fragment" data-fragment-index="5" -->
+- Take some time and browse the D3.js examples. <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # HTML elements structure
@@ -374,6 +384,7 @@ Download VsCode and create a html file
 
 <div class="d-flex">
 
+- [Meme](https://mastodon.social/@Cmastication/111788074384935463)
 - Advanced todo lists <!-- .element: class="fragment" data-fragment-index="2" -->
 - Make work in team possible <!-- .element: class="fragment" data-fragment-index="3" -->
 - Track tickets, milestones and general progress <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -390,6 +401,7 @@ Download VsCode and create a html file
 
 <div class="d-flex">
 
+- [Meme](https://anonsys.net/display/bf69967c-1166-ca0a-9dbf-ff5129126139)
 - Scriptable good for automatisation <!-- .element: class="fragment" data-fragment-index="2" -->
 - Execute commands on computer/server <!-- .element: class="fragment" data-fragment-index="3" -->
 - Can emulate on a remote machine <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -496,6 +508,7 @@ Speaker Notes:
 <div class="d-flex">
 <div>
 
+- [Meme](https://mas.to/@SmudgeTheInsultCat/112561592274884245)
 - Named protocol - others are ftp/tcp/wss <!-- .element: class="fragment" data-fragment-index="2" -->
 - Letsencrypt certification - open source, free TLS/SSL certificates <!-- .element: class="fragment" data-fragment-index="3" -->
 - Google rates non HTTPS sites down in search ranking <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -541,6 +554,13 @@ Speaker Notes:
   - Adequate for machines to understand and process information <!-- .element: class="fragment" data-fragment-index="5" -->
 - ASCII characters have decimal and binary representations <!-- .element: class="fragment" data-fragment-index="6" -->
   - Letters are encoded as numbers, allowing computers to process text <!-- .element: class="fragment" data-fragment-index="7" -->
+Example: 
+```
+128 64 32 16 8 4 2 1
+  0  0  1  0 0 0 0 0 = 32
+  0  0  0  0 1 1 1 0 = 14
+  0  0  0  0 0 0 1 1 = 3
+```
 
 <img src="./data/img/14.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
 </div>
@@ -622,63 +642,79 @@ Speaker Notes:
 # Power user
 
 
+# Today's agenda
+
+- The fun day <!-- .element: class="fragment" data-fragment-index="2" -->
+- Productivity <!-- .element: class="fragment" data-fragment-index="3" -->
+- Python <!-- .element: class="fragment" data-fragment-index="4" -->
+- Tech softskills <!-- .element: class="fragment" data-fragment-index="5" -->
+- Funny links & memes <!-- .element: class="fragment" data-fragment-index="6" -->
+
+
 # Using AI
 
+- [Meme](https://mastodon.social/@DeftGPT/112295945573836904)
 - Bad knowledge base, prefer generative aspects <!-- .element: class="fragment" data-fragment-index="2" -->
 - Custom instructions <!-- .element: class="fragment" data-fragment-index="3" -->
 - Prompt engineering <!-- .element: class="fragment" data-fragment-index="4" -->
 - hyperparams <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
+# Exercise: 
+
+- Ask TommyBot for power user tips in your OS (Operating System)
+
+
 # Making AI
 
 - Data data data <!-- .element: class="fragment" data-fragment-index="2" -->
-- Different kinds of AI <!-- .element: class="fragment" data-fragment-index="3" -->
+- <span>Different kinds of [ AI ](https://www.google.com/search?q=different+types+of+artificial+intelligence&sca_esv=d43be9027bdcd404&ei=LjkjZ4CsCt2Kvr0P5YCCgQY&oq=different+types+of+arti&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2RpZmZlcmVudCB0eXBlcyBvZiBhcnRpKgIIADILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI0RNQ3QlY0QxwAXgBkAEAmAGAAaABwQOqAQMxLjO4AQPIAQD4AQGYAgWgAs8DwgIKEAAYsAMY1gQYR5gDAIgGAZAGCJIHAzIuM6AH1Rc&sclient=gws-wiz-serp)</span> <!-- .element: class="fragment" data-fragment-index="3" -->
 - Foundation training, fine-tune, RAG <!-- .element: class="fragment" data-fragment-index="4" -->
 - ML ops <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Engineering
 
-- Databases
-- DevOps
-- Security
-- Terminal
-- Compilers
+- Databases <!-- .element: class="fragment" data-fragment-index="2" -->
+- DevOps <!-- .element: class="fragment" data-fragment-index="3" -->
+- Security <!-- .element: class="fragment" data-fragment-index="4" -->
+- Terminal <!-- .element: class="fragment" data-fragment-index="5" -->
+- Compilers <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
 # Power user
-- Hotkeys
-- Zapier
-- Alfred or similar
-- Don't over-engineer it
-- Gamification
-- Pomodoro
-- Task lists, calender, sync of those
-- Calendly
+
+- Hotkeys <!-- .element: class="fragment" data-fragment-index="2" -->
+- Productivity apps (Alfred or similar) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Don't over-engineer it <!-- .element: class="fragment" data-fragment-index="4" -->
+- Gamification <!-- .element: class="fragment" data-fragment-index="5" -->
+- Pomodoro <!-- .element: class="fragment" data-fragment-index="6" -->
+- Task lists, calender, sync of those <!-- .element: class="fragment" data-fragment-index="7" -->
+- Calendly <!-- .element: class="fragment" data-fragment-index="8" -->
+- Zapier <!-- .element: class="fragment" data-fragment-index="9" -->
 
 
 # Funny things
 
-Some great links
-Hackertyper
-ThisPersonDoesntExist
-React95
-Funny things
+- Hackertyper <!-- .element: class="fragment" data-fragment-index="2" -->
+- ThisPersonDoesntExist <!-- .element: class="fragment" data-fragment-index="3" -->
+- React95stst <!-- .element: class="fragment" data-fragment-index="4" -->
+- <span>[Accidentally destroyed production database on first day of a job](https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/)</span>st <!-- .element: class="fragment" data-fragment-index="5" -->
+- Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
+- Google Recursion <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
-# Recursion
-
-Exercise:
-Google Recursion
-Funny things
+# Exercise:
+Learn the keyboard shortcut to open the task manager (e.g., Ctrl+Shift+Esc on Windows, Command+Option+Esc on Mac).
+Use the task manager to close unnecessary programs or background processes that are using up system resources.
+Try to use this shortcut to quickly switch between applications and windows.
 
 
 # Python Basics
-- Create a [notebook](https://colab.research.google.com)
-- Overview of Data Types
-- Basic Control Structures
-- Introduction to Functions
+- <span>Create a [notebook](https://colab.research.google.com)</span> <!-- .element: class="fragment" data-fragment-index="2" -->
+- Overview of Data Types <!-- .element: class="fragment" data-fragment-index="3" -->
+- Basic Control Structures <!-- .element: class="fragment" data-fragment-index="4" -->
+- Introduction to Functions <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Speaker Notes:
 
@@ -687,14 +723,14 @@ Speaker Notes:
 
 
 # Python Data Types
-- Integers
-- Floats
-- Strings
-- Booleans
-- Lists
-- Tuples
-- Dictionaries
-- Sets
+- Integers <!-- .element: class="fragment" data-fragment-index="2" -->
+- Floats <!-- .element: class="fragment" data-fragment-index="3" -->
+- Strings <!-- .element: class="fragment" data-fragment-index="4" -->
+- Booleans <!-- .element: class="fragment" data-fragment-index="5" -->
+- Lists <!-- .element: class="fragment" data-fragment-index="6" -->
+- Tuples <!-- .element: class="fragment" data-fragment-index="7" -->
+- Dictionaries <!-- .element: class="fragment" data-fragment-index="8" -->
+- Sets <!-- .element: class="fragment" data-fragment-index="9" -->
 
 Speaker Notes:
 
@@ -703,8 +739,8 @@ Speaker Notes:
 
 
 # Control Structures in Python
-- Conditionals (if, elif, else)
-- Conditional Operators (and, or, not)
+- Conditionals (if, elif, else) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Conditional Operators (and, or, not) <!-- .element: class="fragment" data-fragment-index="3" -->
 
 Speaker Notes:
 
@@ -714,11 +750,11 @@ Speaker Notes:
 
 
 # Loops (for, while)
-- for, while
-- iterator variants: range, enumerate
-- break and continue
-- array indexing
-- nesting loops and big O notation
+- for, while <!-- .element: class="fragment" data-fragment-index="2" -->
+- iterator variants: range, enumerate <!-- .element: class="fragment" data-fragment-index="3" -->
+- break and continue <!-- .element: class="fragment" data-fragment-index="4" -->
+- array indexing <!-- .element: class="fragment" data-fragment-index="5" -->
+- nesting loops and big O notation <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
 
@@ -727,7 +763,7 @@ Speaker Notes:
 
 
 # "Exercise"
-## Crash your browser with an infinite loops
+## infinite loops
 
 ```
 while (true) {
@@ -737,9 +773,9 @@ while (true) {
 
 
 # Introduction to Functions
-- Why use functions?
-- Defining a function
-- Function parameters and arguments
+- Why use functions? <!-- .element: class="fragment" data-fragment-index="2" -->
+- Defining a function <!-- .element: class="fragment" data-fragment-index="3" -->
+- Function parameters and argumentson <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Speaker Notes:
 
@@ -747,10 +783,10 @@ Speaker Notes:
 
 
 # Functions Continued
-- Default parameter values
-- Keyword and positional arguments
-- Return values
-
+- Default parameter values <!-- .element: class="fragment" data-fragment-index="2" -->
+- Keyword and positional arguments <!-- .element: class="fragment" data-fragment-index="3" -->
+- Return values <!-- .element: class="fragment" data-fragment-index="4" -->
+ <!-- .element: class="fragment" data-fragment-index="5" -->
 Speaker Notes:
 
 - default values
@@ -758,9 +794,9 @@ Speaker Notes:
 
 
 # Combining Concepts
-- Using loops with conditionals
-- Functions calling other functions
-- Mixing data types in lists and functions
+- Using loops with conditionals <!-- .element: class="fragment" data-fragment-index="2" -->
+- Functions calling other functions <!-- .element: class="fragment" data-fragment-index="3" -->
+- Mixing data types in lists and functions <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Speaker Notes:
 
@@ -797,83 +833,6 @@ Speaker Notes:
 - /Users/tommy/dev/llama/maps/scrape.ipynb
 
 
-# Understanding "Attention is All You Need"
-## The Birth of the Transformer Model
-
-Speaker Notes:
-
-    - Introduce the seminal paper published in 2017 by Vaswani et al., which revolutionized natural language processing.
-    - Explain the key contribution: the Transformer model, which relies entirely on an attention mechanism, discarding the need for recurrent layers.
-    - Highlight how Transformers achieve higher accuracy in translation tasks with less training time compared to previous models like RNNs and LSTMs.
-    - Discuss the impact of this model on a wide range of applications including language translation, text generation, and even extending to image processing tasks.
-    - Mention how this architecture forms the backbone of popular models like BERT, GPT, and T5, which dominate the field of AI research and application today.
-
-
-# Setting Up the Environment
-- Python and virtual environments
-- Installing LangChain and other dependencies
-- Choosing a model (Mistral, Ollama)
-
-Speaker Notes:
-
-- Guide on setting up Python virtual environments to manage dependencies.
-- Instructions for installing LangChain via pip and setting up Mistral or Ollama as the model runtime.
-- Discuss the benefits of each model choice in terms of performance and compatibility.
-
-
-# Integrating Python with LangChain
-- Basic LangChain setup
-- Configuring a LLM runtime
-- Simple API for model interaction
-
-Speaker Notes:
-
-- Show code examples for initializing LangChain with a chosen LLM runtime.
-- Explain how to configure the LLM runtime, focusing on connection parameters and authentication if necessary.
-- Introduce LangChain's API for sending queries to the LLM and receiving responses.
-
-
-# Practical Exercise:
-## Building a Simple LLM Application
-- Create a text-based application
-- Use the LLM for generating content, answering questions, etc.
-
-Speaker Notes:
-
-- Walkthrough creating a simple text-based application that uses the LLM to generate content or answer questions.
-- Provide example code and data, letting participants modify and experiment with the functionality.
-
-
-# Advanced Integration Techniques
-- Combining multiple LLM outputs
-- Enhancing application logic with Python
-
-Speaker Notes:
-
-- Teach advanced techniques like combining outputs from different LLM queries to enhance application functionality.
-- Explore ways to use Python for more complex application logic, such as conditional flows based on LLM output.
-
-
-# Deploying Your LLM Application
-- Best practices for deployment
-- Open-source tools and platforms for deployment
-
-Speaker Notes:
-
-- Cover best practices for deploying Python applications integrated with LLMs.
-- Discuss open-source platforms and tools that can be used for deploying and managing these applications.
-
-
-# Q&A and Project Showcase
-- Open floor for questions
-- Showcase projects created by participants
-
-Speaker Notes:
-
-- Allow time for participants to ask detailed questions about LangChain, Python integration, or deployment.
-- Encourage participants to showcase the applications they have built during the workshop.# PowerUser
-
-
 # [This is a teenager](https://pudding.cool/2024/03/teenagers)
 A visual essay about the future of (some) teenagers
 Also [in german](https://pudding-cool.translate.goog/2024/03/teenagers/?_x_tr_sl=es&_x_tr_tl=de&_x_tr_hl=en&_x_tr_pto=wapp)
@@ -902,19 +861,32 @@ Speaker Notes:
 
 # Meditation
 
+- [Meme](https://hachyderm.io/@ChrisShort/112960116280783680)
+
 Speaker Notes:
 
 * Discuss the benefits of meditation for mental health and well-being
 * Encourage mindfulness and self-care practices
 
 
-# Bitwarden etc.
+# Password manangers
+
+- Hash passwords
+- master password
+ - Choose a easy to remember sentence like `Today we use Passwordmanager thats great` 
+ - which the initial letters create: `TwuPMtg73!^` if you add some numbers and special chars
+- password evalution
 
 
 # Draw.io
 
+- Opensource diagrams
+- Has mermaid syntax
+
 
 # DallEE
+
+- and stable diffusion
 
 
 # [TrashMail](https://www.trash-mail.com/)
@@ -927,6 +899,7 @@ Speaker Notes:
 
 # Mastodon
 ...and the benefit of decentralized social media
+- [meme](https://brunty.social/@brunty/113073910604727121)
 
 Speaker Notes:
 
@@ -935,6 +908,8 @@ Speaker Notes:
 
 
 # PhotoPea
+
+- Photoshop in the browser
 
 
 # [How to write a good prompt](https://mitenmit.github.io/gpt/?utm_source=hackernewsletter&utm_medium=email&utm_term=show_hn)
@@ -1048,13 +1023,714 @@ Speaker Notes:
 # randomness in datascience
 
 
- #Data Processing
+# Data Processing
 ## Making Sense of Our Data
 
 Speaker Notes:
 
 - Define data processing as the collection and manipulation of items of data to produce meaningful information.
 - Discuss different processing types like batch, real-time, stream processing, and explain why choosing the right type matters depending on the data application.
+
+
+
+# Big Data & storage
+
+
+# Today's agenda
+
+- SQL <!-- .element: class="fragment" data-fragment-index="2" -->
+- Database terms <!-- .element: class="fragment" data-fragment-index="3" -->
+- Mysql, PostgreSQL, CouchDB <!-- .element: class="fragment" data-fragment-index="4" -->
+- Vector space <!-- .element: class="fragment" data-fragment-index="5" -->
+- Cloud storage <!-- .element: class="fragment" data-fragment-index="6" -->
+- Databases <!-- .element: class="fragment" data-fragment-index="7" -->
+- Backps <!-- .element: class="fragment" data-fragment-index="8" -->
+
+
+# Databases basics
+
+- IAM <!-- .element: class="fragment" data-fragment-index="2" -->
+- RBAC <!-- .element: class="fragment" data-fragment-index="3" -->
+- SQL <!-- .element: class="fragment" data-fragment-index="4" -->
+- Schemas <!-- .element: class="fragment" data-fragment-index="5" -->
+- Indexes <!-- .element: class="fragment" data-fragment-index="6" -->
+- Sharding <!-- .element: class="fragment" data-fragment-index="7" -->
+- Replication <!-- .element: class="fragment" data-fragment-index="8" -->
+- Backups <!-- .element: class="fragment" data-fragment-index="9" -->
+- Integration and APIs <!-- .element: class="fragment" data-fragment-index="10" -->
+
+
+# Basic SQL Queries
+## Lets Interact with SQL
+- `CREATE DATABASE example;` <!-- .element: class="fragment" data-fragment-index="2" -->
+  - to create a new database. <!-- .element: class="fragment" data-fragment-index="3" -->
+- `USE example;`  <!-- .element: class="fragment" data-fragment-index="4" -->
+  - to switch to the database. <!-- .element: class="fragment" data-fragment-index="5" -->
+- `CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), email VARCHAR(255));`  <!-- .element: class="fragment" data-fragment-index="6" -->
+  - to create a new table. <!-- .element: class="fragment" data-fragment-index="7" -->
+- `INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');`  <!-- .element: class="fragment" data-fragment-index="8" -->
+  - to add a new entry. <!-- .element: class="fragment" data-fragment-index="9" -->
+- `SELECT * FROM users;`  <!-- .element: class="fragment" data-fragment-index="10" -->
+  - to retrieve and view the data. <!-- .element: class="fragment" data-fragment-index="11" -->
+
+Speaker Notes:
+
+- Set up a simple database environment (if live demo, provide a brief setup; if not, describe what should be pre-installed).
+- Walk through some basic SQL commands:
+
+
+# Exercise
+
+- Ask TommyBot about the addtional commands like UPDATE or DELETE
+
+
+# How did you like this?
+
+- Give me feedback on TommyBot
+- https://nc.tmy.io/index.php/apps/forms/s/3MmW93on2p5AFXkxkRSszJMf
+
+
+# CSV
+
+- Comma seperated values <!-- .element: class="fragment" data-fragment-index="2" -->
+- Most simple format <!-- .element: class="fragment" data-fragment-index="3" -->
+- Portable <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# Exercise
+- Create a simple file, change the filetype to `.csv` and then add CSV syntax
+- Test that with excel, numbers or open office
+
+
+# MySQL
+
+- Open Source <!-- .element: class="fragment" data-fragment-index="2" -->
+- High Performance <!-- .element: class="fragment" data-fragment-index="3" -->
+- Scalable <!-- .element: class="fragment" data-fragment-index="4" -->
+- Robust Security Features <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Open Source: means it's free to use and has a large community for support. <!-- .element: class="fragment" data-fragment-index="2" -->
+- High Performance: performance optimizations for handling large databases efficiently. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Scalable: Mention capabilities to handle large amounts of data and its suitability for both small and large applications. <!-- .element: class="fragment" data-fragment-index="4" -->
+- Robust Security Features: Outline MySQL's security features including encrypted data transmission and authentication. <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# MySQL Architecture
+- Server <!-- .element: class="fragment" data-fragment-index="2" -->
+- Storage Engines <!-- .element: class="fragment" data-fragment-index="3" -->
+- SQL Interface <!-- .element: class="fragment" data-fragment-index="4" -->
+- Client Programs <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Server: The core component that manages database services and connections. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Storage Engines: Highlight how MySQL allows you to choose different storage engines like InnoDB, MyISAM, based on the need for transaction safety or read speed. <!-- .element: class="fragment" data-fragment-index="3" -->
+- SQL Interface: Discuss how users interact with MySQL through SQL commands.d. <!-- .element: class="fragment" data-fragment-index="4" -->
+- Client Programs: Mention the various client programs provided by MySQL for database management. <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# Why Choose MySQL?
+## Benefits Over Other Databases
+
+Speaker Notes:
+
+- Summarize why MySQL might be preferred over other databases:
+-   Cost-Effective: No licensing fees, reducing the cost of database management.
+-   Widely Used and Tested: Popular in the industry, ensuring compatibility and interoperability with many software and systems.
+-   Extensive Documentation and Community Support: Rich resources and a large community help in troubleshooting and optimizing MySQL usage.
+
+
+# Exercise
+Run some [mysql queryies](https://onecompiler.com/mysql)
+
+
+# PostgreSQL
+
+## Advanced Open-Source Relational Database
+
+Speaker Notes:
+
+- Introduce PostgreSQL as a powerful, open-source object-relational database system.
+- Emphasize its advanced features, reliability, and strong community support which make it a favorite among developers.
+
+
+# Key Features of PostgreSQL
+- ACID Compliant <!-- .element: class="fragment" data-fragment-index="2" -->
+- Extensive Indexing Options <!-- .element: class="fragment" data-fragment-index="3" -->
+- Support for Advanced SQL Queries <!-- .element: class="fragment" data-fragment-index="4" -->
+- High Customizability <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Detail key features such as ACID compliance for reliable transactions, various indexing techniques for performance optimization, and its capability to handle complex SQL queries.
+- Mention the support for custom data types and extensible system functions.
+
+
+# PGAdmin
+
+- Aggregates <!-- .element: class="fragment" data-fragment-index="2" -->
+- Collations <!-- .element: class="fragment" data-fragment-index="3" -->
+- Domains <!-- .element: class="fragment" data-fragment-index="4" -->
+- FTS Configurations <!-- .element: class="fragment" data-fragment-index="5" -->
+- FTS Dictionaries <!-- .element: class="fragment" data-fragment-index="6" -->
+- FTS Parsers <!-- .element: class="fragment" data-fragment-index="7" -->
+- FTS Template <!-- .element: class="fragment" data-fragment-index="8" -->
+- Foreign Table <!-- .element: class="fragment" data-fragment-index="9" -->
+- Functions <!-- .element: class="fragment" data-fragment-index="10" -->
+- Materialized Views <!-- .element: class="fragment" data-fragment-index="11" -->
+- 0perators <!-- .element: class="fragment" data-fragment-index="12" -->
+- Procedures <!-- .element: class="fragment" data-fragment-index="13" -->
+- Sequences <!-- .element: class="fragment" data-fragment-index="14" -->
+- Tables <!-- .element: class="fragment" data-fragment-index="15" -->
+- Trigger Functions <!-- .element: class="fragment" data-fragment-index="16" -->
+- Types <!-- .element: class="fragment" data-fragment-index="17" -->
+- Views <!-- .element: class="fragment" data-fragment-index="18" -->
+
+
+# NoSQL
+## Scalable NoSQL Database example CouchDB or MongoDB
+
+Speaker Notes:
+
+- Explain that CouchDB is an open-source NoSQL document database.
+- Focus on its primary feature of storing data in JSON documents, which makes it highly flexible and scalable.
+
+
+# Key Features of CouchDB
+- JSON-based Document Format <!-- .element: class="fragment" data-fragment-index="2" -->
+- RESTful HTTP API <!-- .element: class="fragment" data-fragment-index="3" -->
+- Built-in Conflict Resolution <!-- .element: class="fragment" data-fragment-index="4" -->
+- Offline First Design <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Highlight the use of JSON for document storage, which simplifies data interchange between server and clients.
+- Discuss the RESTful HTTP API that allows all operations to be performed with HTTP requests.
+- Explain its unique approach to handle data conflicts and its offline-first design which is ideal for applications that require reliable performance offline.
+
+
+# Example
+## Thow more trash on the landfill 🚮
+
+```
+curl -X POST \
+  http://admin:password@localhost:5984/test \
+  -H "Content-Type: application/json" \
+  -d '{"_id":"mydoc","name":"My First Document","description":"This is my first document."}'
+```
+Respsone:
+```json
+{"ok":true,"id":"mydoc","rev":"1-bf0358641532f40c5193b259a0932fbf"}
+```
+
+Speaker Notes:
+- `_id`, `_rev`, race conditions, conflicts, etc.
+
+
+# Graph Databases
+
+- Flexible Schema
+- Graph Query Language
+- High Performance
+- Native Support for Relationships
+
+Speaker Notes:
+
+- Store and query complex relationships between data entities without a fixed schema <!-- .element: class="fragment" data-fragment-index="2" -->
+- Use languages like Cypher or Gremlin to query and traverse graph structures <!-- .element: class="fragment" data-fragment-index="3" -->
+- Optimize for fast query performance, even with large amounts of data <!-- .element: class="fragment" data-fragment-index="4" -->
+- Store relationships between entities as first-class citizens, rather than relying on joins or foreign keys <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# Vectors
+
+```
+curl http://localhost:11434/api/embeddings -d '{
+  "model": "mxbai-embed-large",
+  "prompt": "Llamas are members of the camelid family"
+}'
+```
+
+
+# Vector Databases
+
+- Efficient Storage and Querying
+- Approximate Nearest Neighbor (ANN) Search
+- Support for Various Distance Metrics
+- Scalability and Performance
+
+Speaker Notes:
+
+- Store and query dense and sparse vectors in high-dimensional spaces, optimized for similarity search and nearest neighbor queries <!-- .element: class="fragment" data-fragment-index="2" -->
+- Use algorithms like KD-Trees or Ball Trees to quickly find approximate nearest neighbors in high-dimensional spaces <!-- .element: class="fragment" data-fragment-index="3" -->
+- Support multiple distance metrics such as Euclidean, Cosine, and Manhattan distances for flexible similarity searches <!-- .element: class="fragment" data-fragment-index="4" -->
+- Designed to handle large volumes of vector data and provide fast query performance, often using distributed architectures <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+## Comparing Storage Solutions: Home Library vs City Library
+- Home: Small, limited space <!-- .element: class="fragment" data-fragment-index="2" -->
+- City: Large, organized for scale <!-- .element: class="fragment" data-fragment-index="3" -->
+
+Speaker Notes:
+
+- Compare personal data management to handling big data at an organizational level.
+
+
+# Home vs. City Library
+- Home Library: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Small, limited space <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Personal use, limited access <!-- .element: class="fragment" data-fragment-index="4" -->
+- City Library: <!-- .element: class="fragment" data-fragment-index="5" -->
+  - Large, organized for scale <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Public access, extensive catalog
+
+Speaker Notes:
+
+- Home Library: local storage on a personal computer or a small server—suitable for less data and limited users.
+- City Library: distributed systems like Hadoop's HDFS, which handle large, scalable amounts of data across multiple locations and for numerous users.
+
+
+# Exercise
+- Setup an excel/google sheet and get used to "Dreisatz" operations
+- Practice advanced calculations like we are now at the 3rd day on the course at hour 13.57, how much percent have we exactly done?
+
+
+# Big Data in Action
+## Impacting Industries Worldwide
+
+Speaker Notes:
+
+- Introduce how big data is transforming various sectors by providing insights that were previously unattainable.
+
+
+# Industries Benefiting from Big Data
+Which do you know?
+
+
+- Healthcare: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Predictive analytics for patient care <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Personalized medicine based on patient data <!-- .element: class="fragment" data-fragment-index="4" -->
+- Transportation: <!-- .element: class="fragment" data-fragment-index="5" -->
+  - Optimization of logistics and routing <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Real-time traffic condition analysis <!-- .element: class="fragment" data-fragment-index="7" -->
+- Marketing: <!-- .element: class="fragment" data-fragment-index="8" -->
+  - Consumer behavior analysis <!-- .element: class="fragment" data-fragment-index="9" -->
+  - Targeted advertising and customer segmentation <!-- .element: class="fragment" data-fragment-index="10" -->
+
+Speaker Notes:
+
+- Healthcare: Discuss how big data helps in predicting diseases, customizing patient treatment plans, and managing healthcare resources more effectively.
+- Transportation: Explain the use of big data in optimizing routes, reducing costs, and enhancing safety through predictive maintenance.
+- Marketing: Talk about how big data allows for more precise marketing strategies, understanding customer preferences, and improving customer engagement through personalized experiences.
+
+
+# Data Storage
+- Why big data needs special solutions <!-- .element: class="fragment" data-fragment-index="2" -->
+
+Speaker Notes:
+
+- Discuss challenges in storing and processing large volumes of data.
+- Introduce concepts like distributed systems and cloud storage.
+
+
+# Overview of Data Storage
+## Where and How We Keep Our Data Safe
+
+Speaker Notes:
+
+- Explain that data storage is the recording (storing) of information in a storage medium.
+- Discuss different storage mediums like hard drives, SSDs, cloud storage, and distributed systems.
+- Briefly mention the importance of choosing the right storage based on factors like speed, cost, scalability, and durability.
+
+
+# Types of Data Storage
+Which do you know? <!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+# Local Storage
+- Pen & Paper <!-- .element: class="fragment" data-fragment-index="2" -->
+- Hard Drives <!-- .element: class="fragment" data-fragment-index="3" -->
+- SSDs <!-- .element: class="fragment" data-fragment-index="4" -->
+- USB drives <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# Network Storage
+
+- Network Attached Storage (NAS) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Storage Area Network (SAN) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Direct-Attached Storage (DAS) <!-- .element: class="fragment" data-fragment-index="4" -->
+- Router-attached Storage <!-- .element: class="fragment" data-fragment-index="5" -->
+- Cloud Storage <!-- .element: class="fragment" data-fragment-index="6" -->
+- Local Server Storage <!-- .element: class="fragment" data-fragment-index="7" -->
+
+Speaker Notes:
+
+- Network Attached Storage (NAS): A dedicated file-level data storage device connected to a network. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Storage Area Network (SAN): A block-level data storage network that provides access to disk arrays and tape libraries. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Direct-Attached Storage (DAS): A hard drive or solid-state drive attached directly to a server or workstation over a local interface like SATA or USB. <!-- .element: class="fragment" data-fragment-index="4" -->
+- Router-attached Storage: A hard drive or NAS device attached to a router, providing shared storage for devices on the network. <!-- .element: class="fragment" data-fragment-index="5" -->
+- Cloud Storage: Remote storage provided by a third-party cloud provider, accessible over the internet. <!-- .element: class="fragment" data-fragment-index="6" -->
+- Local Server Storage: Shared storage provided by a company's local servers, such as Windows File Servers or Linux-based file servers. <!-- .element: class="fragment" data-fragment-index="7" -->
+
+
+# Cloud Storage
+- Dropbox
+- AWS S3
+- Google Cloud Storage
+- FTP/SFTP
+
+Speaker Notes:
+
+- Cloud Storage: Off-site storage that provides scalability and remote access, managed by third-party providers.
+
+
+# Distributed Systems
+
+- Distributed File Systems (DFS) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Object Storage <!-- .element: class="fragment" data-fragment-index="3" -->
+- Distributed Key-Value Stores <!-- .element: class="fragment" data-fragment-index="4" -->
+- NoSQL Databases <!-- .element: class="fragment" data-fragment-index="5" -->
+- Data Grids <!-- .element: class="fragment" data-fragment-index="6" -->
+- Cloud-based Distributed Storage <!-- .element: class="fragment" data-fragment-index="7" -->
+
+Speaker Notes:
+
+- Distributed File Systems (DFS): Designed to store and manage large amounts of data across multiple machines, such as Hadoop Distributed File System (HDFS) or Google's Colossus.
+- Object Storage: Stores data as objects, which can be distributed across multiple nodes, providing high scalability and availability, examples include Amazon S3 or OpenStack Swift.
+- Distributed Key-Value Stores: Designed to store large amounts of key-value pairs across multiple machines, such as Riak or Apache Cassandra.
+- NoSQL Databases: Built to handle large amounts of unstructured or semi-structured data, often using distributed architectures, examples include MongoDB or Couchbase.
+- Data Grids: Provide a distributed infrastructure for storing and processing large amounts of data in memory, such as Hazelcast or Apache Ignite.
+- Cloud-based Distributed Storage: Offers scalable storage solutions that can be easily integrated with cloud-based applications, examples include Amazon Elastic Block Store (EBS) or Microsoft Azure Blob Storage.
+
+
+# Key Features of Local Storage and Cookies
+
+- [Meme](https://tech.lgbt/@Natasha_Jay/112960501913519712)
+- Local Storage: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Stores data with no expiration date <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Data does not get transferred with every server request <!-- .element: class="fragment" data-fragment-index="4" -->
+- Cookies: <!-- .element: class="fragment" data-fragment-index="5" -->
+  - Data gets transferred with every server request <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Limited to 4KB size <!-- .element: class="fragment" data-fragment-index="7" -->
+  - Can set expiration dates <!-- .element: class="fragment" data-fragment-index="8" -->
+
+Speaker Notes:
+
+- Discuss the differences in capacity and persistence between local storage and cookies.
+- Mention security considerations such as susceptibility to XSS attacks in local storage and security flags in cookies.
+
+
+# Browser Local Storage and Cookies
+## Temporary and Persistent Client-Side Storage
+
+Speaker Notes:
+
+- Explain the concept of client-side storage which includes both browser local storage and cookies.
+- Local storage provides a way to store data persistently on the client's browser, whereas cookies are primarily used for session management, personalization, and tracking user behavior.
+
+
+# Introduction to Big Data Best Practices
+## Essential Tips for Handling Big Data
+
+What do you know?
+
+Speaker Notes:
+
+- Backups, VPN's, and data encryption.
+
+
+# Regular Data Backups
+- Why Backup? <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Protect against data loss <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Ensure data recovery <!-- .element: class="fragment" data-fragment-index="4" -->
+
+Speaker Notes:
+
+- Importance of regular backups
+- Use automated tools for scheduled backups
+
+
+# Using VPNs for Secure Data Transfers
+- Enhance Security <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Encrypt data in transit <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Protect data from interceptions <!-- .element: class="fragment" data-fragment-index="4" -->
+
+Speaker Notes:
+
+- Benefits of VPNs in securing data transfers
+- Recommend reliable VPN services
+
+
+# Leveraging Cloud Storage
+- Advantages <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Scalability <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Cost-effectiveness <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Accessibility <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Explain cloud storage benefits
+- Suggest popular cloud storage providers like AWS, Google Cloud, and Azure
+
+
+# Data Privacy and Protection Laws
+- Compliance is Key <!-- .element: class="fragment" data-fragment-index="2" -->
+  - GDPR <!-- .element: class="fragment" data-fragment-index="3" -->
+  - HIPAA (for healthcare data) <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Other relevant regulations <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Importance of understanding and complying with data protection laws
+- Mention key legislations like GDPR and HIPAA where applicable
+
+
+
+# Artificial intelligence
+
+
+# Today's agenda
+
+- Vectors <!-- .element: class="fragment" data-fragment-index="2" -->
+- SQL recap and exercise <!-- .element: class="fragment" data-fragment-index="3" -->
+- Langchain <!-- .element: class="fragment" data-fragment-index="4" -->
+- Icecream revenue prediction <!-- .element: class="fragment" data-fragment-index="5" -->
+- Volmne, Velocity, Variety <!-- .element: class="fragment" data-fragment-index="6" -->
+- Algorithms <!-- .element: class="fragment" data-fragment-index="7" -->
+- Types compared to real-life things <!-- .element: class="fragment" data-fragment-index="8" -->
+- Examples <!-- .element: class="fragment" data-fragment-index="9" -->
+
+
+# Understanding "Attention is All You Need"
+## The Birth of the Transformer Model
+
+Speaker Notes:
+
+    - Introduce the seminal paper published in 2017 by Vaswani et al., which revolutionized natural language processing.
+    - Explain the key contribution: the Transformer model, which relies entirely on an attention mechanism, discarding the need for recurrent layers.
+    - Highlight how Transformers achieve higher accuracy in translation tasks with less training time compared to previous models like RNNs and LSTMs.
+    - Discuss the impact of this model on a wide range of applications including language translation, text generation, and even extending to image processing tasks.
+    - Mention how this architecture forms the backbone of popular models like BERT, GPT, and T5, which dominate the field of AI research and application today.
+
+
+# Vectors
+
+- Multidimensional space https://colab.research.google.com/drive/1lTb2maWnoDhVdz0oamu2Vag86FBhhRP5
+- Semantics != keywordbased
+- Embeddings
+
+
+# Setting Up the Environment
+- Python and virtual environments
+- Installing LangChain and other dependencies
+- Choosing a model (Mistral, Ollama)
+
+Speaker Notes:
+
+- Guide on setting up Python virtual environments to manage dependencies.
+- Instructions for installing LangChain via pip and setting up Mistral or Ollama as the model runtime.
+- Discuss the benefits of each model choice in terms of performance and compatibility.
+
+
+# Integrating Python with LangChain
+- Basic LangChain setup
+- Configuring a LLM runtime
+- Simple API for model interaction
+
+
+# Explore posibilities
+- Create a text-based application
+- Use the LLM for generating content, answering questions, etc.
+- Context aware micro-sass
+
+
+# Advanced Integration Techniques
+- Streaming, summarization, agentic behaviour
+- Combine with traditional programming techniques
+
+
+# Deploying Your LLM Application
+- Best practices for deployment
+- Open-source tools and platforms for deployment
+
+
+# Q&A and Project Showcase
+- Open floor for questions
+- Showcase projects created by participants
+
+Speaker Notes:
+
+- Allow time for participants to ask detailed questions about LangChain, Python integration, or deployment.
+- Encourage participants to showcase the applications they have built during the workshop.# PowerUser
+
+
+## Discovering the Universe of Large Scale Data
+
+Speaker Notes:
+
+- Welcome participants to the workshop.
+- Briefly introduce the day’s agenda and the objective to understand what big data is and how it is used today.
+
+
+# What is Big Data?
+- **Volume:** Immense amounts of data <!-- .element: class="fragment" data-fragment-index="3" -->
+- **Velocity:** Generated at high speeds <!-- .element: class="fragment" data-fragment-index="4" -->
+- **Variety:** Different types of data <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Explain the three V's of big data: Volume, Velocity, and Variety.
+- Use an example like social media platforms generating large amounts of data every second.
+
+
+## Volume
+
+- Example: Facebook generates 4 petabytes of data daily <!-- .element: class="fragment" data-fragment-index="2" -->
+- Challenge: Storing and processing this data <!-- .element: class="fragment" data-fragment-index="3" -->
+- Solution: Distributed storage and processing systems <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Velocity
+
+- Example: Twitter generates 500 million tweets daily <!-- .element: class="fragment" data-fragment-index="2" -->
+- Challenge: Processing data in real-time <!-- .element: class="fragment" data-fragment-index="3" -->
+- Solution: Stream processing systems <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Variety
+
+- Example: Data from social media, sensors, logs, etc. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Challenge: Handling different data types <!-- .element: class="fragment" data-fragment-index="3" -->
+- Solution: Flexible data models and storage systems <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# Everyday Examples of Big Data
+
+- Social Media Statistics <!-- .element: class="fragment" data-fragment-index="2" -->
+- Online Shopping Patterns <!-- .element: class="fragment" data-fragment-index="3" -->
+- Smart Home Devices <!-- .element: class="fragment" data-fragment-index="4" -->
+
+Speaker Notes:
+
+- Illustrate with examples: Mention how every like, comment, and share on social media adds to big data.
+- Discuss how online shopping records every purchase and customer preference.
+
+
+# Algorithms
+
+- Linear regression <!-- .element: class="fragment" data-fragment-index="2" -->
+- Logistic regression <!-- .element: class="fragment" data-fragment-index="3" -->
+- Random forrest <!-- .element: class="fragment" data-fragment-index="4" -->
+- KNN <!-- .element: class="fragment" data-fragment-index="6" -->
+- Neural network <!-- .element: class="fragment" data-fragment-index="7" -->
+- Clustering <!-- .element: class="fragment" data-fragment-index="8" -->
+
+
+## Exercise
+- Explore huggingface datasets
+  - [mlabonne/guanaco-llama2-1k](https://huggingface.co/datasets/mlabonne/guanaco-llama2-1k)
+  - [openbmb/UltraInteract_sft](https://huggingface.co/datasets/openbmb/UltraInteract_sft)
+
+Speaker Notes:
+
+- Empathize the dataset viewer
+
+
+# Hands-On
+
+## Icecream revenue prediction
+
+
+# **Exercise**:
+Explore [this](/IceCreamData.csv) data set on your own
+
+
+# **Solution**:
+See and explain on [Kaggle](https://www.kaggle.com/code/tariquepce/ice-cream-revenue-prediction/input)
+
+
+# Data Types and Sources
+
+- Structured vs Unstructured Data <!-- .element: class="fragment" data-fragment-index="2" -->
+- Examples from daily life <!-- .element: class="fragment" data-fragment-index="3" -->
+
+Speaker Notes:
+
+- Explain the difference between structured and unstructured data with examples like a formatted database vs. videos and images.
+
+
+## Structured Data
+
+- Definition: Data with a clear format and organization <!-- .element: class="fragment" data-fragment-index="2" -->
+- Examples: Relational databases, spreadsheets <!-- .element: class="fragment" data-fragment-index="3" -->
+- Characteristics: Easy to analyze and process <!-- .element: class="fragment" data-fragment-index="4" -->
+- Challenge: Limited flexibility and horizontal scalability <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+## Unstructured Data
+
+- Definition: Data without a predefined format <!-- .element: class="fragment" data-fragment-index="2" -->
+- Examples: Videos, images, social media posts <!-- .element: class="fragment" data-fragment-index="3" -->
+- Characteristics: Difficult to analyze and process <!-- .element: class="fragment" data-fragment-index="4" -->
+- Challenge: Extracting meaningful insights <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+## Examples:
+
+- MySQL (structured) <!-- .element: class="fragment" data-fragment-index="2" -->
+- MongoDB (structured) <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Data Types wtf?
+
+
+## Comparing Ingredients in Cooking
+
+- Structured: Recipe ingredients <!-- .element: class="fragment" data-fragment-index="2" -->
+- Unstructured: Cooking style <!-- .element: class="fragment" data-fragment-index="3" -->
+
+Speaker Notes:
+
+- Use the cooking analogy to make the concept more relatable.
+- Discuss how structured ingredients follow a recipe, whereas unstructured cooking styles vary.
+
+
+# Integers
+## Counting Apples
+- Analogy: Think of counting apples like integers in programming. Just whole numbers, no fractions. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Integers are used to count discrete items like people in a room, pages in a book, and buildings on a street. <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Floats
+## Measuring Ingredients
+- Analogy: Floating point numbers allow for fractions, similar to measuring ingredients in cooking. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-life Use: Floats are useful whenever precise measurements are needed. <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Strings
+## Naming Pets
+- Analogy: Strings in programming are sequences of characters used for text. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-life Use: Strings are used for names, addresses or passwords <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Boolean
+## Light Switch
+- Analogy: A Boolean type has two possible values: true or false. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-life Use: Booleans are used in real life for decisions that have a binary outcome <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Arrays
+## Grocery List
+- Analogy: An array in programming stores multiple items. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-life Use: Arrays reflect any collection of items <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Objects
+## Personal Information
+- Analogy: In programming, an object is a collection of properties that are related <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-life Use: Objects are mirrored in the way we organize information in real life <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 # Data Processing Technologies
@@ -1083,542 +1759,212 @@ Speaker Notes:
 - Accessibility: Making data available to users and systems as needed.
 
 
+# Theory & Applications
 
-# Big Data
-## Discovering the Universe of Large Scale Data
+- Play pacman https://www.tensorflow.org/js
+- bodypix, mobilenet, segment-anything
+- essence of linear algebra matrix multiplication
+- essence of calculus finding the minimum
+- gradient decent
 
-Speaker Notes:
 
-- Welcome participants to the workshop.
-- Briefly introduce the day’s agenda and the objective to understand what big data is and how it is used today.
+# Examples
 
+- draw.io capsule
+- OpenAi-api
+- langgraph agentic behaviour
 
-# What is Big Data?
-- [Scary](https://www.hownormalami.eu/)
-- **Volume:** Immense amounts of data
-- **Velocity:** Generated at high speeds
-- **Variety:** Different types of data
 
-Speaker Notes:
+# Use-cases
 
-- Explain the three V's of big data: Volume, Velocity, and Variety.
-- Use an example like social media platforms generating large amounts of data every second.
-
-
-## Volume
-
-- **Example:** Facebook generates 4 petabytes of data daily
-- **Challenge:** Storing and processing this data
-- **Solution:** Distributed storage and processing systems
-
-
-## Velocity
-
-- **Example:** Twitter generates 500 million tweets daily
-- **Challenge:** Processing data in real-time
-- **Solution:** Stream processing systems
-
-
-## Variety
-
-- **Example:** Data from social media, sensors, logs, etc.
-- **Challenge:** Handling different data types
-- **Solution:** Flexible data models and storage systems
-
-
-# Everyday Examples of Big Data
-- Social Media Statistics
-- Online Shopping Patterns
-- Smart Home Devices
-
-Speaker Notes:
-
-- Illustrate with examples: Mention how every like, comment, and share on social media adds to big data.
-- Discuss how online shopping records every purchase and customer preference.
-
-
-## Exercise
-- Explore huggingface datasets
-  - [mlabonne/guanaco-llama2-1k](https://huggingface.co/datasets/mlabonne/guanaco-llama2-1k)
-  - [openbmb/UltraInteract_sft](https://huggingface.co/datasets/openbmb/UltraInteract_sft)
-
-Speaker Notes:
-
-- Empathize the dataset viewer
-
-
-# Hands-On
-
-## Icecream revenue prediction
-
-
-# **Exercise**:
-Explore [this](/IceCreamData.csv) data set on your own
-
-
-# **Solution**:
-See and explain on [Kaggle](https://www.kaggle.com/code/tariquepce/ice-cream-revenue-prediction/input)
-
-
-# Time for a Short Break!
-## Any questions?
-Otherwise ... see you in 15 minutes
-
-Speaker Notes:
-
-- Encourage participants to stretch and refresh themselves.
-- Invite questions or discussions informally during the break.
-
-
-# Understanding Data Types and Sources
-- Structured vs Unstructured Data
-- Examples from daily life
-
-Speaker Notes:
-
-- Explain the difference between structured and unstructured data with examples like a formatted database vs. videos and images.
-
-
-## Structured Data
-
-- **Definition:** Data with a clear format and organization
-- **Examples:** Relational databases, spreadsheets
-- **Characteristics:** Easy to analyze and process
-- **Challenge:** Limited flexibility and horizontal scalability
-
-
-## Unstructured Data
-
-- **Definition:** Data without a predefined format
-- **Examples:** Videos, images, social media posts
-- **Characteristics:** Difficult to analyze and process
-- **Challenge:** Extracting meaningful insights
-
-
-## Examples:
-
-- **MySQL**
-- **MongoDB**
-
-
-# Data Types wtf?
-## Comparing Ingredients in Cooking
-- Structured: Recipe ingredients
-- Unstructured: Cooking style
-
-Speaker Notes:
-
-- Use the cooking analogy to make the concept more relatable.
-- Discuss how structured ingredients follow a recipe, whereas unstructured cooking styles vary.
-
-
-# **Integers**:
-## Counting Apples
-- Analogy: Just like integers are used for whole numbers in programming, think of counting apples. You can have 1, 2, 3 apples, but never a fraction of an apple when you are counting.
-- Real-life Use: Integers are used in real life for counting discrete items, like counting people in a room, pages in a book, or buildings on a street.
-
-
-# **Floats**:
-## Measuring Ingredients
-- Analogy: Floating point numbers allow for fractions, similar to measuring ingredients in cooking. For example, you might need 1.5 cups of flour or 0.75 teaspoon of salt.
-- Real-life Use: Floats are useful whenever precise measurements are needed, such as in cooking, carpentry, or scientific experiments where partial quantities are involved.
-
-
-# **Strings**:
-## Naming Pets
-- Analogy: Strings in programming are sequences of characters used for text. Comparatively, think of naming pets where each name is a sequence of characters, like "Bella", "Charlie", or "Max".
-- Real-life Use: Strings are used for names, addresses, and essentially any data that can be represented in text form.
-
-
-# **Boolean**:
-## Light Switch
-- Analogy: A Boolean type has two possible values: true or false. This is like a light switch, which can only be either on or off.
-- Real-life Use: Booleans are used in real life for decisions that have a binary outcome, such as determining if a store is open or closed, or if a device is turned on or off.
-
-
-# **Arrays**:
-## Grocery List
-- Analogy: An array in programming stores multiple items of the same type. Think of it like a grocery list, where you list multiple items (all groceries) you need to buy: milk, eggs, bread, etc.
-- Real-life Use: Arrays reflect any collection of similar items, such as a to-do list, a collection of books, or a lineup of players on a sports team.
-
-
-# **Objects**:
-## Personal Information
-- Analogy: In programming, an object is a collection of properties that are related, much like a person’s wallet which might contain various cards (credit card, ID, library card) each with specific attributes.
-- Real-life Use: Objects are mirrored in the way we organize information in real life, such as a recipe (ingredients, steps, cooking time), a car (make, model, color), or personal information (name, address, phone number).
-
-
-
-# Big Data Storage
-## Comparing Storage Solutions: Home Library vs City Library
-- Home: Small, limited space
-- City: Large, organized for scale
-
-Speaker Notes:
-
-- Compare personal data management to handling big data at an organizational level.
-
-
-# Home vs. City Library
-- **Home Library:**
-  - Small, limited space
-  - Personal use, limited access
-- **City Library:**
-  - Large, organized for scale
-  - Public access, extensive catalog
-
-Speaker Notes:
-
-- Home Library: local storage on a personal computer or a small server—suitable for less data and limited users.
-- City Library: distributed systems like Hadoop's HDFS, which handle large, scalable amounts of data across multiple locations and for numerous users.
-
-
-# Exploring Data Storage #1
-## Practical Exercises with excel
-
-Speaker Notes:
-
-- Discuss the importance of understanding data storage systems like relational databases and NoSQL databases.
-- Outline a basic exercise, such as setting up a small database and performing simple queries to demonstrate how data is stored and accessed.
-
-
-**Exercise**: Setup an excel/google sheet with multiple row and columns. Add another view/sheet with a summary of the data.
-
-
-# Big Data in Action
-## Impacting Industries Worldwide
-
-Speaker Notes:
-
-- Introduce how big data is transforming various sectors by providing insights that were previously unattainable.
-
-
-# Industries Benefiting from Big Data
-Which do you know?
-
-
-- **Healthcare:**
-  - Predictive analytics for patient care
-  - Personalized medicine based on patient data
-- **Transportation:**
-  - Optimization of logistics and routing
-  - Real-time traffic condition analysis
-- **Marketing:**
-  - Consumer behavior analysis
-  - Targeted advertising and customer segmentation
-
-Speaker Notes:
-
-- Healthcare: Discuss how big data helps in predicting diseases, customizing patient treatment plans, and managing healthcare resources more effectively.
-- Transportation: Explain the use of big data in optimizing routes, reducing costs, and enhancing safety through predictive maintenance.
-- Marketing: Talk about how big data allows for more precise marketing strategies, understanding customer preferences, and improving customer engagement through personalized experiences.
-
-
-# Data Storage
-- Why big data needs special solutions
-
-Speaker Notes:
-
-- Discuss challenges in storing and processing large volumes of data.
-- Introduce concepts like distributed systems and cloud storage.
-
-
-# Overview of Data Storage
-## Where and How We Keep Our Data Safe
-
-Speaker Notes:
-
-- Explain that data storage is the recording (storing) of information in a storage medium.
-- Discuss different storage mediums like hard drives, SSDs, cloud storage, and distributed systems.
-- Briefly mention the importance of choosing the right storage based on factors like speed, cost, scalability, and durability.
-
-
-# Types of Data Storage
-Which do you know?
-
-
-# Local Storage (e.g., Hard Drives, SSDs)
-
-Speaker Notes:
-
-- Local Storage: Directly attached to the computer or server. Good for quick access but limited by physical capacity.
-
-
-# Network Storage (e.g., NAS, SAN)
-
-Speaker Notes:
-
-- Network Storage: Storage devices connected over a network offering shared storage to multiple users or systems.
-
-
-# Cloud Storage (e.g., AWS S3, Google Cloud Storage)
-
-Speaker Notes:
-
-- Cloud Storage: Off-site storage that provides scalability and remote access, managed by third-party providers.
-
-
-# Distributed Systems (e.g., HDFS)
-
-Speaker Notes:
-
-- Distributed Systems: Storing data across multiple machines to improve fault tolerance and data access speed.
-
-
-# Exploring Data Storage #2 (MySQL - hardcore)
-
-Speaker Notes:
-
-- Guide participants through basic data storage exercises using a simple database system.
-- Encourage experimenting with different storage methods.
-
-
-# Key Features of MySQL
-- **Open Source**
-- **High Performance**
-- **Scalable**
-- **Robust Security Features**
-
-Speaker Notes:
-
-- Open Source:  means it's free to use and has a large community for support.
-- High Performance: performance optimizations for handling large databases efficiently.
-- Scalable: Mention capabilities to handle large amounts of data and its suitability for both small and large applications.
-- Robust Security Features: Outline MySQL's security features including encrypted data transmission and authentication.
-
-
-# MySQL Architecture
-## Understanding Its Components
-
-Speaker Notes:
-
-- Server: The core component that manages database services and connections.
-- Storage Engines: Highlight how MySQL allows you to choose different storage engines like InnoDB, MyISAM, based on the need for transaction safety or read speed.
-- SQL Interface: Discuss how users interact with MySQL through SQL commands.
-- Client Programs: Mention the various client programs provided by MySQL for database management.
-
-
-# Practical Exercise: Basic SQL Queries
-## Let’s Interact with MySQL
-- CREATE DATABASE example; to create a new database.
-- USE example; to switch to the database.
-- CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), email VARCHAR(255)); to create a new table.
-- INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com'); to add a new entry.
-- SELECT * FROM users; to retrieve and view the data.
-
-Speaker Notes:
-
-- Set up a simple database environment (if live demo, provide a brief setup; if not, describe what should be pre-installed).
-- Walk through some basic SQL commands:
-
-
-# Why Choose MySQL?
-## Benefits Over Other Databases
-
-Speaker Notes:
-
-- Summarize why MySQL might be preferred over other databases:
--   Cost-Effective: No licensing fees, reducing the cost of database management.
--   Widely Used and Tested: Popular in the industry, ensuring compatibility and interoperability with many software and systems.
--   Extensive Documentation and Community Support: Rich resources and a large community help in troubleshooting and optimizing MySQL usage.
-
-
-Exercise: Run some [mysql queryies](https://onecompiler.com/mysql)
-
-
-# Key Features of Local Storage and Cookies
-- **Local Storage:**
-  - Stores data with no expiration date
-  - Data does not get transferred with every server request
-- **Cookies:**
-  - Data gets transferred with every server request
-  - Limited to 4KB size
-  - Can set expiration dates
-
-Speaker Notes:
-
-- Discuss the differences in capacity and persistence between local storage and cookies.
-- Mention security considerations such as susceptibility to XSS attacks in local storage and security flags in cookies.
-
-
-# Introduction to Browser Local Storage and Cookies
-## Temporary and Persistent Client-Side Storage
-
-Speaker Notes:
-
-- Explain the concept of client-side storage which includes both browser local storage and cookies.
-- Local storage provides a way to store data persistently on the client's browser, whereas cookies are primarily used for session management, personalization, and tracking user behavior.
-
-
-# Introduction to PostgreSQL
-## Advanced Open-Source Relational Database
-
-Speaker Notes:
-
-- Introduce PostgreSQL as a powerful, open-source object-relational database system.
-- Emphasize its advanced features, reliability, and strong community support which make it a favorite among developers.
-
-
-# Key Features of PostgreSQL
-- **ACID Compliant**
-- **Extensive Indexing Options**
-- **Support for Advanced SQL Queries**
-- **High Customizability**
-
-Speaker Notes:
-
-- Detail key features such as ACID compliance for reliable transactions, various indexing techniques for performance optimization, and its capability to handle complex SQL queries.
-- Mention the support for custom data types and extensible system functions.
-
-
-# Introduction to CouchDB
-## Scalable NoSQL Database
-
-Speaker Notes:
-
-- Explain that CouchDB is an open-source NoSQL document database.
-- Focus on its primary feature of storing data in JSON documents, which makes it highly flexible and scalable.
-
-
-# Key Features of CouchDB
-- **JSON-based Document Format**
-- **RESTful HTTP API**
-- **Built-in Conflict Resolution**
-- **Offline First Design**
-
-Speaker Notes:
-
-- Highlight the use of JSON for document storage, which simplifies data interchange between server and clients.
-- Discuss the RESTful HTTP API that allows all operations to be performed with HTTP requests.
-- Explain its unique approach to handle data conflicts and its offline-first design which is ideal for applications that require reliable performance offline.
-
-
-# Example
-## Thow more trash on the landfill 🚮
-
-```
-curl -X POST \
-  http://admin:password@localhost:5984/test \
-  -H "Content-Type: application/json" \
-  -d '{"_id":"mydoc","name":"My First Document","description":"This is my first document."}'
-```
-Respsone:
-```json
-{"ok":true,"id":"mydoc","rev":"1-bf0358641532f40c5193b259a0932fbf"}
-```
-
-Speaker Notes:
-- _id, _rev, race conditions, conflicts, etc.
-
-
-# Introduction to Big Data Best Practices
-## Essential Tips for Handling Big Data
-
-What do you know?
-
-Speaker Notes:
-
-- Backups, VPN's, and data encryption.
-
-
-# Regular Data Backups
-- **Why Backup?**
-  - Protect against data loss
-  - Ensure data recovery
-
-Speaker Notes:
-
-- Importance of regular backups
-- Use automated tools for scheduled backups
-
-
-# Using VPNs for Secure Data Transfers
-- **Enhance Security**
-  - Encrypt data in transit
-  - Protect data from interceptions
-
-Speaker Notes:
-
-- Benefits of VPNs in securing data transfers
-- Recommend reliable VPN services
-
-
-# Leveraging Cloud Storage
-- **Advantages**
-  - Scalability
-  - Cost-effectiveness
-  - Accessibility
-
-Speaker Notes:
-
-- Explain cloud storage benefits
-- Suggest popular cloud storage providers like AWS, Google Cloud, and Azure
-
-
-# Data Privacy and Protection Laws
-- **Compliance is Key**
-  - GDPR
-  - HIPAA (for healthcare data)
-  - Other relevant regulations
-
-Speaker Notes:
-
-- Importance of understanding and complying with data protection laws
-- Mention key legislations like GDPR and HIPAA where applicable
-
-# Data Visualization Essentials
-
-
-# Introduction to Data Visualization
-
-- Importance of Visualizing Data
-- Tools Overview: Matplotlib and Seaborn
-
-Speaker Notes:
-
-- Emphasize the significance of visual data representation in making data comprehensible.
-- Introduce Matplotlib and Seaborn as two of Python's primary libraries for statistical graphics and visualizations.
+- feature engineering examples titanic dataset
+- RAG and converting text into vector database
 
 
 
 # Visualization
 
 
-# Getting Started with Matplotlib
+# Today's agenda
+
+- Telling a story <!-- .element: class="fragment" data-fragment-index="2" -->
+- Libraries <!-- .element: class="fragment" data-fragment-index="3" -->
+- Advanced libraries <!-- .element: class="fragment" data-fragment-index="4" -->
+- Chossing the right plot <!-- .element: class="fragment" data-fragment-index="5" -->
+- Exercise <!-- .element: class="fragment" data-fragment-index="6" -->
+
+
+# Examples
+
+- Katapult magazine
+
+
+# Telling a story
+
+- Find the story that the data tries to tell <!-- .element: class="fragment" data-fragment-index="2" -->
+- Raw data compared to dashboards <!-- .element: class="fragment" data-fragment-index="3" -->
+- Infographics <!-- .element: class="fragment" data-fragment-index="4" -->
+- Pitch decks <!-- .element: class="fragment" data-fragment-index="5" -->
+- Lets build a quick flow diagram <!-- .element: class="fragment" data-fragment-index="6" -->
+- Trends/patterns, colors or logos <!-- .element: class="fragment" data-fragment-index="7" -->
+
+
+# For you as a consultant
+
+1. Understanding the Target Audience: Identify the needs, preferences, and expertise of the cloud provider's customers. <!-- .element: class="fragment" data-fragment-index="2" -->
+2. Scalability and Performance: Ensure that chosen visualization tools can handle large datasets and perform well. <!-- .element: class="fragment" data-fragment-index="3" -->
+3. Security and Compliance: Select data visualization solutions that meet security requirements and comply with relevant industry standards (e.g., HIPAA, SOC 2). <!-- .element: class="fragment" data-fragment-index="4" -->
+4. Integration with Cloud Services: Look for tools that integrate seamlessly with the cloud provider's services, such as AWS QuickSight or Google Data Studio. <!-- .element: class="fragment" data-fragment-index="5" -->
+5. Interoperability and Customizability: Ensure that chosen visualization solutions can be easily embedded in the cloud provider's platforms and customized to meet specific customer needs. <!-- .element: class="fragment" data-fragment-index="6" -->
+6. Real-time and Dynamic Visualizations: Offer tools for creating real-time, interactive, and exploratory visualizations for customers to gain insights from their data more effectively. <!-- .element: class="fragment" data-fragment-index="7" -->
+7. Accessibility and Usability: Ensure that chosen visualization solutions are accessible to diverse audiences and easy to use for a wide range of users. <!-- .element: class="fragment" data-fragment-index="8" -->
+8. Collaboration and Sharing: Provide options for real-time collaboration and sharing of visualizations between team members and stakeholders. <!-- .element: class="fragment" data-fragment-index="9" -->
+9. Support and Maintenance: Offer robust support, maintenance, and upgrade options to ensure that customers have access to the latest features and functionality. <!-- .element: class="fragment" data-fragment-index="10" -->
+
+
+# Introduction to Data Visualization
+
+- `Importance of Visualizing Data in SAP https://www.sap.com/documents/2022/01/5e49ac93-127e-0010-bca6-c68f7e60039b.html` <!-- .element: class="fragment" data-fragment-index="2" -->
+- Know your data <!-- .element: class="fragment" data-fragment-index="3" -->
+- Know you audience <!-- .element: class="fragment" data-fragment-index="4" -->
+- Libraries Overview: Plottly, Matplotlib and Seaborn <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# Plotly
+
+- Start with javascript and plottly <!-- .element: class="fragment" data-fragment-index="2" -->
+- Advanced D3.js <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Matplotlib
 
 
 ### Basic Plotting
 
-- Creating a Simple Line Plot
-- Overview of Different Types of Plots: Line Plot, Bar Chart, Histogram
+- Creating a Simple Line Plot <!-- .element: class="fragment" data-fragment-index="2" -->
+- Overview of Different Types of Plots: Line Plot, Bar Chart, Histogram <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Practical Exercise: Creating Basic Plots
+
+- Line Plot Example: `plt.plot([1, 2, 3, 4, 5], [1, 4, 9, 16, 25])` <!-- .element: class="fragment" data-fragment-index="2" -->
+- Bar Chart Example: `plt.bar(['Apples', 'Bananas', 'Cherries'], [12, 15, 7])` <!-- .element: class="fragment" data-fragment-index="3" -->
+- Histogram Example: `plt.hist(data, bins=10)` <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# Introduction to Pandas
+
+- What is Pandas?
+- Why use Pandas in data analysis?
 
 Speaker Notes:
 
-- Demonstrate creating a simple line plot using `plt.plot()`.
-- Explain the different types of plots in Matplotlib:
-	- Line plots for trends and relationships between variables.
-	- Bar charts for comparative data and categorical analysis.
-	- Histograms for frequency distribution and data density.
+- Explain Pandas as a high-level data manipulation tool developed on top of the Python programming language.
+- Highlight its role in data analysis for its simplicity and powerful data handling capabilities.
 
 
-### Practical Exercise: Creating Basic Plots
+# Datascience terms
 
-- Line Plot Example: `plt.plot([1, 2, 3, 4, 5], [1, 4, 9, 16, 25])`
-- Bar Chart Example: `plt.bar(['Apples', 'Bananas', 'Cherries'], [12, 15, 7])`
-- Histogram Example: `plt.hist(data, bins=10)`
+- [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation#Interpretation_and_application)
+- [Mean](https://en.wikipedia.org/wiki/Expected_value)
+- [Median](https://en.wikipedia.org/wiki/Median)
+
+
+# Standard Tommy
+![std_tommy](./data/img/std_tommy.JPG)
+
+
+# Pandas Data Structures
+- Series
+- DataFrames
+
+Speaker Notes:
+
+- Describe Series as one-dimensional arrays with any data type.
+- Introduce DataFrame as a two-dimensional, size-mutable, potentially heterogeneous tabular data.
+
+
+# Creating and Loading Data
+- Creating DataFrames manually
+- Loading data from files (CSV, Excel)
+
+Speaker Notes:
+
+- Show how to create DataFrames from lists and dicts.
+- Demonstrate loading data from various file formats into DataFrames.
+
+
+# Basic Operations with Pandas
+- Viewing and selecting data
+- Filtering data
+- Adding and deleting columns
+
+Speaker Notes:
+
+- Teach how to view portions of data using head() and tail().
+- Explain selecting specific columns or rows using indexing and slicing.
+- Cover filtering data based on conditions.
+- Show how to add new columns or delete existing ones in a DataFrame.
+
+
+# Data Manipulation Techniques
+- Applying functions to data
+- Handling missing data
+- Merging and joining DataFrames
+
+Speaker Notes:
+
+- Discuss applying custom or built-in functions to DataFrame columns.
+- Explain strategies for dealing with missing data (e.g., fillna, dropna).
+- Teach merging and joining techniques to combine multiple DataFrames.
+
+
+# Grouping and Aggregating Data
+- Group by operations
+- Aggregate functions
+- Pivot tables
+- [Examples](https://chat.openai.com/share/f002495f-8ce6-4739-96fa-baccffede941)
+
+Speaker Notes:
+
+- Illustrate how to use groupby for grouping data based on some criteria.
+- Explain using aggregate functions like sum, mean, and max.
+- Show how to create pivot tables for data summarization.
+
+
+# Practical Exercise: 
+## Data Analysis with Pandas
+- Analyze a real-world dataset using Pandas
+- Perform data cleaning, manipulation, and visualization
+
+Speaker Notes:
+
+- Provide a dataset for students to practice on.
+- Guide them through cleaning, manipulating, and visualizing data using Pandas.
 
 
 # Introduction to Seaborn
 
-- Why Seaborn over Matplotlib?
-- High-Level Interface for Statistical Plots
+- Why Seaborn over Matplotlib? <!-- .element: class="fragment" data-fragment-index="2" -->
+- Built-in themes and color palettes. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Ability to handle Pandas data structures directly. <!-- .element: class="fragment" data-fragment-index="4" -->
+- High-Level Interface for Statistical Plots <!-- .element: class="fragment" data-fragment-index="5" -->
 
-Speaker Notes:
 
-- Discuss Seaborn's advantages:
-	- Built-in themes and color palettes.
-	- Ability to handle Pandas data structures directly.
-- Emphasize Seaborn's capabilities for making complex statistical plots more accessible.
+# Practical Exercise: 
+## Choose a case and visualize with seaborn or matplotlib
+
+1. Showing growth of newsletter subscribers
+2. Estimate segments of demographics soon reachable
+3. Distribution of genderdiversity in CEO positions
+4. Fluctuation of people with migration background
+5. Decline of stockvalue compared to oilprice
+
+
+# Linear algebra in python
+
+- Plotting functions.ipynb
+- Speaking of Arrays tensorflow-shapes.ipynb
 
 
 # Seaborn Plot Types
@@ -1638,13 +1984,18 @@ Speaker Notes:
 	- Heatmaps for data intensity and correlation matrices.
 
 
+# Jupyter notebooks
+
+- llama and message analysis
+- health data
+
+
 # Combining Plots and Customizing Graphics
-
-
 ### Overlaying Plots and Customizing with Matplotlib and Seaborn
 
-- Combine a line plot and bar chart
-- Apply a theme and customize the legend and labels
+- Combine a line plot and bar chart <!-- .element: class="fragment" data-fragment-index="2" -->
+- Apply a theme  <!-- .element: class="fragment" data-fragment-index="3" -->
+- customize the legend and labels <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Speaker Notes:
 
@@ -1659,6 +2010,23 @@ Speaker Notes:
 
 - Combine a line plot and bar chart
 - Apply a theme and customize the legend and labels
+
+
+# Data and ethics
+
+- Can be used for manipulation, opinion change and propaganda <!-- .element: class="fragment" data-fragment-index="2" -->
+- Importance of data verification and fact checks <!-- .element: class="fragment" data-fragment-index="3" -->
+- Personal tips like reverse stance on a subject <!-- .element: class="fragment" data-fragment-index="4" -->
+- Avoid misinterpretation, hidden messages <!-- .element: class="fragment" data-fragment-index="5" -->
+- Respect privacy <!-- .element: class="fragment" data-fragment-index="6" -->
+- Accessibility <!-- .element: class="fragment" data-fragment-index="7" -->
+- Depth of the visualization <!-- .element: class="fragment" data-fragment-index="8" -->
+
+
+# Future
+
+- Real time <!-- .element: class="fragment" data-fragment-index="2" -->
+- VR/AR <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 # Q&A and Review of Data Visualization
@@ -1676,35 +2044,48 @@ Speaker Notes:
 # Cyber security
 
 
+# Today's agenda
+
+- White hat, red team? <!-- .element: class="fragment" data-fragment-index="2" -->
+- Network <!-- .element: class="fragment" data-fragment-index="3" -->
+- Web secrity <!-- .element: class="fragment" data-fragment-index="4" -->
+- As a developer/dev-ops <!-- .element: class="fragment" data-fragment-index="5" -->
+- We have a look at many viruses <!-- .element: class="fragment" data-fragment-index="6" -->
+
+
 # Session 1: Introduction to Cyber Security and Basic Security Concerns
 
 
 # Introduction to Cyber Security
 
+- [Meme](https://cloudisland.nz/@dillon/112767541388187298)
 - Definition and significance <!-- .element: class="fragment" data-fragment-index="2" -->
 - Real-world implications <!-- .element: class="fragment" data-fragment-index="3" -->
 - Security as a mindset <!-- .element: class="fragment" data-fragment-index="4" -->
+- Overview about SAP solutions <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Operating Systems and Security
 
 - Overview of Windows, MacOS, Linux <!-- .element: class="fragment" data-fragment-index="2" -->
-- Security features comparison <!-- .element: class="fragment" data-fragment-index="3" -->
+- Security features <!-- .element: class="fragment" data-fragment-index="3" -->
 - Common vulnerabilities <!-- .element: class="fragment" data-fragment-index="4" -->
+- Practice regular updates <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Internet Structure and Security
 
 - DNS (domain name system) <!-- .element: class="fragment" data-fragment-index="2" -->
 - HTTP/HTTPS <!-- .element: class="fragment" data-fragment-index="3" -->
-- IP addresse <!-- .element: class="fragment" data-fragment-index="4" -->s
+- IP addresses <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Basic Security Concerns
 
 - Passwords <!-- .element: class="fragment" data-fragment-index="2" -->
-- Phishing <!-- .element: class="fragment" data-fragment-index="3" -->
+- Phishing https://hachyderm.io/@urldna@infosec.exchange <!-- .element: class="fragment" data-fragment-index="3" -->
 - Malware <!-- .element: class="fragment" data-fragment-index="4" -->
+- Solarwinds <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Password Security
@@ -1717,8 +2098,8 @@ Speaker Notes:
 # Strong Password Creation
 
 - Demonstration of online tools <!-- .element: class="fragment" data-fragment-index="2" -->
-- Practical exercise: creating strong passwords <!-- .element: class="fragment" data-fragment-index="3" -->
-- Evaluating password strength <!-- .element: class="fragment" data-fragment-index="4" -->
+- Evaluating password strength <!-- .element: class="fragment" data-fragment-index="3" -->
+- Practical exercise: creating strong passwords <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Terminal and Command Line Basics
@@ -1726,6 +2107,8 @@ Speaker Notes:
 - Opening terminal/CMD <!-- .element: class="fragment" data-fragment-index="2" -->
 - Running "whoami" and "ipconfig"/"ifconfig" <!-- .element: class="fragment" data-fragment-index="3" -->
 - Practical exercise: finding IP address <!-- .element: class="fragment" data-fragment-index="4" -->
+- StuxNet <!-- .element: class="fragment" data-fragment-index="5" -->
+- Exercise: Loose fear of the terminal and delete some folders <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
 # Introduction to Password Managers
@@ -1754,6 +2137,7 @@ Speaker Notes:
 
 # Privacy Concerns
 
+- Trillion trillion https://kyivindependent.com/russian-court-fines-google-2-5-trillion-trillion-trillion/
 - Data collection and online tracking <!-- .element: class="fragment" data-fragment-index="2" -->
 - Personal digital privacy <!-- .element: class="fragment" data-fragment-index="3" -->
 - Mitigating privacy risks <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -1761,9 +2145,10 @@ Speaker Notes:
 
 # Encryption and Decryption
 
-- Importance in security <!-- .element: class="fragment" data-fragment-index="2" -->
-- Basic techniques <!-- .element: class="fragment" data-fragment-index="3" -->
-- Real-world applications <!-- .element: class="fragment" data-fragment-index="4" -->
+- Practical excerise: Convert your name to binary <!-- .element: class="fragment" data-fragment-index="2" -->
+- Importance in security <!-- .element: class="fragment" data-fragment-index="3" -->
+- Basic techniques <!-- .element: class="fragment" data-fragment-index="4" -->
+- Real-world applications <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Virtual Private Networks (VPNs)
@@ -1778,6 +2163,7 @@ Speaker Notes:
 - Basic setup <!-- .element: class="fragment" data-fragment-index="2" -->
 - Practical exercise: configuring a firewall <!-- .element: class="fragment" data-fragment-index="3" -->
 - Understanding firewall rules <!-- .element: class="fragment" data-fragment-index="4" -->
+- Malicious life <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Setting Up a VPN
@@ -1790,15 +2176,23 @@ Speaker Notes:
 # Encrypting and Decrypting Files
 
 - Using OpenSSL <!-- .element: class="fragment" data-fragment-index="2" -->
-- Practical encryption exercise <!-- .element: class="fragment" data-fragment-index="3" -->
+- Practical exercise: Zip a file with a password <!-- .element: class="fragment" data-fragment-index="3" -->
 - Decrypting files <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Two-Factor Authentication (2FA)
 
 - Importance of 2FA <!-- .element: class="fragment" data-fragment-index="2" -->
-- Setting up 2FA <!-- .element: class="fragment" data-fragment-index="3" -->
-- Practical examples <!-- .element: class="fragment" data-fragment-index="4" -->
+- How does it work <!-- .element: class="fragment" data-fragment-index="3" -->
+- Setting up 2FA <!-- .element: class="fragment" data-fragment-index="4" -->
+- Practical examples <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# SingleSignOn
+
+- Providers <!-- .element: class="fragment" data-fragment-index="2" -->
+- Architecture <!-- .element: class="fragment" data-fragment-index="3" -->
+- SAP solutions <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Session 3: Web Security and Online Safety
@@ -1809,10 +2203,12 @@ Speaker Notes:
 - SSH and SSL/TLS <!-- .element: class="fragment" data-fragment-index="2" -->
 - Port security <!-- .element: class="fragment" data-fragment-index="3" -->
 - Roles in web security <!-- .element: class="fragment" data-fragment-index="4" -->
+- TorBrowser <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Common Web Vulnerabilities
 
+- Overview https://www.google.com/search?client=firefox-b-d&q=Common+Web+Vulnerabilities
 - SQL injection <!-- .element: class="fragment" data-fragment-index="2" -->
 - XSS <!-- .element: class="fragment" data-fragment-index="3" -->
 - Other vulnerabilities <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -1820,7 +2216,7 @@ Speaker Notes:
 
 # Online Safety
 
-- Phishing <!-- .element: class="fragment" data-fragment-index="2" -->
+- SpearPhishing <!-- .element: class="fragment" data-fragment-index="2" -->
 - Social engineering <!-- .element: class="fragment" data-fragment-index="3" -->
 - Online harassment <!-- .element: class="fragment" data-fragment-index="4" -->
 
@@ -1832,7 +2228,7 @@ Speaker Notes:
 - Preventing keylogging <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
-# Secure Development Lifecycle (SDLC)
+# Test driven development
 
 - Methodologies overview <!-- .element: class="fragment" data-fragment-index="2" -->
 - Importance in security <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -1881,7 +2277,7 @@ Speaker Notes:
 
 - Static and dynamic analysis <!-- .element: class="fragment" data-fragment-index="2" -->
 - Penetration testing <!-- .element: class="fragment" data-fragment-index="3" -->
-- Common tools <!-- .element: class="fragment" data-fragment-index="4" -->
+- Common tools<!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Agile and Waterfall Methodologies
@@ -1893,9 +2289,10 @@ Speaker Notes:
 
 # Secure Coding Practice
 
-- Advanced coding exercises <!-- .element: class="fragment" data-fragment-index="2" -->
+- Advanced coding exercises (if else nesting) <!-- .element: class="fragment" data-fragment-index="2" -->
 - Python examples <!-- .element: class="fragment" data-fragment-index="3" -->
-- Reviewing secure code <!-- .element: class="fragment" data-fragment-index="4" -->
+- GolfCode <!-- .element: class="fragment" data-fragment-index="4" -->
+- Reviewing secure code <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Using Security Testing Tools
@@ -1903,6 +2300,7 @@ Speaker Notes:
 - Metasploit <!-- .element: class="fragment" data-fragment-index="2" -->
 - VMs <!-- .element: class="fragment" data-fragment-index="3" -->
 - Burp Suite <!-- .element: class="fragment" data-fragment-index="4" -->
+- ClamAV <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Setting Up Secure CI/CD Pipelines
@@ -1940,11 +2338,20 @@ Speaker Notes:
 # Cloud Computing
 
 
+# Today's agenda
+
+- Somebody else compter <!-- .element: class="fragment" data-fragment-index="2" -->
+- Containerization and infrastructure as code <!-- .element: class="fragment" data-fragment-index="3" -->
+- GitOps <!-- .element: class="fragment" data-fragment-index="4" -->
+- ML/Ops <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
 # Session 1: Understanding the Cloud
 
 
 ## What is Cloud Computing?
 
+- [Meme](https://defcon.social/@fortyseven/112562488392193627)
 - Simple Definition: Using someone else’s computer for storing your data or running applications. <!-- .element: class="fragment" data-fragment-index="2" -->
 - Why it Matters: Cost savings, easier access, and flexibility. <!-- .element: class="fragment" data-fragment-index="3" -->
 - Real-world Analogy: Renting an apartment instead of buying a house. <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -1967,7 +2374,7 @@ Speaker Notes:
 ## Benefits and Potential Issues
 
 - Advantages: Cost savings, scalability, and accessibility. <!-- .element: class="fragment" data-fragment-index="2" -->
-- Challenges: Privacy concerns and potential downtime. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Challenges: Privacy concerns and potential downtime. <!-- .element: class="fragment" data-fragment-index="3" -->()
 - Mitigation: Understanding risks and implementing best practices. <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
@@ -1983,6 +2390,51 @@ Speaker Notes:
 - Cloud Diagram: Create a simple architecture using [draw.io](http://draw.io). <!-- .element: class="fragment" data-fragment-index="2" -->
 - SSH Access: Connect and manage a DigitalOcean droplet. <!-- .element: class="fragment" data-fragment-index="3" -->
 - Exploring the Console: Familiarization with the cloud dashboard. <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# Session 2: Storing and Managing Data in the Cloud
+
+
+## Understanding Cloud Storage
+
+- Types: Object, block, and file storage. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Use Cases: When to use object, block, or file storage. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Access Methods: How to interact with different storage types. <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Introduction to Cloud Databases
+
+- Database Types: SQL vs. NoSQL databases. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Examples: MySQL, PostgreSQL for SQL; MongoDB, Cassandra for NoSQL. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Use Cases: When to choose SQL or NoSQL based on application needs. <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Introduction to Docker and Containers
+
+- What is Docker?: Tool for creating, deploying, and running applications in containers. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Containers vs. VMs: Lightweight, shared OS kernel vs. full OS. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Benefits: Consistency, scalability, and productivity in development and deployment. <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Ensuring Data Consistency and Availability
+
+- Key Concepts: Understanding consistency and availability. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Importance: Ensuring data is consistent and accessible. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Best Practices: Implementing consistency and availability strategies. <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Security Considerations for Data
+
+- Encryption: Protecting data at rest and in transit. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Secure Access: Using strong passwords and multi-factor authentication. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Regular Backups: Ensuring data recovery and integrity. <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+## Hands-on Activity
+
+- Cloud Storage: Uploading, accessing, and managing files. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Github Setup: Creating and configuring a Github account. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Security Implementation: Setting permissions, encryption, and 2FA. <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Session 3: Connecting Everything Together
