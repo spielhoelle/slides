@@ -1084,12 +1084,6 @@ Speaker Notes:
 - Ask TommyBot about the addtional commands like UPDATE or DELETE
 
 
-# How did you like this?
-
-- Give me feedback on TommyBot
-- https://nc.tmy.io/index.php/apps/forms/s/3MmW93on2p5AFXkxkRSszJMf
-
-
 # CSV
 
 - Comma seperated values <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -1415,6 +1409,7 @@ Speaker Notes:
   - Data gets transferred with every server request <!-- .element: class="fragment" data-fragment-index="6" -->
   - Limited to 4KB size <!-- .element: class="fragment" data-fragment-index="7" -->
   - Can set expiration dates <!-- .element: class="fragment" data-fragment-index="8" -->
+- Tip: Clear your cookies <!-- .element: class="fragment" data-fragment-index="9" -->
 
 Speaker Notes:
 
@@ -1422,34 +1417,21 @@ Speaker Notes:
 - Mention security considerations such as susceptibility to XSS attacks in local storage and security flags in cookies.
 
 
-# Browser Local Storage and Cookies
-## Temporary and Persistent Client-Side Storage
-
-Speaker Notes:
-
-- Explain the concept of client-side storage which includes both browser local storage and cookies.
-- Local storage provides a way to store data persistently on the client's browser, whereas cookies are primarily used for session management, personalization, and tracking user behavior.
-
-
-# Introduction to Big Data Best Practices
-## Essential Tips for Handling Big Data
-
-What do you know?
-
-Speaker Notes:
-
-- Backups, VPN's, and data encryption.
-
-
 # Regular Data Backups
 - Why Backup? <!-- .element: class="fragment" data-fragment-index="2" -->
   - Protect against data loss <!-- .element: class="fragment" data-fragment-index="3" -->
   - Ensure data recovery <!-- .element: class="fragment" data-fragment-index="4" -->
+- Example: `Apple Timemachine`, `Windows backup`, `sigtop`, `rsync`
 
 Speaker Notes:
 
 - Importance of regular backups
 - Use automated tools for scheduled backups
+
+
+# Exercise
+
+- Trigger a backup
 
 
 # Using VPNs for Secure Data Transfers
@@ -1485,6 +1467,12 @@ Speaker Notes:
 
 - Importance of understanding and complying with data protection laws
 - Mention key legislations like GDPR and HIPAA where applicable
+
+
+# How did you like this?
+
+- Give me feedback on TommyBot
+- https://nc.tmy.io/index.php/apps/forms/s/3MmW93on2p5AFXkxkRSszJMf
 
 
 
