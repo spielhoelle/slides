@@ -1,49 +1,128 @@
-# The "internet"
+# Introduction web development
+
+by Thomas Kuhnert
+
+Speaker Notes:
+
+- Start with joke 
+  - Ideas: 
+    - BuzzwordBoomin
+    - Let chatgpt create a joke
+    - Better GH-Copilot
 
 
 # Today's agenda
 
-- General overview <!-- .element: class="fragment" data-fragment-index="2" -->
-- Tools <!-- .element: class="fragment" data-fragment-index="3" -->
-- HTML / HTTP <!-- .element: class="fragment" data-fragment-index="4" -->
-- Programming History <!-- .element: class="fragment" data-fragment-index="5" -->
-- Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
+- Agenda <!-- .element: class="fragment" data-fragment-index="2" -->
+- General overview <!-- .element: class="fragment" data-fragment-index="3" -->
+- Tools <!-- .element: class="fragment" data-fragment-index="4" -->
+- HTML / HTTP <!-- .element: class="fragment" data-fragment-index="5" -->
+- Programming History <!-- .element: class="fragment" data-fragment-index="6" -->
+- Funny things (happens for sure before the end) <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
-# Lets start with something scary
+# Agenda 
 
-- [How normal am I](https://www.hownormalami.eu/)
+No worries - this is a flexible timeframe
+
+- 09:30 - 11:00 (16:30 - 18:00 JST)
+- 11:15 - 12:45 (18:15 - 19:45 JST)
+- 13:45 - 15:00 (20:45 - 22:15 JST)
+- 15:15 - 16:30 (22:30 - 23:30 JST)
 
 
-# Folklore
-## What do you think developers are doing?
+# General overview
 
-- Coding all day <!-- .element: class="fragment" data-fragment-index="2" -->
-- Making fancy animations <!-- .element: class="fragment" data-fragment-index="2" -->
-- Creating artificial intelligence <!-- .element: class="fragment" data-fragment-index="2" -->
-- Building robots <!-- .element: class="fragment" data-fragment-index="2" -->
-- Solving puzzles <!-- .element: class="fragment" data-fragment-index="2" -->
-- Learning new languages <!-- .element: class="fragment" data-fragment-index="2" -->
-- Debugging issues <!-- .element: class="fragment" data-fragment-index="2" -->
-- Meeting with other teams <!-- .element: class="fragment" data-fragment-index="2" -->
+### Who are you?
+
+
+# Who is this guy? 
+
+<div class="d-flex">
+
+- Webdev since 2010 <!-- .element: class="fragment" data-fragment-index="2" -->
+- Begann as "script-kiddy" (did I ever stop?) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Got official with Wordpress as DigitalMediaDesigner <!-- .element: class="fragment" data-fragment-index="4" -->
+- Continued with RubyOnRails <!-- .element: class="fragment" data-fragment-index="5" -->
+- 2015 started to freelance <!-- .element: class="fragment" data-fragment-index="6" -->
+- Then NodeJS <!-- .element: class="fragment" data-fragment-index="7" -->
+- Coaching since 2016 <!-- .element: class="fragment" data-fragment-index="8" -->
+- Since 2019 location independent <!-- .element: class="fragment" data-fragment-index="9" -->
+- Now python and AI
+- Talking to fast <!-- .element: class="fragment" data-fragment-index="10" -->
+- Get in touch <!-- .element: class="fragment" data-fragment-index="11" -->
+  - https://github.com/spielhoelle 
+  - https://tmy.io 
+  - https://hachyderm.io/@spielhoelle
+
+<img src="./data/1.jpg" alt="image" width="500">
+</div>
+
+
+# Initial Tech Stuff
+
+- Zoom basics: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - understand how to navigate and use essential features like raise hand <!-- .element: class="fragment" data-fragment-index="3" -->
+  - mute/unmute <!-- .element: class="fragment" data-fragment-index="4" -->
+  - and breakout rooms <!-- .element: class="fragment" data-fragment-index="5" -->
+- Quick tips for a smooth start:  <!-- .element: class="fragment" data-fragment-index="6" -->
+  - minimize background noise <!-- .element: class="fragment" data-fragment-index="7" -->
+  - keep your mic and camera ready <!-- .element: class="fragment" data-fragment-index="8" -->
+  - and be prepared to ask questions <!-- .element: class="fragment" data-fragment-index="9" -->
+- I cannot look at ZoomChat/Slack etc. Please just speak <!-- .element: class="fragment" data-fragment-index="10" -->
+
+Speaker Notes:
+
+- Test audio/video
+- Raise hand
+
+
+# Internet Stability
+
+- What is internet stability? <!-- .element: class="fragment" data-fragment-index="2" -->
+- Importance of fast and stable internet <!-- .element: class="fragment" data-fragment-index="3" -->
+- <span>https://fast.com speed</span> <!-- .element: class="fragment" data-fragment-index="4" -->
+- <p>Ping or http://ping-test.net reliability</p>  <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Emphasize importance for onlipythonne development
+- Mention how it affects coding experience
+
+
+
+# Ecosystem
+
+
+# What do you think developers are doing?
+
+Speaker Notes:
+
+- Coding all day
+- Making fancy animations
+- Creating artificial intelligence
+- Building robots
+- Solving puzzles
+- Learning new languages
+- Debugging issues
+- Meeting with other teams
 
 
 # What they are actually doing
 
 <div class="d-flex">
 
-- [Meme](https://mastodon.sdf.org/@stunder/112293480292078612) <!-- .element: class="fragment" data-fragment-index="2" -->
-- Day-to-day programming experiences <!-- .element: class="fragment" data-fragment-index="3" -->
-- Fixed vs freelance vs remote work environments <!-- .element: class="fragment" data-fragment-index="4" -->
-- Research and problem-solving strategies <!-- .element: class="fragment" data-fragment-index="5" -->
-- Understanding abstract concepts over syntax details <!-- .element: class="fragment" data-fragment-index="6" -->
-- Debugging and finding small issues in large systems <!-- .element: class="fragment" data-fragment-index="7" -->
-- Unpredictable motivation (it often works at the end) <!-- .element: class="fragment" data-fragment-index="8" -->
-- Wide range of industries and applications (e-commerce, biology, etc.) <!-- .element: class="fragment" data-fragment-index="9" -->
-- Future-proofing and scalability <!-- .element: class="fragment" data-fragment-index="10" -->
-- Digital nomadism: working from anywhere <!-- .element: class="fragment" data-fragment-index="11" -->
+- Day-to-day programming experiences <!-- .element: class="fragment" data-fragment-index="2" -->
+- Fixed vs freelance vs remote work environments <!-- .element: class="fragment" data-fragment-index="3" -->
+- Research and problem-solving strategies <!-- .element: class="fragment" data-fragment-index="4" -->
+- Understanding abstract concepts over syntax details <!-- .element: class="fragment" data-fragment-index="5" -->
+- Debugging and finding small issues in large systems <!-- .element: class="fragment" data-fragment-index="6" -->
+- Unpredictable motivation (it often works at the end) <!-- .element: class="fragment" data-fragment-index="7" -->
+- Wide range of industries and applications (e-commerce, biology, etc.) <!-- .element: class="fragment" data-fragment-index="8" -->
+- Future-proofing and scalability <!-- .element: class="fragment" data-fragment-index="9" -->
+- Digital nomadism: working from anywhere <!-- .element: class="fragment" data-fragment-index="10" -->
 
-<img src="./data/img/meme.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/meme.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
 </div>
 
 Speaker Notes:
@@ -57,10 +136,10 @@ Speaker Notes:
 
 <div class="d-flex">
 
-<img src="./data/img/2.jpg" alt="image" width="100%" height="auto" style="float: right;"><!-- .element: class="fragment" data-fragment-index="9" -->
+<img src="./data/2.jpg" alt="image" width="100%" height="auto" style="float: right;"><!-- .element: class="fragment" data-fragment-index="9" -->
 
 - Arrive at "office" <!-- .element: class="fragment" data-fragment-index="2" -->
-- Daily-standup <!-- .element: class="fragment" data-fragment-index="3" -->
+- Daily-stand <!-- .element: class="fragment" data-fragment-index="3" -->
 - Pull code from the repository <!-- .element: class="fragment" data-fragment-index="4" -->
 - Check project management tool <!-- .element: class="fragment" data-fragment-index="5" -->
 - Write code  <!-- .element: class="fragment" data-fragment-index="6" -->
@@ -71,7 +150,7 @@ Speaker Notes:
 </div>
 
 
-# The humans behind
+# The "internet"
 
 - <span>[History of webdesign](https://www.smamarketing.net/blog/the-history-of-website-design)</span> <!-- .element: class="fragment" data-fragment-index="2" -->
 - <span>[State of JS](https://2019.stateofjs.com/demographics/#gender)</span> <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -83,7 +162,7 @@ Speaker Notes:
   - Elements HTML, Styles and Javascript console <!-- .element: class="fragment" data-fragment-index="3" -->
   - <span>Checkout first website from [Cern](http://info.cern.ch/hypertext/WWW/TheProject.html)</span> <!-- .element: class="fragment" data-fragment-index="4" -->
 
-<img src="./data/img/devtools.png" alt="image" height="30%" style="float: right;">
+<img src="./data/devtools.png" alt="image" height="30%" style="float: right;">
 
 
 # Sub-gernes
@@ -98,7 +177,7 @@ Speaker Notes:
   - Online marketing
   - Graphic design
 
-<img src="./data/img/3.jpg" alt="image" width="50%" height="auto" style="float: right;">
+<img src="./data/3.jpg" alt="image" width="50%" height="auto" style="float: right;">
 </div>
 
 
@@ -111,15 +190,17 @@ Speaker Notes:
 - Old fashioned banks or airlines <!-- .element: class="fragment" data-fragment-index="4" -->
 - Hipster startups <!-- .element: class="fragment" data-fragment-index="5" -->
 
+<img src="./data/4.jpg" alt="image" width="100%" height="auto" style="float: right;">
 </div>
+
 
 
 # Mobile first
 
-- Browser usage <!-- .element: class="fragment" data-fragment-index="2" -->
-- What is a framework - bootstrap is one! <!-- .element: class="fragment" data-fragment-index="3" -->
-- Mobile statistics <!-- .element: class="fragment" data-fragment-index="4" -->
-- Analytics google <!-- .element: class="fragment" data-fragment-index="5" -->
+Browser usage
+What is a framework - bootstrap is one!
+Mobile statistics
+Analytics google
 
 
 # Exercise:
@@ -133,6 +214,7 @@ Do it for yourself
 Check glassdoor and browse companies search for software developer
 
 
+
 # Languages
 
 <div class="d-flex">
@@ -142,7 +224,7 @@ Check glassdoor and browse companies search for software developer
 - Be careful: Java is for javascript like the car for the carpet <!-- .element: class="fragment" data-fragment-index="4" -->
 - https://haveibeenpwned.com/ <!-- .element: class="fragment" data-fragment-index="5" -->
 
-<img src="./data/img/5.jpg" alt="image" width="100%" height="auto" style="float: right;">
+<img src="./data/5.jpg" alt="image" width="100%" height="auto" style="float: right;">
 </div>
 
 
@@ -183,10 +265,10 @@ Speaker Notes:
 - Allround tool <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Exercise:
+# Exercise: 
 - Use the browser console to calculate some numbers. <!-- .element: class="fragment" data-fragment-index="2" -->
 - Use alert, confirm("Really?") and combine it with timeout <!-- .element: class="fragment" data-fragment-index="3" -->
-- Take some time and browse the D3.js examples. <!-- .element: class="fragment" data-fragment-index="5" -->
+- Take some time and browse the D3.jsexamples. <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # HTML elements structure
@@ -198,7 +280,7 @@ Speaker Notes:
 - Not interactive <!-- .element: class="fragment" data-fragment-index="6" -->
 - Base scaffold for web pages <!-- .element: class="fragment" data-fragment-index="7" -->
 
-<img src="./data/img/8.jpg" alt="image" width="100%" height="auto" style="float: right;">
+<img src="./data/8.jpg" alt="image" width="100%" height="auto" style="float: right;">
 
 Speaker Notes:
 - HTML vs HTTP
@@ -213,7 +295,7 @@ Speaker Notes:
 - Create a CSS file and give the body a background-color <!-- .element: class="fragment" data-fragment-index="3" -->
 - Create a javascript file and console.log something <!-- .element: class="fragment" data-fragment-index="4" -->
 
-Speaker Notes:
+Speaker Notes: 
 
 <html><head></head><body><h1>Example</h1></body></html>
 
@@ -232,6 +314,7 @@ Speaker Notes:
 - Ollama <!-- .element: class="fragment" data-fragment-index="2" -->
 - Offline helpers <!-- .element: class="fragment" data-fragment-index="3" -->
 - Extensible  <!-- .element: class="fragment" data-fragment-index="4" -->
+
 
 
 # Tools
@@ -287,7 +370,7 @@ Speaker Notes:
 - VsCode <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
-# Exercise:
+# Exercise: 
 Download VsCode and create a html file
 
 
@@ -295,16 +378,15 @@ Download VsCode and create a html file
 
 <div class="d-flex">
 
-- [Meme](https://mastodon.social/@Cmastication/111788074384935463)
 - Advanced todo lists <!-- .element: class="fragment" data-fragment-index="2" -->
 - Make work in team possible <!-- .element: class="fragment" data-fragment-index="3" -->
 - Track tickets, milestones and general progress <!-- .element: class="fragment" data-fragment-index="4" -->
 - Project managements tools <!-- .element: class="fragment" data-fragment-index="5" -->
-  - Trello, Jira, Asana
+  - Trello, Jira, Asana 
 - Project managements strategies <!-- .element: class="fragment" data-fragment-index="9" -->
   - Agile, Scrum, Scrum, Waterfall
 
-<img src="./data/img/pm.png" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/pm.png" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
   </div>
 
 
@@ -312,13 +394,12 @@ Download VsCode and create a html file
 
 <div class="d-flex">
 
-- [Meme](https://anonsys.net/display/bf69967c-1166-ca0a-9dbf-ff5129126139)
 - Scriptable good for automatisation <!-- .element: class="fragment" data-fragment-index="2" -->
 - Execute commands on computer/server <!-- .element: class="fragment" data-fragment-index="3" -->
 - Can emulate on a remote machine <!-- .element: class="fragment" data-fragment-index="4" -->
 - More precise than clicky boxy Console is terminal of the browser <!-- .element: class="fragment" data-fragment-index="5" -->
 
-<img src="./data/img/6.jpg" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/6.jpg" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
 </div>
 
 
@@ -329,7 +410,7 @@ Download VsCode and create a html file
 - Navigate to your desktop  <!-- .element: class="fragment" data-fragment-index="4" -->
   - MAC: cd ~/Desktop, MS: cd c:\\Users\username\Desktop
 - List all the files there <!-- .element: class="fragment" data-fragment-index="5" -->
-  - MAC: ls, MS: dir
+  - MAC: ls, MS: dir 
 
 
 # Git
@@ -344,7 +425,7 @@ Speaker Notes:
 - How to use Git for tracking changes and resolving conflicts
 - Use repos for everything
 
-<img src="./data/img/6.jpg" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/6.jpg" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 # Exercise:
@@ -395,7 +476,7 @@ Speaker Notes:
   - Status codes (200, 404, etc.) <!-- .element: class="fragment" data-fragment-index="6" -->
   - Headers and bodies <!-- .element: class="fragment" data-fragment-index="7" -->
 
-<img src="./data/img/11.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/11.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
 
 Speaker Notes:
 - Key differences between HTTP/HTML
@@ -419,7 +500,6 @@ Speaker Notes:
 <div class="d-flex">
 <div>
 
-- [Meme](https://mas.to/@SmudgeTheInsultCat/112561592274884245)
 - Named protocol - others are ftp/tcp/wss <!-- .element: class="fragment" data-fragment-index="2" -->
 - Letsencrypt certification - open source, free TLS/SSL certificates <!-- .element: class="fragment" data-fragment-index="3" -->
 - Google rates non HTTPS sites down in search ranking <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -432,7 +512,7 @@ Speaker Notes:
 * Good example: HTTPS site with secure connection <!-- .element: class="fragment" data-fragment-index="10" -->
 </div>
 
-<img src="./data/img/10.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/10.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
 </div>
 
 Speaker Notes:
@@ -448,7 +528,7 @@ Speaker Notes:
 - Enables communication between devices on a network <!-- .element: class="fragment" data-fragment-index="4" -->
 - Crucial for navigating the internet, as it translates URLs into IP addresses <!-- .element: class="fragment" data-fragment-index="5" -->
 
-<img src="./data/img/13.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/13.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
 
 Speaker Notes:
 - How DNS works
@@ -465,15 +545,8 @@ Speaker Notes:
   - Adequate for machines to understand and process information <!-- .element: class="fragment" data-fragment-index="5" -->
 - ASCII characters have decimal and binary representations <!-- .element: class="fragment" data-fragment-index="6" -->
   - Letters are encoded as numbers, allowing computers to process text <!-- .element: class="fragment" data-fragment-index="7" -->
-Example: 
-```
-128 64 32 16 8 4 2 1
-  0  0  1  0 0 0 0 0 = 32
-  0  0  0  0 1 1 1 0 = 14
-  0  0  0  0 0 0 1 1 = 3
-```
 
-<img src="./data/img/14.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="./data/14.jpg" alt="image" width="100%" height="auto" style="float: right;"> <!-- .element: class="fragment" data-fragment-index="2" -->
 </div>
 
 Speaker Notes:
@@ -530,6 +603,10 @@ Speaker Notes:
 - Overview of common problems in computing and networking
 - Importance of addressing these issues to ensure system stability and security
 
+ 
+
+
+
 
 # Accessiblity
 
@@ -549,5 +626,54 @@ Speaker Notes:
 - Redis <!-- .element: class="fragment" data-fragment-index="8" -->
 
 
+# Using AI
+
+- Bad knowledge base, prefer generative aspects <!-- .element: class="fragment" data-fragment-index="2" -->
+- Custom instructions <!-- .element: class="fragment" data-fragment-index="3" -->
+- Prompt engineering <!-- .element: class="fragment" data-fragment-index="4" -->
+- hyperparams <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
+# Making AI
+
+- Data data data <!-- .element: class="fragment" data-fragment-index="2" -->
+- Different kinds of AI <!-- .element: class="fragment" data-fragment-index="3" -->
+- Foundation training, fine-tune, RAG <!-- .element: class="fragment" data-fragment-index="4" -->
+- ML ops <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# Engineering
+
+- Databases
+- DevOps
+- Security
+- Terminal
+- Compilers
+
+
+# Power user
+- Hotkeys
+- Zapier
+- Alfred or similar
+- Don't over-engineer it
+- Gamification
+- Pomodoro
+- Task lists, calender, sync of those
+- Calendly 
+
+
+
+# Funny things
+
+Some great links
+Hackertyper
+ThisPersonDoesntExist
+React95
+Funny things
+
+
+# Recursion
+
+Exercise:
+Google Recursion
+Funny things
