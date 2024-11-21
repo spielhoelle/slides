@@ -47,31 +47,34 @@
 <body>
 	<div class="reveal">
         <div class="slides">
-            <!--<section data-separator="^\n\n\n" data-markdown="data/web-dev-projectday.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
-            <!--<section data-separator="^\n\n\n" data-markdown="data/webdev.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
-            <!--<section data-separator="^\n\n\n" data-markdown="data/posweruser.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
-            <!--<section data-separator="^\n\n\n" data-markdown="data/data.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
+            <section data-separator="^\n\n\n" data-markdown="data/intro.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
+            <section data-separator="^\n\n\n" data-markdown="data/webdev.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
+            <section data-separator="^\n\n\n" data-markdown="data/posweruser.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
+            <section data-separator="^\n\n\n" data-markdown="data/data.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
             <section data-separator="^\n\n\n" data-markdown="data/ai.md" 
                                               data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
             </section>
             <section data-separator="^\n\n\n" data-markdown="data/visualization.md" 
                                               data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
             </section>
-            <!--<section data-separator="^\n\n\n" data-markdown="data/cloudcomputing.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
+            <section data-separator="^\n\n\n" data-markdown="data/cloudcomputing.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
+            <section data-separator="^\n\n\n" data-markdown="data/cybersec.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
+            <section data-separator="^\n\n\n" data-markdown="data/web-dev-projectday.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
 
-            <!--<section data-separator="^\n\n\n" data-markdown="data/cybersec.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
         </div>
 	</div>
 
@@ -84,6 +87,21 @@
 		// - https://revealjs.com/initialization/
 		// - https://revealjs.com/config/
 		Reveal.initialize({
+            //multiplex: {
+            //  // Example values. To generate your own, see the socket.io server instructions.
+            //  secret: '17321719075814185922', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+            //  id: 'd6ac031c447600dc', // Obtained from socket.io server
+            //  url: 'https://reveal-multiplex.glitch.me/' // Location of socket.io server
+            //},
+
+            //// Don't forget to add the dependencies
+            //dependencies: [
+            //  { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
+            //  { src: 'https://reveal-multiplex.glitch.me/master.js', async: true },
+
+            //  // and if you want speaker notes
+            //  { src: 'https://unpkg.com/reveal-notes-server/client.js', async: true }
+            //],
 			// Display presentation control arrows
 			controls: true,
 

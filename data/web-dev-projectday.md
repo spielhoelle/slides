@@ -1,4 +1,5 @@
-# WebDev Projectday
+# WebDev Projectday 
+## (optional)
 
 
 # Timetable
@@ -98,7 +99,6 @@ h1 {
 - Get used to this workflow of editing files, see the result in the browser
 
 
-
 # Installing Git Locally
 - Go to [git-scm.com/downloads](http://git-scm.com/downloads) and download the latest version of Git for your operating system
 - Follow the installation instructions for your operating system (Windows, macOS, or Linux)
@@ -128,7 +128,6 @@ h1 {
 - Run `git clone https://github.com/yourusername/yourrepositoryname.git` to clone the repository to your local machine
 - Navigate into the cloned repository folder
 - Verify that all files are present by running `ls` or `dir`
-
 
 
 # Styling with CSS
@@ -180,7 +179,6 @@ h1 {
 # Preview about frameworks
 - Bootstrap
 - Tailwind
-
 
 
 # Introduction to JavaScript
