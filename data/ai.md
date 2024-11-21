@@ -1,6 +1,20 @@
 # Artificial intelligence
 
 
+# Timetable
+- Class 9:00 - 10:30 (17.00 - 18.30 JST)
+- Break 10:30 - 10:40 (18.30 - 18.40 JST)
+- Class 10:40 - 11:50 (18.40 - 20.10 JST)
+- Break 11:50 - 12:00 (20.10 - 20.20 JST)
+- Class 12:00 - 13:05 (20.20 - 21.05 JST)
+- `Lunch break`
+- Class 14:05 - 15:35 (self paced learning)
+- Break 15:35 - 15:45
+- Class 15:45 - 17:15 (self paced learning)
+- Break 17:15 - 17:25
+- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
+
+
 # Today's agenda
 
 - Attention is all we need <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -15,12 +29,15 @@
 - Examples <!-- .element: class="fragment" data-fragment-index="11" -->
 
 
+<!--# Lets start with something scary-->
+
+<!--- [How normal am I](https://www.hownormalami.eu/)-->
 # Policts: What does Trump have for implications
 
 - loosen Artificial Intelligence (AI) Regulation <!-- .element: class="fragment" data-fragment-index="2" -->
-- Trade Policies and Tariffs <!-- .element: class="fragment" data-fragment-index="3" -->
-- loosen Antitrust Enforcement <!-- .element: class="fragment" data-fragment-index="4" -->
-- tariffs on european/chinese products <!-- .element: class="fragment" data-fragment-index="5" -->
+- Increase Trade Policies and Tariffs <!-- .element: class="fragment" data-fragment-index="3" -->
+- Loosen Antitrust Enforcement <!-- .element: class="fragment" data-fragment-index="4" -->
+- Being pro crypto <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # The paper
@@ -46,9 +63,9 @@ Speaker Notes:
 # Vectors
 
 - https://youtu.be/6yLmbL1o3Ow?t=767 <!-- .element: class="fragment" data-fragment-index="2" -->
-- Multidimensional space https://colab.research.google.com/drive/1lTb2maWnoDhVdz0oamu2Vag86FBhhRP5 <!-- .element: class="fragment" data-fragment-index="3" -->
-- Semantics != keywordbased <!-- .element: class="fragment" data-fragment-index="3" -->
-- Embeddings <!-- .element: class="fragment" data-fragment-index="4" -->
+- <span>Multidimensional space https://colab.research.google.com/drive/1lTb2maWnoDhVdz0oamu2Vag86FBhhRP5 </span><!-- .element: class="fragment" data-fragment-index="3" -->
+- Semantics != keywordbased <!-- .element: class="fragment" data-fragment-index="4" -->
+- Embeddings <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # APIs
@@ -151,6 +168,37 @@ Speaker Notes:
 - Lets play around with more examples 
 
 
+# AI Inference vs Training: Understanding the Difference
+- Deployment of trained models to make predictions or take actions on new data
+- Execution of the model on specific inputs to generate outputs
+- Real-time processing often required for fast response times
+
+
+# Lets see this in action
+
+- Training a model to run terminal commands
+- One for diagram queries
+
+
+# Key Characteristics of AI Training
+- Learning from large datasets to identify patterns and relationships
+- Model optimization through iterative improvement
+- Large computational resources and time required
+
+
+# Key Differences Between Inference and Training
+- Purpose: training is for learning, inference is for deployment
+- Computational resources: training requires more resources than inference
+- Timeframe: training can take days or weeks, inference is typically real-time
+
+
+# AI in Everyday Life
+
+- Chatbots and Virtual Assistants  <!-- .element: class="fragment" data-fragment-index="2" -->
+- Recommendation Systems <!-- .element: class="fragment" data-fragment-index="3" -->
+- Smart Devices and IoT <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
 # Explore metrics
 - show ssh'ed nvtop during inference curl <!-- .element: class="fragment" data-fragment-index="2" -->
 - GPU memory, CPU, Network, hyperparams <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -160,7 +208,7 @@ Speaker Notes:
 # Advanced Integration Techniques
 - Streaming, summarization, nextcloud assistant example <!-- .element: class="fragment" data-fragment-index="2" -->
 - Combine with traditional programming techniques <!-- .element: class="fragment" data-fragment-index="3" -->
-- Copilot as only profitable AI product right now https://github.com/features/copilot <!-- .element: class="fragment" data-fragment-index="4" -->
+- Copilot as only profitable AI product right now <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Deployment 
@@ -209,6 +257,23 @@ Speaker Notes:
 - Example: Data from social media, sensors, logs, etc. <!-- .element: class="fragment" data-fragment-index="2" -->
 - Challenge: Handling different data types <!-- .element: class="fragment" data-fragment-index="3" -->
 - Solution: Flexible data models and storage systems <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# Building AI Models
+
+- Data Collection and Preprocessing <!-- .element: class="fragment" data-fragment-index="2" -->
+- Training and Testing Models <!-- .element: class="fragment" data-fragment-index="3" -->
+- Tools and Frameworks (e.g., TensorFlow, PyTorch, LangChain) <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# AI and Creativity
+
+- Generative AI: Text (GPT), Images (DALL-E), Music <!-- .element: class="fragment" data-fragment-index="2" -->
+- Use cases in arts and design <!-- .element: class="fragment" data-fragment-index="3" -->
+- AI Trends and Future <!-- .element: class="fragment" data-fragment-index="4" -->
+- Explainable AI (XAI) <!-- .element: class="fragment" data-fragment-index="5" -->
+- AI and Sustainability <!-- .element: class="fragment" data-fragment-index="6" -->
+- Human-AI Collaboration <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
 # Everyday Examples of Big Data
@@ -362,22 +427,22 @@ Speaker Notes:
 
 
 # Data Processing Technologies
-- Batch Processing (e.g., Hadoop MapReduce)
-- Real-time Processing (e.g., Apache Storm, Apache Flink)
-- Stream Processing (e.g., Kafka Streams)
+- Batch Processing (e.g., Hadoop MapReduce)  <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-time Processing (e.g., Apache Storm, Apache Flink) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Stream Processing (e.g., Kafka Streams) <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Speaker Notes:
 
-- Batch Processing: Suitable for processing large volumes of data when time isn't a critical factor.
-- Real-time Processing: Necessary when data needs to be processed quickly to produce immediate results.
-- Stream Processing: Designed for data that continuously flows, allowing for incremental responses.
+- Batch Processing: Suitable for processing large volumes of data when time isn't a critical factor. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-time Processing: Necessary when data needs to be processed quickly to produce immediate results. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Stream Processing: Designed for data that continuously flows, allowing for incremental responses. <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Challenges in Data Storage and Processing
-- Scalability
-- Security
-- Data Integrity
-- Accessibility
+- Scalability <!-- .element: class="fragment" data-fragment-index="2" -->
+- Security <!-- .element: class="fragment" data-fragment-index="3" -->
+- Data Integrity <!-- .element: class="fragment" data-fragment-index="4" -->
+- Accessibility <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Speaker Notes:
 
@@ -387,10 +452,14 @@ Speaker Notes:
 - Accessibility: Making data available to users and systems as needed.
 
 
-# Theory & Applications
+# AI in the browser
 
-- Play pacman https://www.tensorflow.org/js
-- bodypix, mobilenet, segment-anything
-- essence of linear algebra matrix multiplication
-- essence of calculus finding the minimum
-- gradient decent
+- Play Pacman with our faces <!-- .element: class="fragment" data-fragment-index="2" -->
+- Some examples: bodypix, mobilenet, segment-anything <!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+# Theory behind
+
+- essence of linear algebra matrix multiplication <!-- .element: class="fragment" data-fragment-index="2" -->
+- essence of calculus finding the minimum <!-- .element: class="fragment" data-fragment-index="3" -->
+- gradient decent <!-- .element: class="fragment" data-fragment-index="4" -->

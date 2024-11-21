@@ -47,7 +47,9 @@
 <body>
 	<div class="reveal">
         <div class="slides">
-
+            <!--<section data-separator="^\n\n\n" data-markdown="data/web-dev-projectday.md" -->
+                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
+            <!--</section>-->
             <!--<section data-separator="^\n\n\n" data-markdown="data/webdev.md" -->
                                               <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
             <!--</section>-->
@@ -57,24 +59,17 @@
             <!--<section data-separator="^\n\n\n" data-markdown="data/data.md" -->
                                               <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
             <!--</section>-->
-            <!--<section data-separator="^\n\n\n" data-markdown="data/ai.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
-            <!--<section data-separator="^\n\n\n" data-markdown="data/visualization.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
+            <section data-separator="^\n\n\n" data-markdown="data/ai.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
+            <section data-separator="^\n\n\n" data-markdown="data/visualization.md" 
+                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
+            </section>
             <!--<section data-separator="^\n\n\n" data-markdown="data/cloudcomputing.md" -->
                                               <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
             <!--</section>-->
 
-            <section data-separator="^\n\n\n" data-markdown="data/cybersec.md" 
-                                              data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">
-            </section>
-
-            <!--<section data-separator="^\n\n\n" data-markdown="data/full.md" -->
-                                              <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
-            <!--</section>-->
-            <!--<section data-separator="^\n\n\n" data-markdown="data/web-dev-projectday.md" -->
+            <!--<section data-separator="^\n\n\n" data-markdown="data/cybersec.md" -->
                                               <!--data-separator-vertical="^\n\n" data-separator-notes="^Speaker Notes:" data-charset="iso-8859-15">-->
             <!--</section>-->
         </div>
@@ -92,7 +87,7 @@
 			// Display presentation control arrows
 			controls: true,
 
-			parallaxBackgroundImage: './data/bg.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+			parallaxBackgroundImage: '/data/bg.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
 
 			// Parallax background size
 			parallaxBackgroundSize: '4000px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
@@ -303,7 +298,7 @@
 			// defaultTiming: 600,
 			defaultTiming: false,
 			//totalTime: 21600,
-			totalTime: 3600 * 6,
+			totalTime: 3600 * 4,
 			// Enable slide navigation via mouse wheel
 			mouseWheel: false,
 			// Opens links in an iframe preview overlay

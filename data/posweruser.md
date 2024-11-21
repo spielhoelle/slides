@@ -1,8 +1,23 @@
 # Power user
 
 
+# Timetable
+- Class 9:00 - 10:30 (17.00 - 18.30 JST)
+- Break 10:30 - 10:40 (18.30 - 18.40 JST)
+- Class 10:40 - 11:50 (18.40 - 20.10 JST)
+- Break 11:50 - 12:00 (20.10 - 20.20 JST)
+- Class 12:00 - 13:05 (20.20 - 21.05 JST)
+- `Lunch break`
+- Class 14:05 - 15:35 (self paced learning)
+- Break 15:35 - 15:45
+- Class 15:45 - 17:15 (self paced learning)
+- Break 17:15 - 17:25
+- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
+
+
 # Today's agenda
 
+- meme https://programmerhumor.io/programming-memes/average10xdevcantsleep/
 - The fun day <!-- .element: class="fragment" data-fragment-index="2" -->
 - Productivity <!-- .element: class="fragment" data-fragment-index="3" -->
 - Python <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -204,6 +219,8 @@ ollama run llava "describe this image: /Users/tommy/Downloads/flight.png"
 
 
 # HotKeys
+
+## can we practise this actively for 5 minutes?
   - CMD/CTRL + C => Copy
   - CMD/CTRL + X => Cut
   - CMD/CTRL + V => Paste
@@ -218,14 +235,29 @@ Speaker Notes:
 * Highlight the importance of mastering basic computer commands
 
 
-# Meditation
+<!--# Meditation-->
 
-- [Meme](https://hachyderm.io/@ChrisShort/112960116280783680)
+<!--- [Meme](https://hachyderm.io/@ChrisShort/112960116280783680)-->
+
+<!--Speaker Notes:-->
+
+<!--* Discuss the benefits of meditation for mental health and well-being-->
+<!--* Encourage mindfulness and self-care practices-->
+# How to write a good prompt
+https://mitenmit.github.io/gpt/?utm_source=hackernewsletter&utm_medium=email&utm_term=show_hn
 
 Speaker Notes:
 
-* Discuss the benefits of meditation for mental health and well-being
-* Encourage mindfulness and self-care practices
+* Provide guidelines for writing effective prompts in AI development
+* Highlight the importance of clear and concise **language**
+
+
+# [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+
+Speaker Notes:
+
+* Provide guidelines for writing effective prompts in AI development
+* Highlight the importance of clear and concise language
 
 
 # Password manangers
@@ -269,22 +301,6 @@ Speaker Notes:
 # PhotoPea
 
 - Photoshop in the browser
-
-
-# [How to write a good prompt](https://mitenmit.github.io/gpt/?utm_source=hackernewsletter&utm_medium=email&utm_term=show_hn)
-
-Speaker Notes:
-
-* Provide guidelines for writing effective prompts in AI development
-* Highlight the importance of clear and concise **language**
-
-
-# [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
-
-Speaker Notes:
-
-* Provide guidelines for writing effective prompts in AI development
-* Highlight the importance of clear and concise language
 
 
 # Think about `Custom Instructions`
@@ -389,6 +405,3 @@ Speaker Notes:
 
 - Define data processing as the collection and manipulation of items of data to produce meaningful information.
 - Discuss different processing types like batch, real-time, stream processing, and explain why choosing the right type matters depending on the data application.
-
-
-

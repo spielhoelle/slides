@@ -1,5 +1,25 @@
 # Big Data & storage
 
+ Timetable
+- Class 9:00 - 10:30 (16.00 - 17.30 JST)
+- Break 10:30 - 10:40 (17.30 - 17.40 JST)
+- Class 10:40 - 11:50 (17.40 - 20.10 JST)
+- Break 11:50 - 12:00 (20.10 - 20.20 JST)
+- Class 12:00 - 13:05 (20.20 - 21.05 JST)
+- `Lunch break`
+- Class 14:05 - 15:35 (self paced learning)
+- Break 15:35 - 15:45
+- Class 15:45 - 17:15 (self paced learning)
+- Break 17:15 - 17:25
+- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
+<!--**Time** | **Block**-->
+<!-----------|----------->
+<!--09:30 - 10:30 | Lesson-->
+<!--10:45 - 12:00 | Lesson-->
+<!--12:00 - 13:00 | Lunch Break-->
+<!--13:00 - 14:45 | Lesson-->
+<!--15:00 - 16:30 | Lesson-->
+
 
 # Today's agenda
 
@@ -14,8 +34,8 @@
 
 # Databases basics
 
-- IAM <!-- .element: class="fragment" data-fragment-index="2" -->
-- RBAC <!-- .element: class="fragment" data-fragment-index="3" -->
+- IAM Identity access management<!-- .element: class="fragment" data-fragment-index="2" -->
+- RBAC Role base access mangement<!-- .element: class="fragment" data-fragment-index="3" -->
 - SQL <!-- .element: class="fragment" data-fragment-index="4" -->
 - Schemas <!-- .element: class="fragment" data-fragment-index="5" -->
 - Indexes <!-- .element: class="fragment" data-fragment-index="6" -->
@@ -23,6 +43,18 @@
 - Replication <!-- .element: class="fragment" data-fragment-index="8" -->
 - Backups <!-- .element: class="fragment" data-fragment-index="9" -->
 - Integration and APIs <!-- .element: class="fragment" data-fragment-index="10" -->
+
+
+# CSV
+
+- Comma seperated values <!-- .element: class="fragment" data-fragment-index="2" -->
+- Most simple format <!-- .element: class="fragment" data-fragment-index="3" -->
+- Portable <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+# Exercise
+- Create a simple file, change the filetype to `.csv` and then add CSV syntax
+- Test that with excel, numbers or open office
 
 
 # Basic SQL Queries
@@ -44,21 +76,9 @@ Speaker Notes:
 - Walk through some basic SQL commands:
 
 
-# Exercise
+<!--# Exercise-->
 
-- Ask TommyBot about the addtional commands like UPDATE or DELETE
-
-
-# CSV
-
-- Comma seperated values <!-- .element: class="fragment" data-fragment-index="2" -->
-- Most simple format <!-- .element: class="fragment" data-fragment-index="3" -->
-- Portable <!-- .element: class="fragment" data-fragment-index="4" -->
-
-
-# Exercise
-- Create a simple file, change the filetype to `.csv` and then add CSV syntax
-- Test that with excel, numbers or open office
+<!--- Ask TommyBot about the addtional commands like UPDATE or DELETE-->
 
 
 # MySQL
@@ -382,6 +402,10 @@ Speaker Notes:
 - Mention security considerations such as susceptibility to XSS attacks in local storage and security flags in cookies.
 
 
+# Exercise
+- Delete your cookie from one specfic website
+
+
 # Regular Data Backups
 - Why Backup? <!-- .element: class="fragment" data-fragment-index="2" -->
   - Protect against data loss <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -397,6 +421,12 @@ Speaker Notes:
 # Exercise
 
 - Trigger a backup
+
+
+# RAID
+
+- Raid 1
+- Raid 6
 
 
 # Using VPNs for Secure Data Transfers
@@ -434,10 +464,158 @@ Speaker Notes:
 - Mention key legislations like GDPR and HIPAA where applicable
 
 
-# How did you like this?
+# Glossary
+<!--# How did you like this?-->
 
-- Give me feedback on TommyBot
-- https://nc.tmy.io/index.php/apps/forms/s/3MmW93on2p5AFXkxkRSszJMf
+<!--- Give me feedback on TommyBot-->
+<!--- https://nc.tmy.io/index.php/apps/forms/s/3MmW93on2p5AFXkxkRSszJMf-->
 
 
+# Data Modeling
+- Entities and relationships using SAP HANA
+- Entity-Relationship (ER) diagrams for data structures
+- Normalization to reduce data redundancy
 
+
+# Normalization
+- Normal forms (1NF, 2NF, 3NF) in SAP databases
+- Applying normalization to SAP HANA tables
+- Benefits of normalization for data integrity
+
+
+# NoSQL Databases
+- NoSQL vs. SQL databases in SAP solutions
+- Use cases for NoSQL within SAP environments
+- Types of NoSQL supported by SAP HANA: Document, Key-Value, Column-Family, Graph
+
+
+# Data Warehousing
+- Data warehousing with SAP BW/4HANA
+- OLTP vs. OLAP systems in SAP
+- Tools and technologies for SAP data warehouses
+
+
+# ETL Processes
+- Extract, Transform, Load (ETL) with SAP Data Services
+- ETL tools in the SAP ecosystem: SAP Data Intelligence
+- Best practices for data integration in SAP
+
+
+# Indexing Strategies
+- Importance of indexes for query performance in SAP HANA
+- Types of indexes in SAP HANA: B-tree, Hash, Composite
+- Creating and managing indexes on SAP tables
+
+
+# Query Optimization
+- Techniques for optimizing SQL queries in SAP HANA
+- Analyzing query execution plans with SAP tools
+- Optimizing joins and subqueries in SAP databases
+
+
+# Security in Databases
+- IAM and RBAC in SAP systems
+- Data encryption at rest and in transit with SAP solutions
+- Protecting against SQL injection and common vulnerabilities in SAP
+
+
+# Data Visualization
+- Tools for visualizing data with SAP Analytics Cloud
+- Dashboards for monitoring key metrics using SAP tools
+- Visual reports for various SAP data sources
+
+
+# Big Data Technologies
+- Hadoop ecosystem for large-scale data processing in SAP
+- Apache Spark for real-time data analytics with SAP HANA
+- Benefits of big data technologies for SAP transaction handling
+
+
+# Cloud Database Services
+- Cloud-based databases offered by SAP: SAP HANA Cloud
+- Advantages of SAP cloud services: scalability and reliability
+- Strategies for migrating SAP databases to the cloud
+
+
+# Data Backup and Recovery
+- Strategies for backing up SAP data regularly
+- Automated backup solutions with SAP tools
+- Recovery plans for business continuity in case of data loss
+
+
+# API Integration
+- Building APIs with SAP Gateway for system integration
+- RESTful vs. GraphQL APIs in SAP environments
+- API endpoints for managing data in SAP systems
+
+
+# Data Privacy and Compliance
+- Data protection regulations relevant to SAP: GDPR, CCPA
+- Compliance of SAP databases with privacy laws
+- Data anonymization and access controls in SAP
+
+
+# Real-time Data Processing
+- Real-time analytics with SAP HANA
+- Real-time data streaming technologies in SAP: SAP Stream Processing
+- Use cases of real-time data for enhancing business processes in SAP
+
+
+# Machine Learning with Databases
+- Leveraging SAP HANA data for machine learning models
+- Examples: recommendation systems, sales forecasting with SAP tools
+- Integrating machine learning workflows with SAP databases
+
+
+# Scalability and Performance
+- Scaling SAP databases horizontally and vertically
+- Load balancing and database clustering in SAP environments
+- Monitoring performance metrics and optimizing resources with SAP tools
+
+
+# Data Governance
+- Data governance policies within SAP
+- Roles and responsibilities in data management for SAP systems
+- Ensuring data quality and consistency across SAP environments
+
+
+# Transaction Management
+- ACID properties with SAP transaction examples
+- Handling concurrent transactions and avoiding deadlocks in SAP
+- Transaction isolation levels within SAP databases
+
+
+# Advanced SQL Features
+- Stored procedures, triggers, and views in SAP HANA
+- Window functions for complex queries in SAP
+- Full-text search capabilities in SAP databases
+
+
+# Migration and Version Control
+- Migrating SAP databases between environments
+- Version control systems for SAP database schema changes
+- Tools for managing database migrations in SAP: SAP Transport Management
+
+
+# Data Governance Policies
+- Importance of data governance in SAP solutions
+- Creating and enforcing data governance policies with SAP tools
+- Maintaining data stewardship and accountability in SAP environments
+
+
+# SAP HANA Architecture
+- In-memory computing architecture of SAP HANA
+- Components and layers of SAP HANA
+- High-performance data processing supported by SAP HANA
+
+
+# Data Integration using SAP Data Intelligence
+- Capabilities of SAP Data Intelligence for integrating diverse data sources
+- Building data pipelines and workflows with SAP Data Intelligence
+- Use cases for data integration in SAP environments
+
+
+# Data Lifecycle Management
+- Managing the data lifecycle within SAP HANA
+- Data retention policies and archival strategies in SAP
+- Tools for monitoring and maintaining data lifecycle in SAP solutions

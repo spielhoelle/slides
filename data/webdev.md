@@ -1,74 +1,135 @@
-# The "internet"
+# Intro into WebDevelopement
 
 
-# Today's agenda
-
-- General overview <!-- .element: class="fragment" data-fragment-index="2" -->
-- Tools <!-- .element: class="fragment" data-fragment-index="3" -->
-- HTML / HTTP <!-- .element: class="fragment" data-fragment-index="4" -->
-- Programming History <!-- .element: class="fragment" data-fragment-index="5" -->
-- Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
-
-
-# Lets start with something scary
-
-- [How normal am I](https://www.hownormalami.eu/)
-
-
-# Folklore
-## What do you think developers are doing?
-
-- Coding all day <!-- .element: class="fragment" data-fragment-index="2" -->
-- Making fancy animations <!-- .element: class="fragment" data-fragment-index="2" -->
-- Creating artificial intelligence <!-- .element: class="fragment" data-fragment-index="2" -->
-- Building robots <!-- .element: class="fragment" data-fragment-index="2" -->
-- Solving puzzles <!-- .element: class="fragment" data-fragment-index="2" -->
-- Learning new languages <!-- .element: class="fragment" data-fragment-index="2" -->
-- Debugging issues <!-- .element: class="fragment" data-fragment-index="2" -->
-- Meeting with other teams <!-- .element: class="fragment" data-fragment-index="2" -->
+# Timetable
+- Class 9:00 - 10:30 (16.00 - 17.30 JST)
+- Break 10:30 - 10:40 (17.30 - 17.40 JST)
+- Class 10:40 - 11:50 (17.40 - 20.10 JST)
+- Break 11:50 - 12:00 (20.10 - 20.20 JST)
+- Class 12:00 - 13:05 (20.20 - 21.05 JST)
+- `Lunch break`
+- Class 14:05 - 15:35 (self paced learning)
+- Break 15:35 - 15:45
+- Class 15:45 - 17:15 (self paced learning)
+- Break 17:15 - 17:25
+- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
+<!--**Time** | **Block**-->
+<!-----------|----------->
+<!--09:30 - 10:30 | Lesson-->
+<!--10:45 - 12:00 | Lesson-->
+<!--12:00 - 13:00 | Lunch Break-->
+<!--13:00 - 14:45 | Lesson-->
+<!--15:00 - 16:30 | Lesson-->
 
 
-# What they are actually doing
+# Today's Agenda
 
-<div class="d-flex">
+- Overview of Web Development <!-- .element: class="fragment" data-fragment-index="2" -->
+- Essential Tools <!-- .element: class="fragment" data-fragment-index="3" -->
+- HTML and HTTP Fundamentals <!-- .element: class="fragment" data-fragment-index="4" -->
+- Brief Programming History <!-- .element: class="fragment" data-fragment-index="5" -->
+- Fun Facts and Developer Folklore <!-- .element: class="fragment" data-fragment-index="6" -->
 
-- [Meme](https://mastodon.sdf.org/@stunder/112293480292078612) <!-- .element: class="fragment" data-fragment-index="2" -->
-- Day-to-day programming experiences <!-- .element: class="fragment" data-fragment-index="3" -->
-- Fixed vs freelance vs remote work environments <!-- .element: class="fragment" data-fragment-index="4" -->
-- Research and problem-solving strategies <!-- .element: class="fragment" data-fragment-index="5" -->
-- Understanding abstract concepts over syntax details <!-- .element: class="fragment" data-fragment-index="6" -->
-- Debugging and finding small issues in large systems <!-- .element: class="fragment" data-fragment-index="7" -->
-- Unpredictable motivation (it often works at the end) <!-- .element: class="fragment" data-fragment-index="8" -->
-- Wide range of industries and applications (e-commerce, biology, etc.) <!-- .element: class="fragment" data-fragment-index="9" -->
-- Future-proofing and scalability <!-- .element: class="fragment" data-fragment-index="10" -->
-- Digital nomadism: working from anywhere <!-- .element: class="fragment" data-fragment-index="11" -->
 
-<img src="./data/img/meme.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
+# General overview
+
+### Who are you?
+
+
+# Who is that person?
+
+- Get in touch <!-- .element: class="fragment" data-fragment-index="12" -->
+  - https://github.com/spielhoelle
+  - https://tmy.io
+  - https://hachyderm.io/@spielhoelle
+
+<img src="./data/img/1.jpg" alt="image" width="500">
 </div>
+
+
+# Initial Tech Stuff
+
+- Zoom basics: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - understand how to navigate and use essential features like raise hand <!-- .element: class="fragment" data-fragment-index="3" -->
+  - mute/unmute <!-- .element: class="fragment" data-fragment-index="4" -->
+  - and breakout rooms <!-- .element: class="fragment" data-fragment-index="5" -->
+- Quick tips for a smooth start:  <!-- .element: class="fragment" data-fragment-index="6" -->
+  - minimize background noise <!-- .element: class="fragment" data-fragment-index="7" -->
+  - keep your mic and camera ready <!-- .element: class="fragment" data-fragment-index="8" -->
+  - and be prepared to ask questions <!-- .element: class="fragment" data-fragment-index="9" -->
+- I cannot look at ZoomChat/Slack etc. Please just speak <!-- .element: class="fragment" data-fragment-index="10" -->
 
 Speaker Notes:
 
-- Highlight the variety of programming experiences
-- Emphasize the importance of problem-solving
-- Puzzle, needle/haystack, readings
+- Test audio/video
+- Raise hand
 
 
-# The day of a developer
+# Internet Stability
 
-<div class="d-flex">
+- What is internet stability? <!-- .element: class="fragment" data-fragment-index="2" -->
+- Importance of fast and stable internet <!-- .element: class="fragment" data-fragment-index="3" -->
+- <span>https://fast.com speed</span> <!-- .element: class="fragment" data-fragment-index="4" -->
+- <p>Ping or http://ping-test.net reliability</p>  <!-- .element: class="fragment" data-fragment-index="5" -->
 
-<img src="./data/img/2.jpg" alt="image" width="100%" height="auto" style="float: right;"><!-- .element: class="fragment" data-fragment-index="9" -->
+Speaker Notes:
 
-- Arrive at "office" <!-- .element: class="fragment" data-fragment-index="2" -->
-- Daily-standup <!-- .element: class="fragment" data-fragment-index="3" -->
-- Pull code from the repository <!-- .element: class="fragment" data-fragment-index="4" -->
-- Check project management tool <!-- .element: class="fragment" data-fragment-index="5" -->
-- Write code  <!-- .element: class="fragment" data-fragment-index="6" -->
-  - stackoverflow - try - error - stackoverflow - repeat <!-- .element: class="fragment" data-fragment-index="7" -->
-- Commit and push changes <!-- .element: class="fragment" data-fragment-index="8" -->
-- Go to step 1 <!-- .element: class="fragment" data-fragment-index="9" -->
+- Emphasize importance for onlipythonne development
+- Mention how it affects coding experience
 
-</div>
+
+# Developer Folklore
+## What do people think developers do?
+
+- Code all day <!-- .element: class="fragment" data-fragment-index="2" -->
+- Design cool animations <!-- .element: class="fragment" data-fragment-index="3" -->
+- Develop artificial intelligence <!-- .element: class="fragment" data-fragment-index="4" -->
+- Build robots <!-- .element: class="fragment" data-fragment-index="5" -->
+- Solve complex puzzles <!-- .element: class="fragment" data-fragment-index="6" -->
+- Learn new programming languages <!-- .element: class="fragment" data-fragment-index="7" -->
+- Debug code endlessly <!-- .element: class="fragment" data-fragment-index="8" -->
+- Collaborate with other teams <!-- .element: class="fragment" data-fragment-index="9" -->
+
+
+# What developers actually do
+
+- [Meme](https://mastodon.sdf.org/@stunder/112293480292078612) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Real-life programming experiences <!-- .element: class="fragment" data-fragment-index="3" -->
+- Different work setups: full-time, freelance, remote, async <!-- .element: class="fragment" data-fragment-index="4" -->
+- Continuous research and troubleshooting <!-- .element: class="fragment" data-fragment-index="5" -->
+- Prioritizing concepts over syntax <!-- .element: class="fragment" data-fragment-index="6" -->
+- Diagnosing and debugging complex systems <!-- .element: class="fragment" data-fragment-index="7" -->
+- Balancing motivation with deadlines <!-- .element: class="fragment" data-fragment-index="8" -->
+- Applications across industries: e-commerce, healthcare, finance <!-- .element: class="fragment" data-fragment-index="9" -->
+- Future-proofing and scaling solutions <!-- .element: class="fragment" data-fragment-index="10" -->
+- Digital nomadism: working flexibly from anywhere <!-- .element: class="fragment" data-fragment-index="11" -->
+
+Speaker Notes:
+- Highlight the variety in a developer’s role and the broad applications of programming.
+- Emphasize problem-solving as a core skill in development.
+- Discuss how developers are often working on abstract solutions rather than isolated code.
+
+
+# Exercise:
+
+Check glassdoor and browse companies search for software developer
+
+
+# A Day in the Life of a Developer
+
+- Arrive at the "office" <!-- .element: class="fragment" data-fragment-index="2" -->
+- Join daily standup meeting <!-- .element: class="fragment" data-fragment-index="3" -->
+- Sync with project repository <!-- .element: class="fragment" data-fragment-index="4" -->
+- Review tasks in project management tool <!-- .element: class="fragment" data-fragment-index="5" -->
+- Code and debug <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Research - attempt - debug - repeat <!-- .element: class="fragment" data-fragment-index="7" -->
+- Commit and push code changes <!-- .element: class="fragment" data-fragment-index="8" -->
+- Repeat as needed <!-- .element: class="fragment" data-fragment-index="9" -->
+
+Speaker Notes:
+- Walk through a typical day, from collaborative standups to individual coding and debugging.
+- Emphasize the cyclical nature of coding: research, trial, error, and improvement.
+- Point out how collaboration and continuous integration keep projects on track.
 
 
 # The humans behind
@@ -96,6 +157,8 @@ Speaker Notes:
 - Related: <!-- .element: class="fragment" data-fragment-index="5" -->
   - Datascience
   - Online marketing
+  - CyberSec
+  - Cloudcomputing
   - Graphic design
 
 <img src="./data/img/3.jpg" alt="image" width="50%" height="auto" style="float: right;">
@@ -106,7 +169,7 @@ Speaker Notes:
 
 <div class="d-flex">
 
-- IT spans over all indunstries <!-- .element: class="fragment" data-fragment-index="2" -->
+- IT spans over all industries <!-- .element: class="fragment" data-fragment-index="2" -->
 - Depending on branch more or less <!-- .element: class="fragment" data-fragment-index="3" -->
 - Old fashioned banks or airlines <!-- .element: class="fragment" data-fragment-index="4" -->
 - Hipster startups <!-- .element: class="fragment" data-fragment-index="5" -->
@@ -117,7 +180,7 @@ Speaker Notes:
 # Mobile first
 
 - Browser usage <!-- .element: class="fragment" data-fragment-index="2" -->
-- What is a framework - bootstrap is one! <!-- .element: class="fragment" data-fragment-index="3" -->
+- What is a framework <!-- .element: class="fragment" data-fragment-index="3" -->
 - Mobile statistics <!-- .element: class="fragment" data-fragment-index="4" -->
 - Analytics google <!-- .element: class="fragment" data-fragment-index="5" -->
 
@@ -128,22 +191,21 @@ Check pages on mobile/tablet, see where the breakpoints are. See layout shifts a
 Do it for yourself
 
 
-# Exercise:
-
-Check glassdoor and browse companies search for software developer
-
-
 # Languages
 
 <div class="d-flex">
 
-- Top 7 Programming languages <!-- .element: class="fragment" data-fragment-index="2" -->
-- What programming languages will reign in 2017 <!-- .element: class="fragment" data-fragment-index="3" -->
-- Be careful: Java is for javascript like the car for the carpet <!-- .element: class="fragment" data-fragment-index="4" -->
-- https://haveibeenpwned.com/ <!-- .element: class="fragment" data-fragment-index="5" -->
+- Top 7 Programming languages (javascript, python, php, java, SQL) <!-- .element: class="fragment" data-fragment-index="2" -->
+- What programming languages will reign in 2017 (thats how old this slide is) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Be careful: Java is for JavaScript like the car for the carpet <!-- .element: class="fragment" data-fragment-index="4" -->
 
 <img src="./data/img/5.jpg" alt="image" width="100%" height="auto" style="float: right;">
 </div>
+
+
+# Exercise
+
+- https://haveibeenpwned.com/ <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Markdown
@@ -393,6 +455,7 @@ Speaker Notes:
 - Network analysis <!-- .element: class="fragment" data-fragment-index="4" -->
   - HTTP requests and responses <!-- .element: class="fragment" data-fragment-index="5" -->
   - Status codes (200, 404, etc.) <!-- .element: class="fragment" data-fragment-index="6" -->
+  - meme https://www.reddit.com/r/programmingmemes/comments/1gjqpif/not_found/#lightbox
   - Headers and bodies <!-- .element: class="fragment" data-fragment-index="7" -->
 
 <img src="./data/img/11.jpg" alt="image" > <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -547,7 +610,4 @@ Speaker Notes:
 - Caching <!-- .element: class="fragment" data-fragment-index="6" -->
 - HTTP caching <!-- .element: class="fragment" data-fragment-index="7" -->
 - Redis <!-- .element: class="fragment" data-fragment-index="8" -->
-
-
-
 
