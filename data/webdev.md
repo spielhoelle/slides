@@ -2,24 +2,27 @@
 
 
 # Timetable
-- Class 9:00 - 10:30 (16.00 - 17.30 JST)
-- Break 10:30 - 10:40 (17.30 - 17.40 JST)
-- Class 10:40 - 11:50 (17.40 - 20.10 JST)
-- Break 11:50 - 12:00 (20.10 - 20.20 JST)
-- Class 12:00 - 13:05 (20.20 - 21.05 JST)
-- `Lunch break`
-- Class 14:05 - 15:35 (self paced learning)
-- Break 15:35 - 15:45
-- Class 15:45 - 17:15 (self paced learning)
-- Break 17:15 - 17:25
-- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
-<!--**Time** | **Block**-->
-<!-----------|----------->
-<!--09:30 - 10:30 | Lesson-->
-<!--10:45 - 12:00 | Lesson-->
-<!--12:00 - 13:00 | Lunch Break-->
-<!--13:00 - 14:45 | Lesson-->
-<!--15:00 - 16:30 | Lesson-->
+<!--- Class 9:00 - 10:30 (16.00 - 17.30 JST)-->
+<!--- Break 10:30 - 10:40 (17.30 - 17.40 JST)-->
+<!--- Class 10:40 - 11:50 (17.40 - 20.10 JST)-->
+<!--- Break 11:50 - 12:00 (20.10 - 20.20 JST)-->
+<!--- Class 12:00 - 13:05 (20.20 - 21.05 JST)-->
+<!--- `Lunch break`-->
+<!--- Class 14:05 - 15:35 (self paced learning)-->
+<!--- Break 15:35 - 15:45-->
+<!--- Class 15:45 - 17:15 (self paced learning)-->
+<!--- Break 17:15 - 17:25-->
+<!--- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)-->
+**Time** | **Block**
+---------|---------
+09:30 - 10:15 | Lesson
+10:15 - 10:30 | Break
+10:30 - 11:45 | Lesson
+11:45 - 12:00 | Break
+12:00 - 13:00 | Lesson
+13:00 - 14:00 | Lunch Break
+14:00 - 15:00 | Lesson
+15:00 - 16:30 | Lesson
 
 
 # Today's Agenda
@@ -34,7 +37,7 @@
 # Developer Folklore
 ## What do people think developers do?
 
-- Code all day <!-- .element: class="fragment" data-fragment-index="2" -->
+- Prompt/Code all day <!-- .element: class="fragment" data-fragment-index="2" -->
 - Design cool animations <!-- .element: class="fragment" data-fragment-index="3" -->
 - Develop artificial intelligence <!-- .element: class="fragment" data-fragment-index="4" -->
 - Build robots <!-- .element: class="fragment" data-fragment-index="5" -->
@@ -50,7 +53,7 @@
 - Real-life programming experiences <!-- .element: class="fragment" data-fragment-index="3" -->
 - Different work setups: full-time, freelance, remote, async <!-- .element: class="fragment" data-fragment-index="4" -->
 - Continuous research and troubleshooting <!-- .element: class="fragment" data-fragment-index="5" -->
-- Prioritizing concepts over syntax <!-- .element: class="fragment" data-fragment-index="6" -->
+- Prioritizing bigger concepts over detailed syntax <!-- .element: class="fragment" data-fragment-index="6" -->
 - Diagnosing and debugging complex systems <!-- .element: class="fragment" data-fragment-index="7" -->
 - Balancing motivation with deadlines <!-- .element: class="fragment" data-fragment-index="8" -->
 - Applications across industries: e-commerce, healthcare, finance <!-- .element: class="fragment" data-fragment-index="9" -->
@@ -74,7 +77,7 @@ Check glassdoor and browse companies search for software developer
 - Join daily standup meeting <!-- .element: class="fragment" data-fragment-index="3" -->
 - Sync with project repository <!-- .element: class="fragment" data-fragment-index="4" -->
 - Review tasks in project management tool <!-- .element: class="fragment" data-fragment-index="5" -->
-- Code and debug <!-- .element: class="fragment" data-fragment-index="6" -->
+- Write feature Code and debug <!-- .element: class="fragment" data-fragment-index="6" -->
   - Research - attempt - debug - repeat <!-- .element: class="fragment" data-fragment-index="7" -->
 - Commit and push code changes <!-- .element: class="fragment" data-fragment-index="8" -->
 - Repeat as needed <!-- .element: class="fragment" data-fragment-index="9" -->
@@ -116,6 +119,11 @@ Speaker Notes:
 
 <img src="./data/img/3.jpg" alt="image" width="50%" height="auto" style="float: right;">
 </div>
+
+
+# Start webproject
+
+- open my html
 
 
 # Habitat
@@ -419,11 +427,9 @@ Speaker Notes:
 - How HTML is transported over the internet using HTTP
 
 
-# GameDev
-- Improvise
-- https://youtu.be/xyPzTywUBsQ?t=1573
-
-
+<!--# GameDev-->
+<!--- Improvise-->
+<!--- https://youtu.be/xyPzTywUBsQ?t=1573-->
 # Exercise:
 
 - Go back to the inspector and inspect network traffic from youtube <!-- .element: class="fragment" data-fragment-index="2" -->

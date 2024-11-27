@@ -1,22 +1,31 @@
 # Cyber security
 
 
-# Timetable
-
-No worries - this is a flexible timeframe
-
-**Time** | **Block**
----------|---------
-09:30 - 10:30 | Lesson
-10:45 - 12:00 | Lesson
-12:00 - 13:00 | Lunch Break
-13:00 - 14:45 | Lesson
-15:00 - 16:30 | Lesson
+ # Timetable
+- Class 9:00 - 10:30 (16.00 - 17.30 JST)
+- Break 10:30 - 10:40 (17.30 - 17.40 JST)
+- Class 10:40 - 11:50 (17.40 - 20.10 JST)
+- Break 11:50 - 12:00 (20.10 - 20.20 JST)
+- Class 12:00 - 13:05 (20.20 - 21.05 JST)
+- `Lunch break`
+- Class 14:05 - 15:35 (self paced learning)
+- Break 15:35 - 15:45
+- Class 15:45 - 17:15 (self paced learning)
+- Break 17:15 - 17:25
+- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
+<!--**Time** | **Block**-->
+<!-----------|----------->
+<!--09:30 - 10:30 | Lesson-->
+<!--10:45 - 12:00 | Lesson-->
+<!--12:00 - 13:00 | Lunch Break-->
+<!--13:00 - 14:45 | Lesson-->
+<!--15:00 - 16:30 | Lesson-->
 
 
 # Today's agenda
 
-- Try to fix that SSH issue <!-- .element: class="fragment" data-fragment-index="2" -->
+- Test some AI code integrations <!-- .element: class="fragment" data-fragment-index="2" -->
+- The simple world of shortcuts
 - White hat, red team? A introduction <!-- .element: class="fragment" data-fragment-index="3" -->
 - Networking and Privacy <!-- .element: class="fragment" data-fragment-index="4" -->
 - Web Security and Online Safety <!-- .element: class="fragment" data-fragment-index="5" -->
@@ -24,12 +33,13 @@ No worries - this is a flexible timeframe
 - We have a look at many viruses <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
-# SSH keys and the issue from yesterday
+# Exercise
 
-- Poll: who has windows? Try to run ssh on the terminal and tell me what you see <!-- .element: class="fragment" data-fragment-index="2" -->
-- Github updated security policy <!-- .element: class="fragment" data-fragment-index="3" -->
-- username+password too weak <!-- .element: class="fragment" data-fragment-index="4" -->
-- solution private/public key authentication mechanism <!-- .element: class="fragment" data-fragment-index="5" -->
+## Test some shortcut automations
+
+- Power user can copy paste fast, and strip fast things
+- Search & replace
+- Regex
 
 
 # Session 1: Introduction to Cyber Security and Basic Security Concerns

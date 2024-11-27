@@ -339,8 +339,8 @@ Speaker Notes:
 
 ## Exercise
 
-- Virtual Machines: Create and manage VMs <!-- .element: class="fragment" data-fragment-index="2" -->
-- Collaboration Tools: Using Google Docs for cloud collaboration <!-- .element: class="fragment" data-fragment-index="3" -->
+- Diagram a e-commerce shop with web server, database, payment gateway <!-- .element: class="fragment" data-fragment-index="2" -->
+- Compare to car-company example <!-- .element: class="fragment" data-fragment-index="3" -->
 - Cloud Applications: Explore Gmail, Google Calendar <!-- .element: class="fragment" data-fragment-index="4" -->
 
 Speaker Notes:
