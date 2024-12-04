@@ -8,11 +8,15 @@ No worries - this is a flexible timeframe
 
 **Time** | **Block**
 ---------|---------
-09:30 - 10:30 | Lesson
-10:45 - 12:00 | Lesson
-12:00 - 13:00 | Lunch Break
-13:00 - 14:45 | Lesson
-15:00 - 16:30 | Lesson
+09:30 - 10:15 | Lesson
+10:15 - 10:30 | Break
+10:30 - 11:45 | Lesson
+11:45 - 12:00 | Break
+12:00 - 13:00 | Lesson
+13:00 - 14:00 | Lunch Break
+14:00 - 15:00 | Lesson
+15:00 - 15:15 | Break
+15:15 - 16:30 | Lesson
 
 
 # Web Development Project Day

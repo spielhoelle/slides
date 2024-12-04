@@ -22,7 +22,8 @@
 12:00 - 13:00 | Lesson
 13:00 - 14:00 | Lunch Break
 14:00 - 15:00 | Lesson
-15:00 - 16:30 | Lesson
+15:00 - 15:15 | Break
+15:15 - 16:30 | Lesson
 
 
 # Today's agenda
@@ -40,19 +41,30 @@
 - [Meme](https://mastodon.social/@DeftGPT/112295945573836904)
 - Bad knowledge base, prefer generative aspects <!-- .element: class="fragment" data-fragment-index="2" -->
 - Custom instructions <!-- .element: class="fragment" data-fragment-index="3" -->
-- Prompt engineering <!-- .element: class="fragment" data-fragment-index="4" -->
-- hyperparams <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+# [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+
+- Prompt engineering <!-- .element: class="fragment" data-fragment-index="2" -->
+    - https://platform.openai.com/docs/guides/prompt-engineering
+- hyperparams <!-- .element: class="fragment" data-fragment-index="3" -->
+
+Speaker Notes:
+
+* Provide guidelines for writing effective prompts in AI development
+* Highlight the importance of clear and concise language
 
 
 # Exercise: 
 
-- Ask TommyBot for power user tips in your OS (Operating System)
+<!--- Ask TommyBot for power user tips in your OS (Operating System)-->
+- Check in your AI provider how you set the systemprompt, create agents or similar
 
 
 # Making AI
 
 - Data data data <!-- .element: class="fragment" data-fragment-index="2" -->
-- <span>Different kinds of [ AI ](https://www.google.com/search?q=different+types+of+artificial+intelligence&sca_esv=d43be9027bdcd404&ei=LjkjZ4CsCt2Kvr0P5YCCgQY&oq=different+types+of+arti&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2RpZmZlcmVudCB0eXBlcyBvZiBhcnRpKgIIADILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI0RNQ3QlY0QxwAXgBkAEAmAGAAaABwQOqAQMxLjO4AQPIAQD4AQGYAgWgAs8DwgIKEAAYsAMY1gQYR5gDAIgGAZAGCJIHAzIuM6AH1Rc&sclient=gws-wiz-serp)</span> <!-- .element: class="fragment" data-fragment-index="3" -->
+- <span>Different kinds of [ AI ](https://www.google.com/search?q=types+of+data+science&client=firefox-b-d&sca_esv=4efe3cc755905106&sxsrf=ADLYWIKvQcjeOE2wvmiC8mD-6gkFk42fdw%3A1733298812256&ei=fApQZ-2kD5Pg0-kP8YDuoAE&ved=0ahUKEwjt0vmf0Y2KAxUT8DQHHXGAGxQQ4dUDCA8&uact=5&oq=types+of+data+science&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXR5cGVzIG9mIGRhdGEgc2NpZW5jZTILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI0g5QhgRYzw1wAngBkAEAmAGQAaAB7wuqAQQwLjEyuAEDyAEA-AEBmAIOoAKeDMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIIEAAYgAQYsQPCAgoQABiABBhDGIoFwgIOEAAYgAQYkQIYsQMYigWYAwCIBgGQBgqSBwQyLjEyoAfxQg&sclient=gws-wiz-serp)</span> <!-- .element: class="fragment" data-fragment-index="3" -->
 - Foundation training, fine-tune, RAG <!-- .element: class="fragment" data-fragment-index="4" -->
 - ML ops <!-- .element: class="fragment" data-fragment-index="5" -->
 
@@ -66,6 +78,10 @@
 - Compilers <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
+# Productivity things - 
+## Which do you use?
+
+
 # Power user
 
 - Hotkeys <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -76,6 +92,18 @@
 - Task lists, calender, sync of those <!-- .element: class="fragment" data-fragment-index="7" -->
 - Calendly <!-- .element: class="fragment" data-fragment-index="8" -->
 - Zapier <!-- .element: class="fragment" data-fragment-index="9" -->
+
+
+# HotKeys
+
+## can we practise this actively for a few minutes?
+  - CMD/CTRL + C => Copy
+  - CMD/CTRL + X => Cut
+  - CMD/CTRL + V => Paste
+  - CMT/CTRL + Z => Undo
+  - CMT/CTRL + Y => Redo
+  - CMT/CTRL + T => New Tab
+  - CMT/CTRL + W => Close Tab
 
 
 # Funny things
@@ -227,18 +255,6 @@ Also [in german](https://pudding-cool.translate.goog/2024/03/teenagers/?_x_tr_sl
 ollama run llava "describe this image: /Users/tommy/Downloads/flight.png"
 ```
 
-
-# HotKeys
-
-## can we practise this actively for 5 minutes?
-  - CMD/CTRL + C => Copy
-  - CMD/CTRL + X => Cut
-  - CMD/CTRL + V => Paste
-  - CMT/CTRL + Z => Undo
-  - CMT/CTRL + Y => Redo
-  - CMT/CTRL + T => New Tab
-  - CMT/CTRL + W => Close Tab
-
 Speaker Notes:
 
 * Introduce keyboard shortcuts for improved productivity and efficiency
@@ -260,14 +276,6 @@ Speaker Notes:
 
 * Provide guidelines for writing effective prompts in AI development
 * Highlight the importance of clear and concise **language**
-
-
-# [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
-
-Speaker Notes:
-
-* Provide guidelines for writing effective prompts in AI development
-* Highlight the importance of clear and concise language
 
 
 # Password manangers
@@ -323,6 +331,10 @@ Speaker Notes:
 
 # Do it in Modelfile
 
+- Can set all the hyper params 
+- specify on certain task
+- https://github.com/ollama/ollama/blob/main/docs/modelfile.md
+
 
 # [Gemini](https://gemini.google.com/app), and other llm's like `Claude` or `Cohere`
 
@@ -332,7 +344,8 @@ Speaker Notes:
 * Discuss the unique features and strengths of each model
 
 
-# publish on CV
+# Exercise
+## publish on CV
 
 Speaker Notes:
 

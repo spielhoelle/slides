@@ -103,7 +103,7 @@ Speaker Notes:
 <img src="./data/img/devtools.png" alt="image" height="30%" style="float: right;">
 
 
-# Sub-gernes
+# Sub-genres
 
 <div class="d-flex">
 
