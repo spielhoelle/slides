@@ -92,6 +92,7 @@ Speaker Notes:
 - Task lists, calender, sync of those <!-- .element: class="fragment" data-fragment-index="7" -->
 - Calendly <!-- .element: class="fragment" data-fragment-index="8" -->
 - Zapier <!-- .element: class="fragment" data-fragment-index="9" -->
+- Gemma https://gamma.app/docs/Kittens-and-Their-Snow-History-z7lvo0dh4cyjf92?mode=doc
 
 
 # HotKeys
@@ -110,16 +111,16 @@ Speaker Notes:
 
 - Hackertyper <!-- .element: class="fragment" data-fragment-index="2" -->
 - ThisPersonDoesntExist <!-- .element: class="fragment" data-fragment-index="3" -->
-- React95stst <!-- .element: class="fragment" data-fragment-index="4" -->
+- React95 <!-- .element: class="fragment" data-fragment-index="4" -->
 - <span>[Accidentally destroyed production database on first day of a job](https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/)</span>st <!-- .element: class="fragment" data-fragment-index="5" -->
 - Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
 - Google Recursion <!-- .element: class="fragment" data-fragment-index="7" -->
+- how normal am i
 
 
 # Exercise:
 Learn the keyboard shortcut to open the task manager (e.g., Ctrl+Shift+Esc on Windows, Command+Option+Esc on Mac).
 Use the task manager to close unnecessary programs or background processes that are using up system resources.
-Try to use this shortcut to quickly switch between applications and windows.
 
 
 # Python Basics

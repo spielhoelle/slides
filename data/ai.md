@@ -115,7 +115,7 @@ curl https://ai.tmy.io/api/chat -d '{
 - Checkout some patterns https://vectorize.io/multimodal-rag-patterns/ <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
-# Chains
+# LLM-Chains
 
 - [Strip email, date, customer from plaintext]( https://github.com/spielhoelle/capsule/blob/main/capsule/email/prompts.py ) <!-- .element: class="fragment" data-fragment-index="2" -->
 - [langchain_email_stock_check]( https://colab.research.google.com/drive/1nExcMEYEWi2VlMF1FnPVlu_rCGEZ4V_V#scrollTo=Lehhy0tMpBmw ) <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -126,7 +126,7 @@ curl https://ai.tmy.io/api/chat -d '{
 - Checkout some nodes & edges https://langchain-ai.github.io/langgraphjs/tutorials/
 
 
-# First steps
+# Usually first steps
 ## Setting Up the Environment
 - Python and virtual environments
 - Installing LangChain and other dependencies
