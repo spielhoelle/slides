@@ -1,8 +1,23 @@
 # Cloud Computing
 
 
-# Today's agenda
+# Timetable
 
+No worries - this is a flexible timeframe
+
+**Time** | **Block**
+---------|---------
+09:30 - 10:15 | Lesson
+10:15 - 10:30 | Break
+10:30 - 11:45 | Lesson
+11:45 - 12:00 | Break
+12:00 - 13:00 | Lesson
+13:00 - 14:00 | Lunch Break
+14:00 - 15:00 | Lesson
+15:00 - 15:15 | Break
+15:15 - 16:30 | Lesson
+
+# Today's agenda
 - There is no cloud, its just somebody else compter <!-- .element: class="fragment" data-fragment-index="2" -->
 - Containerization and infrastructure as code <!-- .element: class="fragment" data-fragment-index="3" -->
 - GitOps <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -283,6 +298,10 @@ Speaker Notes:
 
 ## VIM 
 ### and other religious beliefs
+
+
+# Terraform
+## provisioning cloud infra
 
 
 ## Cloud Networking Basics
