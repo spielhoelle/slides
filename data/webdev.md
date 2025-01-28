@@ -14,7 +14,6 @@
 - Break 17:15 - 17:25
 - Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
 
-
 <!-- **Time** | **Block** -->
 <!-- ---------|--------- -->
 <!-- 09:30 - 10:15 | Lesson -->
@@ -30,13 +29,16 @@
 # Today's Agenda
 
 - Overview of Web Development <!-- .element: class="fragment" data-fragment-index="2" -->
-- Essential Tools <!-- .element: class="fragment" data-fragment-index="3" -->
-- HTML and HTTP Fundamentals <!-- .element: class="fragment" data-fragment-index="4" -->
-- Brief Programming History <!-- .element: class="fragment" data-fragment-index="5" -->
-- Fun Facts and Developer Folklore <!-- .element: class="fragment" data-fragment-index="6" -->
+- Brief Programming History <!-- .element: class="fragment" data-fragment-index="3" -->
+- Languages <!-- .element: class="fragment" data-fragment-index="4" -->
+- Tools <!-- .element: class="fragment" data-fragment-index="5" -->
+- HTML and HTTP Fundamentals <!-- .element: class="fragment" data-fragment-index="6" -->
+- Fun Facts and Developer Folklore <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
-# Developer Folklore
+# Overview of Web Developement
+
+
 ## What do people think developers do?
 
 - Prompt/Code all day <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -49,7 +51,7 @@
 - Collaborate with other teams <!-- .element: class="fragment" data-fragment-index="9" -->
 
 
-# What developers actually do
+## What developers actually do
 
 - [Meme](https://mastodon.sdf.org/@stunder/112293480292078612) <!-- .element: class="fragment" data-fragment-index="2" -->
 - Real-life programming experiences <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -68,12 +70,12 @@ Speaker Notes:
 - Discuss how developers are often working on abstract solutions rather than isolated code.
 
 
-# Exercise:
+## Exercise:
 
 Check glassdoor and browse companies search for software developer
 
 
-# A Day in the Life of a Developer
+## A Day in the Life of a Developer
 
 - Arrive at the "office" <!-- .element: class="fragment" data-fragment-index="2" -->
 - Join daily standup meeting <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -90,13 +92,13 @@ Speaker Notes:
 - Point out how collaboration and continuous integration keep projects on track.
 
 
-# The humans behind
+## The humans behind
 
 - <span>[History of webdesign](https://www.smamarketing.net/blog/the-history-of-website-design)</span> <!-- .element: class="fragment" data-fragment-index="2" -->
 - <span>[State of JS](https://2019.stateofjs.com/demographics/#gender)</span> <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
-# Exercise:
+## Exercise:
 
 - <span>Inspect the `DevTools`:</span>  <!-- .element: class="fragment" data-fragment-index="2" -->
   - Elements HTML, Styles and Javascript console <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -105,7 +107,7 @@ Speaker Notes:
 <img src="./data/img/devtools.png" alt="image" height="30%" style="float: right;">
 
 
-# Sub-genres
+## Sub-genres
 
 <div class="d-flex">
 
@@ -123,12 +125,13 @@ Speaker Notes:
 </div>
 
 
-# Start webproject
+## Exercise
 
+- Start webproject 
 - open my html
 
 
-# Habitat
+## Habitat
 
 <div class="d-flex">
 
@@ -140,21 +143,21 @@ Speaker Notes:
 </div>
 
 
-# Mobile first
+## Mobile first
 
 - Browser usage <!-- .element: class="fragment" data-fragment-index="2" -->
 - What is a framework <!-- .element: class="fragment" data-fragment-index="3" -->
 - Mobile statistics <!-- .element: class="fragment" data-fragment-index="4" -->
-- Analytics google <!-- .element: class="fragment" data-fragment-index="5" -->
+- Google analytics <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Exercise:
+## Exercise:
 
-Check pages on mobile/tablet, see where the breakpoints are. See layout shifts and check which elements are not visible anymore.
-Do it for yourself
+- Check pages on mobile/tablet, see where the breakpoints are. 
+- See layout shifts and check which elements are not visible anymore.
 
 
-# Languages
+## Languages
 
 <div class="d-flex">
 
@@ -166,12 +169,14 @@ Do it for yourself
 </div>
 
 
-# Exercise
+## Exercise
+
+### See if you email addresses got hacked
 
 - https://haveibeenpwned.com/ <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Markdown
+## Markdown
 
 - Easy to write <!-- .element: class="fragment" data-fragment-index="2" -->
 - Easy to read <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -184,7 +189,7 @@ Speaker Notes:
 - How to use Markdown for writing and formatting text
 
 
-# Wordpress
+## Wordpress
 
 - Easy solution <!-- .element: class="fragment" data-fragment-index="2" -->
 - Battletested <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -192,7 +197,7 @@ Speaker Notes:
 - Big community <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# CSS
+## CSS
 
 - Make things beautiful  <!-- .element: class="fragment" data-fragment-index="2" -->
 - Pendant to HTML structure <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -200,7 +205,7 @@ Speaker Notes:
 - No structre <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Javascript
+## Javascript
 
 - Makes the web interactive <!-- .element: class="fragment" data-fragment-index="2" -->
 - Possible to used in FE and BE <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -208,13 +213,13 @@ Speaker Notes:
 - Allround tool <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Exercise:
+## Exercise:
 - Use the browser console to calculate some numbers. <!-- .element: class="fragment" data-fragment-index="2" -->
 - Use alert, confirm("Really?") and combine it with timeout <!-- .element: class="fragment" data-fragment-index="3" -->
 - Take some time and browse the D3.js examples. <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# HTML elements structure
+## HTML elements structure
 
 - HyperText Markup Language <!-- .element: class="fragment" data-fragment-index="2" -->
 - Tags that can be nested <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -232,7 +237,7 @@ Speaker Notes:
 - Limitations of HTML (no programming)
 
 
-# Combine HTML, CSS and maybe Javascript
+## Combine HTML, CSS and maybe Javascript
 
 - Create a HTML file and put html head body and h1 elements in <!-- .element: class="fragment" data-fragment-index="2" -->
 - Create a CSS file and give the body a background-color <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -243,7 +248,7 @@ Speaker Notes:
 <html><head></head><body><h1>Example</h1></body></html>
 
 
-# Python
+## Python
 
 - Simple syntax <!-- .element: class="fragment" data-fragment-index="2" -->
 - Used heavy in machine learning <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -252,7 +257,7 @@ Speaker Notes:
 - Compared to JS no frontend native language <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
-# Local LLM's
+## Local LLM's
 
 - Ollama <!-- .element: class="fragment" data-fragment-index="2" -->
 - Offline helpers <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -262,7 +267,7 @@ Speaker Notes:
 # Tools
 
 
-# Hammer? or what?
+## Overview
 
 - Browser inspector <!-- .element: class="fragment" data-fragment-index="2" -->
 - Code-editor <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -274,7 +279,7 @@ Speaker Notes:
 - Intro about the toolbelt
 
 
-# Browser-inspector
+## Browser-inspector
 
 - Let you inspect what got finally rendered <!-- .element: class="fragment" data-fragment-index="2" -->
 - Good to debug web applications <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -287,12 +292,12 @@ Speaker Notes:
 - Mention how it can be used to troubleshoot common issues like selectors, js issues, missing imports
 
 
-# Exercise:
+## Exercise:
 
 Open the inspector in your browser and check some html-elements on pages you frequently visit
 
 
-# IDE
+## IDE
 
 - Integrated Development Environment <!-- .element: class="fragment" data-fragment-index="2" -->
 - Like a text editor - just better <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -305,18 +310,18 @@ Speaker Notes:
 - Emphasize the benefits of using an IDE over a text editor
 
 
-# Examples:
+## Examples:
 
 - Notepad++ <!-- .element: class="fragment" data-fragment-index="2" -->
 - Sublime text <!-- .element: class="fragment" data-fragment-index="3" -->
 - VsCode <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
-# Exercise:
+## Exercise:
 Download VsCode and create a html file
 
 
-# Project management tools
+## Project management tools
 
 <div class="d-flex">
 
@@ -333,7 +338,7 @@ Download VsCode and create a html file
   </div>
 
 
-# Terminal/Shell/Bash/CMD
+## Terminal/Shell/Bash/CMD
 
 <div class="d-flex">
 
@@ -347,7 +352,7 @@ Download VsCode and create a html file
 </div>
 
 
-# Exercise:
+## Exercise:
 
 - Open a terminal app for mac <!-- .element: class="fragment" data-fragment-index="2" -->
 - Cmd.exe for windows users <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -357,7 +362,7 @@ Download VsCode and create a html file
   - MAC: ls, MS: dir
 
 
-# Git
+## Git
 
 - Version control to track changes in your work <!-- .element: class="fragment" data-fragment-index="2" -->
 - Allows for multiple developers to work on a project simultaneously and collaboratively <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -372,7 +377,7 @@ Speaker Notes:
 <img src="./data/img/6.jpg" alt="image" height="auto"> <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
-# Exercise:
+## Exercise:
 
 - <span>Practice coding concepts online e.g. https://learngitbranching.js.org</span> <!-- .element: class="fragment" data-fragment-index="2" -->
 - Create a GitHub account to collaborate and track progress <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -385,7 +390,7 @@ Speaker Notes:
 - Highlight how collaboration and mentorship can accelerate learning
 
 
-# Excerise
+## Excerise
 
 Combining the Tools
 
@@ -411,7 +416,7 @@ Speaker Notes:
 # HTTP
 
 
-# HTTP... what?
+## HTTP... what?
 
 - HyperText Transfer Protocol <!-- .element: class="fragment" data-fragment-index="2" -->
   - Standard protocol for transferring data (like HTML) over the internet <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -432,13 +437,13 @@ Speaker Notes:
 <!--# GameDev-->
 <!--- Improvise-->
 <!--- https://youtu.be/xyPzTywUBsQ?t=1573-->
-# Exercise:
+## Exercise:
 
 - Go back to the inspector and inspect network traffic from youtube <!-- .element: class="fragment" data-fragment-index="2" -->
 - See statuscodes, content-type and timings in action <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
-# Difference between HTTP and HTTPS
+## Difference between HTTP and HTTPS
 
 <div class="d-flex">
 <div>
@@ -465,7 +470,7 @@ Speaker Notes:
 - Additional steps for enhanced security
 
 
-# DNS
+## DNS
 
 - Telephone book of the web <!-- .element: class="fragment" data-fragment-index="2" -->
   - Maps human-readable domain names to IP addresses <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -479,7 +484,7 @@ Speaker Notes:
 - Importance of DNS in web development
 
 
-# Binary
+## Binary
 
 <div class="d-flex">
 
@@ -505,7 +510,7 @@ Speaker Notes:
 - How ASCII encoding works
 
 
-# Hexadecimal
+## Hexadecimal
 
 ### A Shorter Representation of Numbers
 
@@ -528,12 +533,12 @@ Speaker Notes:
 - How hexadecimal works
 
 
-# Exercise:
+## Exercise:
 - Refer to the ascii table and convert your name into binary
 - Refer to the ascii table and convert your name into hexadecimal
 
 
-# Problems
+## Problems
 
 ### Challenges in Computing and Networking
 
@@ -555,14 +560,14 @@ Speaker Notes:
 - Importance of addressing these issues to ensure system stability and security
 
 
-# Accessiblity
+## Accessiblity
 
 - html attributes <!-- .element: class="fragment" data-fragment-index="2" -->
 - dev-tools tools <!-- .element: class="fragment" data-fragment-index="3" -->
 - keyboard accessibility <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
-# Performance
+## Performance
 
 - Browser vs. embedded vs. cloud <!-- .element: class="fragment" data-fragment-index="2" -->
 - Images <!-- .element: class="fragment" data-fragment-index="3" -->
