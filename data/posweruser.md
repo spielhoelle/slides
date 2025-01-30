@@ -34,6 +34,7 @@
 - Focus on integrations  <!-- .element: class="fragment" data-fragment-index="4" -->
 - Look at some common tools like ClickUp, iterm, other API key slots? <!-- .element: class="fragment" data-fragment-index="5" -->
 
+
 # [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
 
 - Prompt engineering <!-- .element: class="fragment" data-fragment-index="2" -->
