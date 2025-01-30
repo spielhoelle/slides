@@ -102,7 +102,7 @@ Speaker Notes:
 
 - <span>Inspect the `DevTools`:</span>  <!-- .element: class="fragment" data-fragment-index="2" -->
   - Elements HTML, Styles and Javascript console <!-- .element: class="fragment" data-fragment-index="3" -->
-  - <span>Checkout first website from [Cern](http://info.cern.ch/hypertext/WWW/TheProject.html)</span> <!-- .element: class="fragment" data-fragment-index="4" -->
+  - <span>Checkout first website from [Debugging wikipedia](https://en.wikipedia.org/wiki/Debugging)</span> <!-- .element: class="fragment" data-fragment-index="4" -->
 
 <img src="./data/img/devtools.png" alt="image" height="30%" style="float: right;">
 

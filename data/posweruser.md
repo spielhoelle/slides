@@ -19,7 +19,7 @@
 # Today's agenda
 
 - meme https://programmerhumor.io/programming-memes/average10xdevcantsleep/
-- The fun day <!-- .element: class="fragment" data-fragment-index="2" -->
+- The fun day starts with AI <!-- .element: class="fragment" data-fragment-index="2" -->
 - Productivity <!-- .element: class="fragment" data-fragment-index="3" -->
 - Python <!-- .element: class="fragment" data-fragment-index="4" -->
 - Tech softskills <!-- .element: class="fragment" data-fragment-index="5" -->
@@ -31,7 +31,8 @@
 - [Meme](https://mastodon.social/@DeftGPT/112295945573836904)
 - Bad knowledge base, prefer generative aspects <!-- .element: class="fragment" data-fragment-index="2" -->
 - Custom instructions <!-- .element: class="fragment" data-fragment-index="3" -->
-
+- Focus on integrations  <!-- .element: class="fragment" data-fragment-index="4" -->
+- Look at some common tools like ClickUp, iterm, other API key slots? <!-- .element: class="fragment" data-fragment-index="5" -->
 
 # [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
 
@@ -74,6 +75,7 @@ Speaker Notes:
 
 # Power user
 
+- [Meme](https://programmerhumor.io/programming-memes/were-some-crazy-people/)
 - Hotkeys <!-- .element: class="fragment" data-fragment-index="2" -->
 - Productivity apps (Alfred or similar) <!-- .element: class="fragment" data-fragment-index="3" -->
 - Don't over-engineer it <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -97,20 +99,22 @@ Speaker Notes:
   - CMT/CTRL + W => Close Tab
 
 
-# Funny things
+# How to write a good prompt
+https://mitenmit.github.io/gpt/?utm_source=hackernewsletter&utm_medium=email&utm_term=show_hn
 
-- Hackertyper <!-- .element: class="fragment" data-fragment-index="2" -->
-- ThisPersonDoesntExist <!-- .element: class="fragment" data-fragment-index="3" -->
-- React95 <!-- .element: class="fragment" data-fragment-index="4" -->
-- <span>[Accidentally destroyed production database on first day of a job](https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/)</span>st <!-- .element: class="fragment" data-fragment-index="5" -->
-- Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
-- Google Recursion <!-- .element: class="fragment" data-fragment-index="7" -->
-- how normal am i
+Speaker Notes:
+
+* Provide guidelines for writing effective prompts in AI development
+* Highlight the importance of clear and concise **language**
 
 
-# Exercise:
-Learn the keyboard shortcut to open the task manager (e.g., Ctrl+Shift+Esc on Windows, Command+Option+Esc on Mac).
-Use the task manager to close unnecessary programs or background processes that are using up system resources.
+# Exercise
+## Create a set of prompts with templates
+
+Speaker Notes:
+
+* Emphasize the importance of showcasing AI-related projects and experience on a resume
+* Highlight the benefits of highlighting relevant skills and achievements
 
 
 # Python Basics
@@ -173,6 +177,22 @@ while (true) {
     console.log(Date.now())
 }
 ```
+
+
+# Funny things
+
+- Hackertyper <!-- .element: class="fragment" data-fragment-index="2" -->
+- ThisPersonDoesntExist <!-- .element: class="fragment" data-fragment-index="3" -->
+- React95 <!-- .element: class="fragment" data-fragment-index="4" -->
+- <span>[Accidentally destroyed production database on first day of a job](https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/)</span>st <!-- .element: class="fragment" data-fragment-index="5" -->
+- Funny things <!-- .element: class="fragment" data-fragment-index="6" -->
+- Google Recursion <!-- .element: class="fragment" data-fragment-index="7" -->
+- how normal am i <!-- .element: class="fragment" data-fragment-index="8" -->
+
+
+# Exercise:
+- Learn the keyboard shortcut to open the task manager (e.g., Ctrl+Shift+Esc on Windows, Command+Option+Esc on Mac).
+- Use the task manager to close unnecessary programs or background processes that are using up system resources.
 
 
 # Introduction to Functions
@@ -335,15 +355,6 @@ Speaker Notes:
 * Discuss the unique features and strengths of each model
 
 
-# Exercise
-## publish on CV
-
-Speaker Notes:
-
-* Emphasize the importance of showcasing AI-related projects and experience on a resume
-* Highlight the benefits of highlighting relevant skills and achievements
-
-
 # data science and ethnics
 
 
@@ -400,16 +411,14 @@ Speaker Notes:
 - showcase what you can extract
 
 
-# Lets predict the future
+# Langchain
 
 
-# Langchain test for image classification
+# excel
+- and its importance for relational data
 
 
-# excel practice
-
-
-# randomness in datascience
+# randomness
 
 
 # Data Processing
