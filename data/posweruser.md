@@ -70,10 +70,6 @@ Speaker Notes:
 - Compilers <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
-# Productivity things - 
-## Which do you use?
-
-
 # Power user
 
 - [Meme](https://programmerhumor.io/programming-memes/were-some-crazy-people/)
@@ -85,7 +81,7 @@ Speaker Notes:
 - Task lists, calender, sync of those <!-- .element: class="fragment" data-fragment-index="7" -->
 - Calendly <!-- .element: class="fragment" data-fragment-index="8" -->
 - Zapier <!-- .element: class="fragment" data-fragment-index="9" -->
-- Gemma https://gamma.app/docs/Kittens-and-Their-Snow-History-z7lvo0dh4cyjf92?mode=doc
+- [ Gemma ](https://gamma.app/docs/Kittens-and-Their-Snow-History-z7lvo0dh4cyjf92?mode=doc)  <!-- .element: class="fragment" data-fragment-index="9" -->
 
 
 # HotKeys

@@ -2,7 +2,6 @@
 
 
 # Timetable
-
 - Class 9:00 - 10:30 (17.00 - 18.30 JST)
 - Break 10:30 - 10:40 (18.30 - 18.40 JST)
 - Class 10:40 - 11:50 (18.40 - 20.10 JST)
@@ -17,18 +16,44 @@
 
 
 # Today's agenda
-
 - SQL <!-- .element: class="fragment" data-fragment-index="2" -->
 - Database terms <!-- .element: class="fragment" data-fragment-index="3" -->
 - Mysql, PostgreSQL, CouchDB <!-- .element: class="fragment" data-fragment-index="4" -->
 - Vector space <!-- .element: class="fragment" data-fragment-index="5" -->
 - Cloud storage <!-- .element: class="fragment" data-fragment-index="6" -->
 - Databases <!-- .element: class="fragment" data-fragment-index="7" -->
-- Backps <!-- .element: class="fragment" data-fragment-index="8" -->
+- Backups <!-- .element: class="fragment" data-fragment-index="8" -->
 
 
-# Databases basics
+# Demystifying tabular data
+- Comma seperated values <!-- .element: class="fragment" data-fragment-index="2" -->
+- Most simple format <!-- .element: class="fragment" data-fragment-index="3" -->
+- Portable <!-- .element: class="fragment" data-fragment-index="4" -->
 
+
+# Exercise
+- Create a simple file, change the filetype to `.csv` and then add CSV syntax
+- Test that with excel, numbers or open office
+
+
+# Data Modeling
+- Entity-Relationship (ER) diagrams for data structures
+- Foreign keys
+- n-to-n/1-to-n relationships
+- Optional fields, defaults, not null
+
+
+# A carcompany and a ecommerce site
+- Lets have a look at my example
+
+
+# Normalization
+- Normal forms (1NF, 2NF, 3NF)
+- Applying normalization to tables
+- Benefits of normalization for data integrity
+
+
+# Data basics
 - IAM Identity access management<!-- .element: class="fragment" data-fragment-index="2" -->
 - RBAC Role base access mangement<!-- .element: class="fragment" data-fragment-index="3" -->
 - SQL <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -38,18 +63,7 @@
 - Replication <!-- .element: class="fragment" data-fragment-index="8" -->
 - Backups <!-- .element: class="fragment" data-fragment-index="9" -->
 - Integration and APIs <!-- .element: class="fragment" data-fragment-index="10" -->
-
-
-# CSV
-
-- Comma seperated values <!-- .element: class="fragment" data-fragment-index="2" -->
-- Most simple format <!-- .element: class="fragment" data-fragment-index="3" -->
-- Portable <!-- .element: class="fragment" data-fragment-index="4" -->
-
-
-# Exercise
-- Create a simple file, change the filetype to `.csv` and then add CSV syntax
-- Test that with excel, numbers or open office
+- Datawarehousing <!-- .element: class="fragment" data-fragment-index="12" -->
 
 
 # Basic SQL Queries
@@ -74,6 +88,105 @@ Speaker Notes:
 <!--# Exercise-->
 
 <!--- Ask TommyBot about the addtional commands like UPDATE or DELETE-->
+# Real world example
+### Comparing Storage Solutions: Home Library vs City Library
+- Home: Small, limited space <!-- .element: class="fragment" data-fragment-index="2" -->
+- City: Large, organized for scale <!-- .element: class="fragment" data-fragment-index="3" -->
+
+Speaker Notes:
+
+- Compare personal data management to handling big data at an organizational level.
+
+
+# Home vs. City Library
+- Home Library: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Small, limited space <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Personal use, limited access <!-- .element: class="fragment" data-fragment-index="4" -->
+- City Library: <!-- .element: class="fragment" data-fragment-index="5" -->
+  - Large, organized for scale <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Public access, extensive catalog <!-- .element: class="fragment" data-fragment-index="7" -->
+
+Speaker Notes:
+
+- Home Library: local storage on a personal computer or a small server—suitable for less data and limited users.
+- City Library: distributed systems like Hadoop's HDFS, which handle large, scalable amounts of data across multiple locations and for numerous users.
+
+
+# Exercise
+- Setup an excel/google sheet and get used to "Dreisatz" operations
+- Practice advanced calculations like we are now at the 3rd day on the course at hour 13.57, how much percent have we exactly done?
+
+
+# Big Data in Action
+## Impacting Industries Worldwide
+
+Speaker Notes:
+
+- Introduce how big data is transforming various sectors by providing insights that were previously unattainable.
+
+
+# Industries Benefiting from Big Data
+Which do you know?
+
+
+- Healthcare: <!-- .element: class="fragment" data-fragment-index="2" -->
+  - Predictive analytics for patient care <!-- .element: class="fragment" data-fragment-index="3" -->
+  - Personalized medicine based on patient data <!-- .element: class="fragment" data-fragment-index="4" -->
+- Transportation: <!-- .element: class="fragment" data-fragment-index="5" -->
+  - Optimization of logistics and routing <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Real-time traffic condition analysis <!-- .element: class="fragment" data-fragment-index="7" -->
+- Marketing: <!-- .element: class="fragment" data-fragment-index="8" -->
+  - Consumer behavior analysis <!-- .element: class="fragment" data-fragment-index="9" -->
+  - Targeted advertising and customer segmentation <!-- .element: class="fragment" data-fragment-index="10" -->
+
+Speaker Notes:
+
+- Healthcare: Discuss how big data helps in predicting diseases, customizing patient treatment plans, and managing healthcare resources more effectively.
+- Transportation: Explain the use of big data in optimizing routes, reducing costs, and enhancing safety through predictive maintenance.
+- Marketing: Talk about how big data allows for more precise marketing strategies, understanding customer preferences, and improving customer engagement through personalized experiences.
+
+
+# Data Privacy and Protection Laws
+- Compliance is Key <!-- .element: class="fragment" data-fragment-index="2" -->
+  - GDPR <!-- .element: class="fragment" data-fragment-index="3" -->
+  - HIPAA (for healthcare data) <!-- .element: class="fragment" data-fragment-index="4" -->
+  - Other relevant regulations <!-- .element: class="fragment" data-fragment-index="5" -->
+
+Speaker Notes:
+
+- Importance of understanding and complying with data protection laws
+- Mention key legislations like GDPR and HIPAA where applicable
+
+
+# Data Governance
+- Data governance policies
+- Roles and responsibilities in data management systems
+- Ensuring data quality and consistency environments
+
+
+# API Integration
+- What are API Gateways
+- RESTful vs. GraphQL APIs in SAP environments
+- API endpoints for managing data in SAP systems
+
+
+# Data Privacy and Compliance
+- Data protection regulations: GDPR, CCPA
+- Compliance databases with privacy laws
+- Electronic health card
+- Data anonymization and access controls
+
+
+# Data Integration using SAP Data Intelligence
+- Capabilities of SAP Data Intelligence for integrating diverse data sources
+- Building data pipelines and workflows for ML ingress
+- Use cases for data integration big corporate environments
+
+
+# Data Lifecycle Management
+- Managing the data lifecycle within SAP HANA
+- Data retention policies and archival strategies in SAP
+- Tools for monitoring and maintaining data lifecycle in SAP solutions
 
 
 # MySQL
@@ -118,6 +231,24 @@ Speaker Notes:
 
 # Exercise
 Run some [mysql queryies](https://onecompiler.com/mysql)
+
+
+# Introduction to BI Tools
+- ### Working with BI Tools (e.g., Power BI, Tableau)
+  - Loading data from relational databases into BI tools  
+  - Basic visualization techniques  
+
+
+# SQL for Business Intelligence
+- ### Foundations of SQL for Analytics
+  - Common SQL functions for business use cases (e.g., SUM, AVG, COUNT)  
+  - GROUP BY and HAVING clauses for aggregating data  
+  - Join operations for combining datasets  
+
+
+# Real-World Applications of Data Analytics
+- ### Case Studies in Business Intelligence
+  - Retail, finance, healthcare, and marketing examples.  
 
 
 # PostgreSQL
@@ -243,63 +374,6 @@ Speaker Notes:
 - Designed to handle large volumes of vector data and provide fast query performance, often using distributed architectures <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-## Comparing Storage Solutions: Home Library vs City Library
-- Home: Small, limited space <!-- .element: class="fragment" data-fragment-index="2" -->
-- City: Large, organized for scale <!-- .element: class="fragment" data-fragment-index="3" -->
-
-Speaker Notes:
-
-- Compare personal data management to handling big data at an organizational level.
-
-
-# Home vs. City Library
-- Home Library: <!-- .element: class="fragment" data-fragment-index="2" -->
-  - Small, limited space <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Personal use, limited access <!-- .element: class="fragment" data-fragment-index="4" -->
-- City Library: <!-- .element: class="fragment" data-fragment-index="5" -->
-  - Large, organized for scale <!-- .element: class="fragment" data-fragment-index="6" -->
-  - Public access, extensive catalog
-
-Speaker Notes:
-
-- Home Library: local storage on a personal computer or a small server—suitable for less data and limited users.
-- City Library: distributed systems like Hadoop's HDFS, which handle large, scalable amounts of data across multiple locations and for numerous users.
-
-
-# Exercise
-- Setup an excel/google sheet and get used to "Dreisatz" operations
-- Practice advanced calculations like we are now at the 3rd day on the course at hour 13.57, how much percent have we exactly done?
-
-
-# Big Data in Action
-## Impacting Industries Worldwide
-
-Speaker Notes:
-
-- Introduce how big data is transforming various sectors by providing insights that were previously unattainable.
-
-
-# Industries Benefiting from Big Data
-Which do you know?
-
-
-- Healthcare: <!-- .element: class="fragment" data-fragment-index="2" -->
-  - Predictive analytics for patient care <!-- .element: class="fragment" data-fragment-index="3" -->
-  - Personalized medicine based on patient data <!-- .element: class="fragment" data-fragment-index="4" -->
-- Transportation: <!-- .element: class="fragment" data-fragment-index="5" -->
-  - Optimization of logistics and routing <!-- .element: class="fragment" data-fragment-index="6" -->
-  - Real-time traffic condition analysis <!-- .element: class="fragment" data-fragment-index="7" -->
-- Marketing: <!-- .element: class="fragment" data-fragment-index="8" -->
-  - Consumer behavior analysis <!-- .element: class="fragment" data-fragment-index="9" -->
-  - Targeted advertising and customer segmentation <!-- .element: class="fragment" data-fragment-index="10" -->
-
-Speaker Notes:
-
-- Healthcare: Discuss how big data helps in predicting diseases, customizing patient treatment plans, and managing healthcare resources more effectively.
-- Transportation: Explain the use of big data in optimizing routes, reducing costs, and enhancing safety through predictive maintenance.
-- Marketing: Talk about how big data allows for more precise marketing strategies, understanding customer preferences, and improving customer engagement through personalized experiences.
-
-
 # Data Storage
 - Why big data needs special solutions <!-- .element: class="fragment" data-fragment-index="2" -->
 
@@ -319,15 +393,12 @@ Speaker Notes:
 - Briefly mention the importance of choosing the right storage based on factors like speed, cost, scalability, and durability.
 
 
-# Types of Data Storage
-Which do you know? <!-- .element: class="fragment" data-fragment-index="2" -->
-
-
 # Local Storage
 - Pen & Paper <!-- .element: class="fragment" data-fragment-index="2" -->
 - Hard Drives <!-- .element: class="fragment" data-fragment-index="3" -->
 - SSDs <!-- .element: class="fragment" data-fragment-index="4" -->
 - USB drives <!-- .element: class="fragment" data-fragment-index="5" -->
+- DNA  <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
 # Network Storage
@@ -447,49 +518,6 @@ Speaker Notes:
 - Suggest popular cloud storage providers like AWS, Google Cloud, and Azure
 
 
-# Data Privacy and Protection Laws
-- Compliance is Key <!-- .element: class="fragment" data-fragment-index="2" -->
-  - GDPR <!-- .element: class="fragment" data-fragment-index="3" -->
-  - HIPAA (for healthcare data) <!-- .element: class="fragment" data-fragment-index="4" -->
-  - Other relevant regulations <!-- .element: class="fragment" data-fragment-index="5" -->
-
-Speaker Notes:
-
-- Importance of understanding and complying with data protection laws
-- Mention key legislations like GDPR and HIPAA where applicable
-
-
-# Glossary
-<!--# How did you like this?-->
-
-<!--- Give me feedback on TommyBot-->
-<!--- https://nc.tmy.io/index.php/apps/forms/s/3MmW93on2p5AFXkxkRSszJMf-->
-
-
-# Data Modeling
-- Entities and relationships using SAP HANA
-- Entity-Relationship (ER) diagrams for data structures
-- Normalization to reduce data redundancy
-
-
-# Normalization
-- Normal forms (1NF, 2NF, 3NF) in SAP databases
-- Applying normalization to SAP HANA tables
-- Benefits of normalization for data integrity
-
-
-# NoSQL Databases
-- NoSQL vs. SQL databases in SAP solutions
-- Use cases for NoSQL within SAP environments
-- Types of NoSQL supported by SAP HANA: Document, Key-Value, Column-Family, Graph
-
-
-# Data Warehousing
-- Data warehousing with SAP BW/4HANA
-- OLTP vs. OLAP systems in SAP
-- Tools and technologies for SAP data warehouses
-
-
 # ETL Processes
 - Extract, Transform, Load (ETL) with SAP Data Services
 - ETL tools in the SAP ecosystem: SAP Data Intelligence
@@ -538,18 +566,6 @@ Speaker Notes:
 - Recovery plans for business continuity in case of data loss
 
 
-# API Integration
-- Building APIs with SAP Gateway for system integration
-- RESTful vs. GraphQL APIs in SAP environments
-- API endpoints for managing data in SAP systems
-
-
-# Data Privacy and Compliance
-- Data protection regulations relevant to SAP: GDPR, CCPA
-- Compliance of SAP databases with privacy laws
-- Data anonymization and access controls in SAP
-
-
 # Real-time Data Processing
 - Real-time analytics with SAP HANA
 - Real-time data streaming technologies in SAP: SAP Stream Processing
@@ -566,12 +582,6 @@ Speaker Notes:
 - Scaling SAP databases horizontally and vertically
 - Load balancing and database clustering in SAP environments
 - Monitoring performance metrics and optimizing resources with SAP tools
-
-
-# Data Governance
-- Data governance policies within SAP
-- Roles and responsibilities in data management for SAP systems
-- Ensuring data quality and consistency across SAP environments
 
 
 # Transaction Management
@@ -602,15 +612,3 @@ Speaker Notes:
 - In-memory computing architecture of SAP HANA
 - Components and layers of SAP HANA
 - High-performance data processing supported by SAP HANA
-
-
-# Data Integration using SAP Data Intelligence
-- Capabilities of SAP Data Intelligence for integrating diverse data sources
-- Building data pipelines and workflows with SAP Data Intelligence
-- Use cases for data integration in SAP environments
-
-
-# Data Lifecycle Management
-- Managing the data lifecycle within SAP HANA
-- Data retention policies and archival strategies in SAP
-- Tools for monitoring and maintaining data lifecycle in SAP solutions
