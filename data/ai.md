@@ -49,11 +49,11 @@
 
 Speaker Notes:
 
-    - Introduce the seminal paper published in 2017 by Vaswani et al., which revolutionized natural language processing. <!-- .element: class="fragment" data-fragment-index="2" -->
-    - Explain the key contribution: the Transformer model, which relies entirely on an attention mechanism, discarding the need for recurrent layers. <!-- .element: class="fragment" data-fragment-index="3" -->
-    - Highlight how Transformers achieve higher accuracy in translation tasks with less training time compared to previous models like RNNs and LSTMs. <!-- .element: class="fragment" data-fragment-index="4" -->
-    - Discuss the impact of this model on a wide range of applications including language translation, text generation, and even extending to image processing tasks. <!-- .element: class="fragment" data-fragment-index="5" -->
-    - Mention how this architecture forms the backbone of popular models like BERT, GPT, and T5, which dominate the field of AI research and application today. <!-- .element: class="fragment" data-fragment-index="6" -->
+  - Introduce the seminal paper published in 2017 by Vaswani et al., which revolutionized natural language processing.
+  - Explain the key contribution: the Transformer model, which relies entirely on an attention mechanism, discarding the need for recurrent layers.
+  - Highlight how Transformers achieve higher accuracy in translation tasks with less training time compared to previous models like RNNs and LSTMs.
+  - Discuss the impact of this model on a wide range of applications including language translation, text generation, and even extending to image processing tasks.
+  - Mention how this architecture forms the backbone of popular models like BERT, GPT, and T5, which dominate the field of AI research and application today. 
 
 
 # OpenAi

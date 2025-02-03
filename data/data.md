@@ -56,7 +56,7 @@
 # Data basics
 - IAM Identity access management<!-- .element: class="fragment" data-fragment-index="2" -->
 - RBAC Role base access mangement<!-- .element: class="fragment" data-fragment-index="3" -->
-- SQL <!-- .element: class="fragment" data-fragment-index="4" -->
+- SQL Structured query language <!-- .element: class="fragment" data-fragment-index="4" -->
 - Schemas <!-- .element: class="fragment" data-fragment-index="5" -->
 - Indexes <!-- .element: class="fragment" data-fragment-index="6" -->
 - Sharding <!-- .element: class="fragment" data-fragment-index="7" -->
@@ -64,6 +64,8 @@
 - Backups <!-- .element: class="fragment" data-fragment-index="9" -->
 - Integration and APIs <!-- .element: class="fragment" data-fragment-index="10" -->
 - Datawarehousing <!-- .element: class="fragment" data-fragment-index="12" -->
+- Data lakes <!-- .element: class="fragment" data-fragment-index="13" -->
+- Migrations
 
 
 # Basic SQL Queries

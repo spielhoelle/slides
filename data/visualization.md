@@ -28,6 +28,7 @@
 # Examples
 
 - Katapult magazine
+- [30 best visuals]( https://visme.co/blog/best-data-visualizations/ )
 
 
 # Telling a story
@@ -40,17 +41,79 @@
 - Trends/patterns, colors or logos <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
+# Financial Data Visualization
+### Visualizing Financial KPIs
+
+1. Examples of visualizations suited for financial KPIs.
+2. Overview session with SAP Analytics Cloud.
+
+Speaker Notes:
+
+- KPI benchmarks and industry standards.
+- Real-world impact of effective visual communication for finance teams.
+
+
+# Integration with SAP Financial Data
+### Extracting and Visualizing Financial Data
+
+1. Methods to connect and pull [data from sources](https://huggingface.co/collections/Tonic/financial-datasets-65ac62ffe0ee7990a6ddc031)
+2. Visualization best practises for financial data in dashboards
+3. Checkout common crypto dashboards
+
+Speaker Notes:
+
+- Connection protocols and security considerations.
+- Transformation of SAP data for better visualization.
+
+
+# Custom Dashboards
+### Building Dashboards for Financial Reporting
+
+Speaker Notes:
+
+- Discuss the importance of custom dashboards for executives.
+- Case study: Improving financial decision-making through visual reporting.
+
+### Collaborative Tools and Teamwork
+#### Enhancing SAP Financial Consulting with Visualization
+
+Speaker Notes:
+
+- Discuss tools that facilitate teamwork.
+- Integration scenarios with popular collaboration platforms.
+
+
+# Example of P&L
+
+- Importance of visualizing the client confidence in planning and numbers
+- What could be for metrics visualized?
+
+
+# Analytics
+
+- [SAP's example of predictive analytics](https://www.sap.com/products/technology-platform/cloud-analytics/what-is-predictive-analytics.html)
+- Google analytics
+- Matomo open source
+
+
+# Standardisation of reports
+
+- See how common standards helping people to understand (PDF, DIN-A4 etc.)
+- Consistency and compliance
+- Invoicing as an example
+
+
 # For you as a consultant
 
-1. Understanding the Target Audience: Identify the needs, preferences, and expertise of the cloud provider's customers. <!-- .element: class="fragment" data-fragment-index="2" -->
-2. Scalability and Performance: Ensure that chosen visualization tools can handle large datasets and perform well. <!-- .element: class="fragment" data-fragment-index="3" -->
-3. Security and Compliance: Select data visualization solutions that meet security requirements and comply with relevant industry standards (e.g., HIPAA, SOC 2). <!-- .element: class="fragment" data-fragment-index="4" -->
-4. Integration with Cloud Services: Look for tools that integrate seamlessly with the cloud provider's services, such as AWS QuickSight or Google Data Studio. <!-- .element: class="fragment" data-fragment-index="5" -->
-5. Interoperability and Customizability: Ensure that chosen visualization solutions can be easily embedded in the cloud provider's platforms and customized to meet specific customer needs. <!-- .element: class="fragment" data-fragment-index="6" -->
-6. Real-time and Dynamic Visualizations: Offer tools for creating real-time, interactive, and exploratory visualizations for customers to gain insights from their data more effectively. <!-- .element: class="fragment" data-fragment-index="7" -->
-7. Accessibility and Usability: Ensure that chosen visualization solutions are accessible to diverse audiences and easy to use for a wide range of users. <!-- .element: class="fragment" data-fragment-index="8" -->
-8. Collaboration and Sharing: Provide options for real-time collaboration and sharing of visualizations between team members and stakeholders. <!-- .element: class="fragment" data-fragment-index="9" -->
-9. Support and Maintenance: Offer robust support, maintenance, and upgrade options to ensure that customers have access to the latest features and functionality. <!-- .element: class="fragment" data-fragment-index="10" -->
+- Understanding the Target Audience: Identify the needs, preferences, and expertise of the cloud provider's customers. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Scalability and Performance: Ensure that chosen visualization tools can handle large datasets and perform well. <!-- .element: class="fragment" data-fragment-index="3" -->
+- Security and Compliance: Select data visualization solutions that meet security requirements and comply with relevant industry standards (e.g., HIPAA, SOC 2). <!-- .element: class="fragment" data-fragment-index="4" -->
+- Integration with Cloud Services: Look for tools that integrate seamlessly with the cloud provider's services, such as AWS QuickSight or Google Data Studio. <!-- .element: class="fragment" data-fragment-index="5" -->
+- Interoperability and Customizability: Ensure that chosen visualization solutions can be easily embedded in the cloud provider's platforms and customized to meet specific customer needs. <!-- .element: class="fragment" data-fragment-index="6" -->
+- Real-time and Dynamic Visualizations: Offer tools for creating real-time, interactive, and exploratory visualizations for customers to gain insights from their data more effectively. <!-- .element: class="fragment" data-fragment-index="7" -->
+- Accessibility and Usability: Ensure that chosen visualization solutions are accessible to diverse audiences and easy to use for a wide range of users. <!-- .element: class="fragment" data-fragment-index="8" -->
+- Collaboration and Sharing: Provide options for real-time collaboration and sharing of visualizations between team members and stakeholders. <!-- .element: class="fragment" data-fragment-index="9" -->
+- Support and Maintenance: Offer robust support, maintenance, and upgrade options to ensure that customers have access to the latest features and functionality. <!-- .element: class="fragment" data-fragment-index="10" -->
 
 
 # Introduction to Data Visualization
