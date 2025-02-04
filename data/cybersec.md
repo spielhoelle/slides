@@ -29,9 +29,9 @@
 
 ## Test some shortcut automations
 
-- Power user can copy paste fast, and strip fast things
-- Search & replace
-- Regex
+- Power user can copy paste fast, and strip fast things <!-- .element: class="fragment" data-fragment-index="2" -->
+- Search & replace in various environments <!-- .element: class="fragment" data-fragment-index="3" -->
+- Basic understanding of regex <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Session 1: Introduction to Cyber Security and Basic Security Concerns
@@ -39,25 +39,28 @@
 
 # Introduction to Cyber Security
 
-- [Meme](https://cloudisland.nz/@dillon/112767541388187298) <!-- .element: class="fragment" data-fragment-index="2" -->
-- WhiteHat hacker/Red team <!-- .element: class="fragment" data-fragment-index="3" -->
+- [Meme](https://caniphish.com/blog/cyber-security-memes) <!-- .element: class="fragment" data-fragment-index="2" -->
+- WhiteHat hacker/Red teaming <!-- .element: class="fragment" data-fragment-index="3" -->
 - Definition and significance <!-- .element: class="fragment" data-fragment-index="4" -->
 - Real-world implications <!-- .element: class="fragment" data-fragment-index="5" -->
-- Security as a mindset <!-- .element: class="fragment" data-fragment-index="6" -->
+- Security as a mindset, checkout your risk assessments <!-- .element: class="fragment" data-fragment-index="6" -->
+- Lets have a look at StuxNet <!-- .element: class="fragment" data-fragment-index="7" -->
 
 Speaker Notes:
-- Open with the meme to lighten the mood and grab attention.
-- Define cybersecurity, emphasizing the role of ethical hackers (WhiteHat/Red Team) in testing security.
-- Discuss the mindset needed for cybersecurity: a proactive approach and constant learning.
+- **WhiteHat Hacker/Red Teaming:** WhiteHat hackers simulate cyberattacks in controlled environments to identify vulnerabilities. Red teaming involves ethical hackers testing systems from the perspective of an attacker to ensure security.
+- **Definition and Significance:** Cybersecurity is the practice of protecting systems, networks, and data from unauthorized access, attacks, or damage. It is crucial for safeguarding financial institutions from potential threats.
+- **Real-world Implications:** Cyberattacks can lead to significant financial losses, loss of customer trust, and reputational damage. Understanding cybersecurity is essential for maintaining robust defenses.
+- **Security as a Mindset:** Cybersecurity requires a proactive mindset, continuous learning, and a commitment to staying ahead of potential threats.
 
 
 # Operating Systems and Security
 
 - Overview of Windows, MacOS, Linux <!-- .element: class="fragment" data-fragment-index="2" -->
 - Security features <!-- .element: class="fragment" data-fragment-index="3" -->
-    - Microsoft criticism (Security Now podcast) <!-- .element: class="fragment" data-fragment-index="4" -->
+    - Microsoft criticism (Security Now podcast https://youtu.be/x9r-ONCydCA?list=PLdPwyUeH0mS566Y0YZ7oAGghzMgRlWTBf&t=108) <!-- .element: class="fragment" data-fragment-index="4" -->
 - Common vulnerabilities <!-- .element: class="fragment" data-fragment-index="5" -->
 - Importance of regular updates <!-- .element: class="fragment" data-fragment-index="6" -->
+- Lets checkout crowdstrike incident <!-- .element: class="fragment" data-fragment-index="7" -->
 
 Speaker Notes:
 - Explain key OS differences in terms of security architecture.
@@ -66,16 +69,32 @@ Speaker Notes:
 - Highlight common vulnerabilities and stress the importance of regular software updates to stay protected.
 
 
+# Things happening across the Atlantic
+
+- Tariffs against the EU <!-- .element: class="fragment" data-fragment-index="2" -->
+- 8000 government websites taken down <!-- .element: class="fragment" data-fragment-index="3" -->
+- access to government spending of 8 trillion denied, then fired <!-- .element: class="fragment" data-fragment-index="4" -->
+- Dissolving USAID <!-- .element: class="fragment" data-fragment-index="5" -->
+- https://european-alternatives.eu/ <!-- .element: class="fragment" data-fragment-index="6" -->
+
+
 # Internet Structure and Security
 
 - DNS (Domain Name System) <!-- .element: class="fragment" data-fragment-index="2" -->
 - HTTP vs HTTPS <!-- .element: class="fragment" data-fragment-index="3" -->
 - IP addresses <!-- .element: class="fragment" data-fragment-index="4" -->
+- Browser rendering of 3rd party  <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Speaker Notes:
 - Simplify DNS as the "phonebook of the internet" for ease of understanding.
 - Differentiate HTTP from HTTPS, emphasizing the latter’s role in secure transactions.
 - Briefly explain IP addresses and how they identify devices on the network, setting up for later network security discussions.
+- Rendering youtube videos not inline without embeds, facebook like buttons, google fonts
+
+
+# Exercise
+
+- Analyse network manager while browsing your favorite shoppingsite of devtools
 
 
 # Basic Security Concerns
@@ -83,7 +102,8 @@ Speaker Notes:
 - Passwords <!-- .element: class="fragment" data-fragment-index="2" -->
 - Phishing ([Example](https://hachyderm.io/@urldna@infosec.exchange)) <!-- .element: class="fragment" data-fragment-index="3" -->
 - Malware <!-- .element: class="fragment" data-fragment-index="4" -->
-- SolarWinds breach <!-- .element: class="fragment" data-fragment-index="5" -->
+- Never give out information if you dont have to  <!-- .element: class="fragment" data-fragment-index="5" -->
+- SolarWinds breach <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
 - Start with passwords as a first line of defense in security.
@@ -96,6 +116,7 @@ Speaker Notes:
 - Importance of strong passwords <!-- .element: class="fragment" data-fragment-index="2" -->
 - Techniques for creating strong passwords <!-- .element: class="fragment" data-fragment-index="3" -->
 - Advantages of using password managers <!-- .element: class="fragment" data-fragment-index="4" -->
+- Future of passkeys  <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Speaker Notes:
 - Stress why weak passwords are a major security risk.
@@ -112,12 +133,27 @@ Speaker Notes:
 - Show a couple of online tools and perform live demonstrations of weak vs. strong passwords.
 
 
+# Email
+
+- SMTP base protocol
+- Gmail bad example of privacy
+- Main place for fishing
+- Spam and how to avoid
+
+
+# The illusion
+
+- Marketing of Apple is security, but google brings the safety features out
+- Sam Altmaln said: We have been on the wrong side of history
+- But OpenAis security is quite bad
+- Microsofts remote-desktop
+
+
 # Terminal and Command Line Basics
 
 - Opening terminal/CMD <!-- .element: class="fragment" data-fragment-index="2" -->
 - Run basic commands like `whoami` and `ipconfig`/`ifconfig` <!-- .element: class="fragment" data-fragment-index="3" -->
 - Practical exercise: finding IP address <!-- .element: class="fragment" data-fragment-index="4" -->
-- Discuss StuxNet example <!-- .element: class="fragment" data-fragment-index="5" -->
 - Exercise: build confidence by deleting folders <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
@@ -146,6 +182,79 @@ Speaker Notes:
 Speaker Notes:
 - Engage participants in applying password knowledge by adding a password prompt to a sample app.
 - Encourage reflection on how security practices can enhance user trust and app reliability.
+
+
+# AI security
+
+- Jailbreaks in AI <!-- .element: class="fragment" data-fragment-index="2" -->
+- Backdoor Attack <!-- .element: class="fragment" data-fragment-index="3" -->
+- Data Privacy Concerns <!-- .element: class="fragment" data-fragment-index="4" -->
+- Extracting Model Parameters <!-- .element: class="fragment" data-fragment-index="5" -->
+- Model Distillation Risks <!-- .element: class="fragment" data-fragment-index="6" -->
+- Lets test a uncensored model <!-- .element: class="fragment" data-fragment-index="7" -->
+
+Speaker Notes:
+
+- **Jailbreaks in AI**: Unauthorized access to AI systems for extracting sensitive information or reverse-engineering algorithms without permission.
+- **Backdoor Attacks**: Targeted methods that allow attackers to gain unintended access to AI models, enabling data extraction or control over system behavior.
+- **Data Privacy Concerns**: Companies may inadvertently share personal user data with third parties due to software vulnerabilities or accidental data leaks.
+- **Extracting Model Parameters**: Techniques used by attackers to steal specific parameters from AI models, compromising the confidentiality of trained algorithms.
+- **Model Distillation Risks**: The process of extracting knowledge from a large AI model (teacher) to create a smaller, simpler version (student) can potentially expose sensitive information or vulnerabilities if reverse-engineered by attackers.
+
+
+# Audits
+
+- Objective of Security Audits <!-- .element: class="fragment" data-fragment-index="2" -->
+- Methods Used <!-- .element: class="fragment" data-fragment-index="3" -->
+- Common Tools Employed <!-- .element: class="fragment" data-fragment-index="4" -->
+- Types of Risks Explored <!-- .element: class="fragment" data-fragment-index="5" -->
+- Collaboration with DevSecOps <!-- .element: class="fragment" data-fragment-index="6" -->
+- Risk Levels Assessed <!-- .element: class="fragment" data-fragment-index="7" -->
+- Frequency of Audits <!-- .element: class="fragment" data-fragment-index="8" -->
+- Common Issues Found <!-- .element: class="fragment" data-fragment-index="9" -->
+- Mitigation Strategies <!-- .element: class="fragment" data-fragment-index="10" -->
+- Compliance Considerations <!-- .element: class="fragment" data-fragment-index="11" -->
+- Impact on Reputation <!-- .element: class="fragment" data-fragment-index="12" -->
+- Future Trends in Auditing <!-- .element: class="fragment" data-fragment-index="13" -->
+
+Speaker Notes:
+
+- **Objective of Security Audits**: Identify vulnerabilities, assess risk levels, ensure compliance with regulatory standards, and improve overall system resilience.
+- **Methods Used**: Manual testing, automated tools like OWASP ZAP, penetration testing, and ethical hacking to uncover weaknesses.
+- **Common Tools Employed**: Platforms such as OWASP ZAP, Burp Suite, and frameworks like Dependency-Isolation Testing (DIT) for comprehensive security assessments.
+- **Types of Risks Explored**: Application vulnerabilities, network security flaws, user authentication issues, privilege escalation risks, and penetration testing exercises.
+- **Collaboration with DevSecOps**: Security audits often involve cross-functional teams to ensure consistent application updates and patches are applied promptly.
+- **Risk Levels Assessed**: High-risk vulnerabilities (e.g., SQL injection) vs. medium-risk issues (e.g., misconfigurations), guiding immediate action or long-term strategies.
+- **Frequency of Audits**: Typically conducted quarterly, annually, or following specific incidents or compliance breaches.
+- **Common Issues Found**: Buffer overflows, SQL injection attempts, misconfigured firewalls, and outdated libraries.
+- **Mitigation Strategies**: Immediate fixes for critical issues, system hardening to prevent future attacks, and training employees on security best practices.
+- **Compliance Considerations**: Audits often focus on standards like GDPR, HIPAA, or ISO 27001 to ensure organizational adherence.
+- **Impact on Reputation**: Finding significant vulnerabilities can damage an organization’s reputation, leading to increased scrutiny from regulators and customers.
+- **Future Trends in Auditing**: Increased adoption of automated tools for efficiency, expanded scope to cover cloud environments, and integration with DevSecOps practices.
+
+
+# Corporate security
+- NDA's and consequences <!-- .element: class="fragment" data-fragment-index="2" -->
+- Third-Party Risk Management <!-- .element: class="fragment" data-fragment-index="3" -->
+- Compliance & Legal Requirements <!-- .element: class="fragment" data-fragment-index="4" -->
+- Incident Response Plan <!-- .element: class="fragment" data-fragment-index="5" -->
+- Threat Intelligence <!-- .element: class="fragment" data-fragment-index="6" -->
+- Access Control <!-- .element: class="fragment" data-fragment-index="7" -->
+- Disaster Recovery & Business Continuity <!-- .element: class="fragment" data-fragment-index="8" -->
+- Secure Development Practices <!-- .element: class="fragment" data-fragment-index="9" -->
+- Continuous Monitoring & Logging <!-- .element: class="fragment" data-fragment-index="10" -->
+- Incident Response Drill <!-- .element: class="fragment" data-fragment-index="11" -->
+
+Speaker Notes:
+- **Third-Party Risk Management**: Protecting sensitive financial information shared with external partners or providers.
+- **Compliance & Legal Requirements**: Adhering to industry regulations (e.g., Sarbanes-Oxley Act) to ensure client trust and avoid legal risks.
+- **Incident Response Plan**: Developing and implementing strategies to mitigate risks posed by cyberattacks on SAP systems.
+- **Threat Intelligence**: Monitoring for potential threats specific to financial consulting environments using SAP.
+- **Access Control**: Implementing strict access controls to limit unauthorized users from accessing financial data within SAP.
+- **Disaster Recovery & Business Continuity**: Planning for recovery of financial operations in case of system failures or cyberattacks.
+- **Secure Development Practices**: Adhering to best practices for secure development of SAP applications to minimize vulnerabilities.
+- **Continuous Monitoring & Logging**: Regularly monitoring SAP systems and logs to detect and respond to security incidents promptly.
+- Incident: Regularly conduct cyber incident response drills to prepare employees and management on how to handle real-life incidents.
 
 
 # Session 2: Network Security and Privacy
@@ -257,6 +366,7 @@ Speaker Notes:
 - How 2FA adds protection <!-- .element: class="fragment" data-fragment-index="3" -->
 - Setting up 2FA <!-- .element: class="fragment" data-fragment-index="4" -->
 - Examples of 2FA in real life <!-- .element: class="fragment" data-fragment-index="5" -->
+- UbiKeys <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
 - Start by explaining 2FA as an additional layer of security, reducing the risk of unauthorized access.
@@ -280,6 +390,13 @@ Speaker Notes:
 - Let simprove our app with a simple encryption meachism
 - Introducing base64
 - advanced concept: md5, sha256
+
+
+# API security
+
+- API keys <!-- .element: class="fragment" data-fragment-index="2" -->
+- Public/Private keys <!-- .element: class="fragment" data-fragment-index="3" -->
+- Google credentials.json <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 # Session 3: Web Security and Online Safety
@@ -405,7 +522,6 @@ Speaker Notes:
 - Integrating security in CI/CD pipelines <!-- .element: class="fragment" data-fragment-index="2" -->
 - Enhancing security in DevOps workflows <!-- .element: class="fragment" data-fragment-index="3" -->
 - Examples: Security tools and automation <!-- .element: class="fragment" data-fragment-index="4" -->
-- https://european-alternatives.eu/ <!-- .element: class="fragment" data-fragment-index="5" -->
 
 Speaker Notes:
 - Show how DevOps tools, like Jenkins or GitLab, can integrate security steps.

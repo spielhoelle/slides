@@ -301,6 +301,28 @@
 				}
 			}
 
+			/* Speaker layout: Next only */
+    body[data-speaker-layout="next-only"] #current-slide{
+				width: 0;
+				height: 0;
+				padding: 6px;
+			}
+
+    body[data-speaker-layout="next-only"] #upcoming-slide {
+    height: 100%;
+    left: 0;
+    top:0 ;
+    width: 50%;
+    }
+
+    body[data-speaker-layout="next-only"] #speaker-controls {
+    padding-top: 0px;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    font-size: 1.25em;
+    }
 		</style>
 	</head>
 
@@ -358,6 +380,7 @@
 					'default': 'Default',
 					'wide': 'Wide',
 					'tall': 'Tall',
+					'next-only': 'Next only',
 					'notes-only': 'Notes only'
 				};
 

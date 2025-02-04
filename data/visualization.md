@@ -29,6 +29,7 @@
 
 - Katapult magazine
 - [30 best visuals]( https://visme.co/blog/best-data-visualizations/ )
+- [ Toogl track ](https://track.toggl.com/reports/detailed/4165570/clients/50350154/from/2025-01-01/projects/208189914/to/2025-02-03)
 
 
 # Telling a story
@@ -46,9 +47,6 @@
 
 1. Examples of visualizations suited for financial KPIs.
 2. Overview session with SAP Analytics Cloud.
-
-Speaker Notes:
-
 - KPI benchmarks and industry standards.
 - Real-world impact of effective visual communication for finance teams.
 
@@ -56,31 +54,93 @@ Speaker Notes:
 # Integration with SAP Financial Data
 ### Extracting and Visualizing Financial Data
 
-1. Methods to connect and pull [data from sources](https://huggingface.co/collections/Tonic/financial-datasets-65ac62ffe0ee7990a6ddc031)
-2. Visualization best practises for financial data in dashboards
-3. Checkout common crypto dashboards
-
-Speaker Notes:
-
-- Connection protocols and security considerations.
-- Transformation of SAP data for better visualization.
+- Methods to connect and pull [data from sources](https://huggingface.co/collections/Tonic/financial-datasets-65ac62ffe0ee7990a6ddc031)
+- Connection protocols and security considerations FIDO alliance
+- Transformation of data for better visualization.
 
 
 # Custom Dashboards
 ### Building Dashboards for Financial Reporting
 
+- [ Visualization best practises for financial data in dashboards ](https://www.google.com/search?client=firefox-b-d&q=Visualization+best+practises+for+financial+data+in+dashboards+)
+- [Examples](https://www.akkio.com/post/financial-data-visualization#:~:text=Best%20Practices%20for%20Creating%20Financial%20Data%20Visualizations,-Best%20Practice&text=Keep%20the%20visualizations%20simple.,the%20interpretation%20of%20the%20data.&text=Maintain%20consistent%20colors%2C%20fonts%2C%20and,your%20visualizations%20to%20avoid%20confusion.)
+- Checkout common crypto dashboards
+- [ Simple google sheet visuals ](https://docs.google.com/spreadsheets/d/1xXiQolA6Kiwjs1xGruw9eBF44sUCRgu7JADxB7fK8aM/edit?gid=0#gid=0)
+- The importance of custom dashboards for executives
+- Case study: Improving financial decision-making through visual reporting
+- Tools that facilitate graphical teamwork miro, figma
+- Integration scenarios with popular collaboration platforms like slack, teams,
+
+
+# Ethical Considerations in AI and Big Data
+
+- Bias and Fairness <!-- .element: class="fragment" data-fragment-index="2" -->
+- Transparency <!-- .element: class="fragment" data-fragment-index="3" -->
+- Privacy <!-- .element: class="fragment" data-fragment-index="4" -->
+- Accountability <!-- .element: class="fragment" data-fragment-index="5" -->
+- Environmental Impact <!-- .element: class="fragment" data-fragment-index="6" -->
+- Consent and Data Ownership <!-- .element: class="fragment" data-fragment-index="7" -->
+- Security <!-- .element: class="fragment" data-fragment-index="8" -->
+- Misuse and Dual-Use <!-- .element: class="fragment" data-fragment-index="9" -->
+
 Speaker Notes:
 
-- Discuss the importance of custom dashboards for executives.
-- Case study: Improving financial decision-making through visual reporting.
+- Bias and Fairness: Ensure AI models don't reinforce existing biases, as biased data can lead to unfair outcomes.
+- Transparency: Make AI decisions understandable and interpretable for users; avoid "black box" models when transparency is crucial.
+- Privacy: Protect personal data through strict adherence to data privacy laws (e.g., GDPR, CCPA) and minimize data collection to only what's necessary.
+- Accountability: Establish clear responsibility for AI-driven decisions, especially in critical areas like healthcare or finance.
+- Environmental Impact: Consider the carbon footprint of large AI models; optimize compute resources where possible.
+- Consent and Data Ownership: Ensure users consent to how their data is used and stored, respecting ownership and control over personal data.
+- Security: Safeguard AI and data systems from cyber threats, as breaches can have significant repercussions.
+- Misuse and Dual-Use: Anticipate and prevent harmful applications of AI, especially in areas where misuse could cause societal harm (e.g., surveillance, disinformation).
 
-### Collaborative Tools and Teamwork
-#### Enhancing SAP Financial Consulting with Visualization
 
-Speaker Notes:
+# Algorithms
 
-- Discuss tools that facilitate teamwork.
-- Integration scenarios with popular collaboration platforms.
+- Linear regression <!-- .element: class="fragment" data-fragment-index="2" -->
+   - Used for forecasting financial metrics, such as future sales, revenue, or costs based on historical data.
+   - Finding trends in financial indicators.
+- Logistic regression <!-- .element: class="fragment" data-fragment-index="3" -->
+   - Helpful in risk assessment models, like predicting loan defaults or creditworthiness.
+- Random forrest <!-- .element: class="fragment" data-fragment-index="4" -->
+   - Provides robust predictive models for financial forecasting and classification problems, handling non-linear data and feature importance.
+- KNN <!-- .element: class="fragment" data-fragment-index="6" -->
+   - Used for recommendations or clustering similar investment profiles and market segment analysis.
+- Neural network <!-- .element: class="fragment" data-fragment-index="7" -->
+   - Applied in complex financial tasks such as stock price prediction, fraud detection, and derivatives pricing.
+- Clustering <!-- .element: class="fragment" data-fragment-index="8" -->
+   - Useful for segmenting customers or identifying different financial patterns within data to tailor strategies.
+
+
+# Datascience terms
+
+- [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation#Interpretation_and_application)
+- [Mean](https://en.wikipedia.org/wiki/Expected_value)
+- [Median](https://en.wikipedia.org/wiki/Median)
+
+
+# Standard Tommy
+![std_tommy](./data/img/std_tommy.JPG)
+
+
+# Hands-On
+
+## Icecream revenue prediction
+
+### **Exercise**:
+Explore [this](/IceCreamData.csv) data set on your own
+
+
+# **Solution**:
+See and explain on [Kaggle](https://www.kaggle.com/code/tariquepce/ice-cream-revenue-prediction/input)
+- and [ colab notebook ](https://colab.research.google.com/drive/1n_hAw9IjmDtFp316bgYkgU6mml93-W30#scrollTo=s0E9xPLdx2Ok)
+
+
+# Common log dashboards
+
+- Vercel
+- Github actions
+- Argocd
 
 
 # Example of P&L
@@ -94,17 +154,30 @@ Speaker Notes:
 - [SAP's example of predictive analytics](https://www.sap.com/products/technology-platform/cloud-analytics/what-is-predictive-analytics.html)
 - Google analytics
 - Matomo open source
+- Hotjar heatmaps
 
 
 # Standardisation of reports
 
-- See how common standards helping people to understand (PDF, DIN-A4 etc.)
-- Consistency and compliance
-- Invoicing as an example
+- See how common standards helping people to understand (PDF, DIN-A4 etc.) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Consistency and compliance <!-- .element: class="fragment" data-fragment-index="3" -->
+- Invoicing as an example <!-- .element: class="fragment" data-fragment-index="4" -->
+- Canva example <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# For you as a consultant
+# Especially for you as a consultant
 
+- Understanding the Target Audience <!-- .element: class="fragment" data-fragment-index="2" -->
+- Scalability and Performance <!-- .element: class="fragment" data-fragment-index="3" -->
+- Security and Compliance <!-- .element: class="fragment" data-fragment-index="4" -->
+- Integration with Cloud Services <!-- .element: class="fragment" data-fragment-index="5" -->
+- Interoperability and Customizability <!-- .element: class="fragment" data-fragment-index="6" -->
+- Real-time and Dynamic Visualizations <!-- .element: class="fragment" data-fragment-index="7" -->
+- Accessibility and Usability <!-- .element: class="fragment" data-fragment-index="8" -->
+- Collaboration and Sharing <!-- .element: class="fragment" data-fragment-index="9" -->
+- Support and Maintenance <!-- .element: class="fragment" data-fragment-index="10" -->
+
+Speaker Notes: 
 - Understanding the Target Audience: Identify the needs, preferences, and expertise of the cloud provider's customers. <!-- .element: class="fragment" data-fragment-index="2" -->
 - Scalability and Performance: Ensure that chosen visualization tools can handle large datasets and perform well. <!-- .element: class="fragment" data-fragment-index="3" -->
 - Security and Compliance: Select data visualization solutions that meet security requirements and comply with relevant industry standards (e.g., HIPAA, SOC 2). <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -114,6 +187,7 @@ Speaker Notes:
 - Accessibility and Usability: Ensure that chosen visualization solutions are accessible to diverse audiences and easy to use for a wide range of users. <!-- .element: class="fragment" data-fragment-index="8" -->
 - Collaboration and Sharing: Provide options for real-time collaboration and sharing of visualizations between team members and stakeholders. <!-- .element: class="fragment" data-fragment-index="9" -->
 - Support and Maintenance: Offer robust support, maintenance, and upgrade options to ensure that customers have access to the latest features and functionality. <!-- .element: class="fragment" data-fragment-index="10" -->
+
 
 
 # Introduction to Data Visualization
@@ -156,17 +230,6 @@ Speaker Notes:
 
 - Explain Pandas as a high-level data manipulation tool developed on top of the Python programming language.
 - Highlight its role in data analysis for its simplicity and powerful data handling capabilities.
-
-
-# Datascience terms
-
-- [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation#Interpretation_and_application)
-- [Mean](https://en.wikipedia.org/wiki/Expected_value)
-- [Median](https://en.wikipedia.org/wiki/Median)
-
-
-# Standard Tommy
-![std_tommy](./data/img/std_tommy.JPG)
 
 
 # Pandas Data Structures
