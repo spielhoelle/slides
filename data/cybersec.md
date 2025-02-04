@@ -75,7 +75,7 @@ Speaker Notes:
 - 8000 government websites taken down <!-- .element: class="fragment" data-fragment-index="3" -->
 - access to government spending of 8 trillion denied, then fired <!-- .element: class="fragment" data-fragment-index="4" -->
 - Dissolving USAID <!-- .element: class="fragment" data-fragment-index="5" -->
-- https://european-alternatives.eu/ <!-- .element: class="fragment" data-fragment-index="6" -->
+- What to do? https://european-alternatives.eu/ <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
 # Internet Structure and Security
@@ -84,12 +84,14 @@ Speaker Notes:
 - HTTP vs HTTPS <!-- .element: class="fragment" data-fragment-index="3" -->
 - IP addresses <!-- .element: class="fragment" data-fragment-index="4" -->
 - Browser rendering of 3rd party  <!-- .element: class="fragment" data-fragment-index="5" -->
+- The power of documentation and journaling in general <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
 - Simplify DNS as the "phonebook of the internet" for ease of understanding.
 - Differentiate HTTP from HTTPS, emphasizing the latter’s role in secure transactions.
 - Briefly explain IP addresses and how they identify devices on the network, setting up for later network security discussions.
 - Rendering youtube videos not inline without embeds, facebook like buttons, google fonts
+- Silo knowledge, on/offboarding employees, HR workflows
 
 
 # Exercise
@@ -397,6 +399,7 @@ Speaker Notes:
 - API keys <!-- .element: class="fragment" data-fragment-index="2" -->
 - Public/Private keys <!-- .element: class="fragment" data-fragment-index="3" -->
 - Google credentials.json <!-- .element: class="fragment" data-fragment-index="4" -->
+- Lets speak about Tommy's JSON -> CSV fauxpas <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Session 3: Web Security and Online Safety
@@ -406,7 +409,9 @@ Speaker Notes:
 
 - SSH <!-- .element: class="fragment" data-fragment-index="2" -->
 - Importance of port security <!-- .element: class="fragment" data-fragment-index="3" -->
-- Roles of SSH and SSL/TLS in web security <!-- .element: class="fragment" data-fragment-index="4" -->
+- How is tracking working <!-- .element: class="fragment" data-fragment-index="4" -->
+- Roles of SSH and SSL/TLS in web security <!-- .element: class="fragment" data-fragment-index="5" -->
+- Secretkeys in action pipelines <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
 - Explain SSH for secure server access
@@ -436,6 +441,14 @@ Speaker Notes:
 - Discuss how spear phishing is a targeted form of phishing and ways to recognize it.
 - Explain social engineering as a psychological manipulation technique.
 - Offer advice on dealing with online harassment and protecting digital identity.
+
+
+# The cryptoworld
+
+- Drops <!-- .element: class="fragment" data-fragment-index="2" -->
+- Integrations <!-- .element: class="fragment" data-fragment-index="3" -->
+- Wallets <!-- .element: class="fragment" data-fragment-index="4" -->
+- Whales and other scams <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 # Secure Coding Practices
