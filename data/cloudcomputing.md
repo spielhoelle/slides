@@ -1,21 +1,20 @@
 # Cloud Computing
 
 
-# Timetable
+## Timetable
 
-No worries - this is a flexible timeframe
+- Class 9:00 - 10:30 (17.00 - 18.30 JST)
+- Break 10:30 - 10:40 (18.30 - 18.40 JST)
+- Class 10:40 - 11:50 (18.40 - 20.10 JST)
+- Break 11:50 - 12:00 (20.10 - 20.20 JST)
+- Class 12:00 - 13:05 (20.20 - 21.05 JST)
+- `Lunch break`
+- Class 14:05 - 15:35 (self paced learning)
+- Break 15:35 - 15:45
+- Class 15:45 - 17:15 (self paced learning)
+- Break 17:15 - 17:25
+- Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
 
-**Time** | **Block**
----------|---------
-09:30 - 10:15 | Lesson
-10:15 - 10:30 | Break
-10:30 - 11:45 | Lesson
-11:45 - 12:00 | Break
-12:00 - 13:00 | Lesson
-13:00 - 14:00 | Lunch Break
-14:00 - 15:00 | Lesson
-15:00 - 15:15 | Break
-15:15 - 16:30 | Lesson
 
 # Today's agenda
 - There is no cloud, its just somebody else compter <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -70,7 +69,7 @@ Speaker Notes:
 - Internet Era: Accessing global resources over the internet Highlight how internet access enables cloud infrastructure to provide global reach.
 
 
-## Types of '... as a Service'
+## Types of '... as a Service' as tommy
 
 - IaaS - Infrastructure <!-- .element: class="fragment" data-fragment-index="2" -->
 - PaaS - Platform <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -300,7 +299,7 @@ Speaker Notes:
 ### and other religious beliefs
 
 
-# Terraform
+## Terraform
 ## provisioning cloud infra
 
 
@@ -505,7 +504,7 @@ Speaker Notes:
 - Open the floor for questions to close the workshop effectively.
 
 
-# Retrospective
+## Retrospective
 
 
 ## Feedback and Next Steps
@@ -517,3 +516,9 @@ Speaker Notes:
 Speaker Notes:
 - Recap core commands and infrastructure introduced.
 - Ask for feedback to improve future sessions and suggest next learning steps.
+
+
+# Get in touch
+  - https://github.com/spielhoelle 
+  - https://tmy.io 
+  - https://hachyderm.io/@spielhoelle

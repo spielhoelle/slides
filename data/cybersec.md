@@ -1,7 +1,7 @@
 # Cyber security
 
 
-# Timetable
+## Timetable
 
 - Class 9:00 - 10:30 (17.00 - 18.30 JST)
 - Break 10:30 - 10:40 (18.30 - 18.40 JST)
@@ -16,7 +16,7 @@
 - Class 17:25 - 18:10 (self paced learning) (00.25 - 01.10 JST)
 
 
-# Today's agenda
+## Today's agenda
 
 - White hat, red team? A introduction <!-- .element: class="fragment" data-fragment-index="3" -->
 - Networking and Privacy <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -25,7 +25,7 @@
 - We have a look at many viruses <!-- .element: class="fragment" data-fragment-index="7" -->
 
 
-# Exercise
+## Exercise
 
 ## Test some shortcut automations
 
@@ -37,7 +37,7 @@
 # Session 1: Introduction to Cyber Security and Basic Security Concerns
 
 
-# Introduction to Cyber Security
+## Introduction to Cyber Security
 
 - [Meme](https://caniphish.com/blog/cyber-security-memes) <!-- .element: class="fragment" data-fragment-index="2" -->
 - WhiteHat hacker/Red teaming <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -53,7 +53,7 @@ Speaker Notes:
 - **Security as a Mindset:** Cybersecurity requires a proactive mindset, continuous learning, and a commitment to staying ahead of potential threats.
 
 
-# Operating Systems and Security
+## Operating Systems and Security
 
 - Overview of Windows, MacOS, Linux <!-- .element: class="fragment" data-fragment-index="2" -->
 - Security features <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -69,7 +69,7 @@ Speaker Notes:
 - Highlight common vulnerabilities and stress the importance of regular software updates to stay protected.
 
 
-# Things happening across the Atlantic
+## Things happening across the Atlantic
 
 - Tariffs against the EU <!-- .element: class="fragment" data-fragment-index="2" -->
 - 8000 government websites taken down <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -78,7 +78,7 @@ Speaker Notes:
 - What to do? https://european-alternatives.eu/ <!-- .element: class="fragment" data-fragment-index="6" -->
 
 
-# Internet Structure and Security
+## Internet Structure and Security
 
 - DNS (Domain Name System) <!-- .element: class="fragment" data-fragment-index="2" -->
 - HTTP vs HTTPS <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -94,12 +94,12 @@ Speaker Notes:
 - Silo knowledge, on/offboarding employees, HR workflows
 
 
-# Exercise
+## Exercise
 
 - Analyse network manager while browsing your favorite shoppingsite of devtools
 
 
-# Basic Security Concerns
+## Basic Security Concerns
 
 - Passwords <!-- .element: class="fragment" data-fragment-index="2" -->
 - Phishing ([Example](https://hachyderm.io/@urldna@infosec.exchange)) <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -113,7 +113,7 @@ Speaker Notes:
 - Mention the SolarWinds attack to highlight real-world risks and the impact of cyber vulnerabilities on organizations.
 
 
-# Password Security
+## Password Security
 
 - Importance of strong passwords <!-- .element: class="fragment" data-fragment-index="2" -->
 - Techniques for creating strong passwords <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -126,7 +126,7 @@ Speaker Notes:
 - Introduce password managers as a tool to improve security without the hassle of remembering multiple passwords.
 
 
-# Strong Password Creation
+## Strong Password Creation
 
 - Use online tools for password strength testing <!-- .element: class="fragment" data-fragment-index="2" -->
 - Analyze password strength in real-time <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -135,23 +135,23 @@ Speaker Notes:
 - Show a couple of online tools and perform live demonstrations of weak vs. strong passwords.
 
 
-# Email
+## Email
 
-- SMTP base protocol
-- Gmail bad example of privacy
-- Main place for fishing
-- Spam and how to avoid
-
-
-# The illusion
-
-- Marketing of Apple is security, but google brings the safety features out
-- Sam Altmaln said: We have been on the wrong side of history
-- But OpenAis security is quite bad
-- Microsofts remote-desktop
+- SMTP base protocol <!-- .element: class="fragment" data-fragment-index="2" -->
+- Gmail bad example of privacy <!-- .element: class="fragment" data-fragment-index="3" -->
+- Main place for fishing <!-- .element: class="fragment" data-fragment-index="4" -->
+- Spam and how to avoid <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Terminal and Command Line Basics
+## The illusion
+
+- Marketing of Apple is security, but google brings the safety features out <!-- .element: class="fragment" data-fragment-index="2" -->
+- Sam Altmaln said: We have been on the wrong side of history <!-- .element: class="fragment" data-fragment-index="3" -->
+- But OpenAis security is quite bad <!-- .element: class="fragment" data-fragment-index="4" -->
+- Microsofts remote-desktop <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+## Terminal and Command Line Basics
 
 - Opening terminal/CMD <!-- .element: class="fragment" data-fragment-index="2" -->
 - Run basic commands like `whoami` and `ipconfig`/`ifconfig` <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -164,7 +164,7 @@ Speaker Notes:
 - Walk participants through a basic folder deletion to build familiarity with the terminal.
 
 
-# Introduction to Password Managers
+## Introduction to Password Managers
 
 - Choosing a password manager <!-- .element: class="fragment" data-fragment-index="2" -->
 - Setting up a basic password manager <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -176,7 +176,7 @@ Speaker Notes:
 - Conclude with the advantages: secure, simple, and promotes good password habits.
 
 
-# Exercise: Add a password field to our app
+## Exercise: Add a password field to our app
 
 - Prompt for secure password usage <!-- .element: class="fragment" data-fragment-index="2" -->
 - Integrate with our app: hands-on exercise <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -186,7 +186,7 @@ Speaker Notes:
 - Encourage reflection on how security practices can enhance user trust and app reliability.
 
 
-# AI security
+## AI security
 
 - Jailbreaks in AI <!-- .element: class="fragment" data-fragment-index="2" -->
 - Backdoor Attack <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -204,7 +204,7 @@ Speaker Notes:
 - **Model Distillation Risks**: The process of extracting knowledge from a large AI model (teacher) to create a smaller, simpler version (student) can potentially expose sensitive information or vulnerabilities if reverse-engineered by attackers.
 
 
-# Audits
+## Audits
 
 - Objective of Security Audits <!-- .element: class="fragment" data-fragment-index="2" -->
 - Methods Used <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -235,7 +235,7 @@ Speaker Notes:
 - **Future Trends in Auditing**: Increased adoption of automated tools for efficiency, expanded scope to cover cloud environments, and integration with DevSecOps practices.
 
 
-# Corporate security
+## Corporate security
 - NDA's and consequences <!-- .element: class="fragment" data-fragment-index="2" -->
 - Third-Party Risk Management <!-- .element: class="fragment" data-fragment-index="3" -->
 - Compliance & Legal Requirements <!-- .element: class="fragment" data-fragment-index="4" -->
@@ -262,7 +262,7 @@ Speaker Notes:
 # Session 2: Network Security and Privacy
 
 
-# Network Protocols and Security
+## Network Protocols and Security
 
 - TCP/IP overview <!-- .element: class="fragment" data-fragment-index="2" -->
 - Security implications of TCP/IP <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -274,7 +274,7 @@ Speaker Notes:
 - Share examples of known vulnerabilities in common protocols (e.g., ARP spoofing) to illustrate risks.
 
 
-# Firewalls, Routers, and Switches
+## Firewalls, Routers, and Switches
 
 - Roles in network security <!-- .element: class="fragment" data-fragment-index="2" -->
 - Basic configurations for security <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -286,12 +286,13 @@ Speaker Notes:
 - Discuss scenarios showing how small security changes can prevent significant risks.
 
 
-# Privacy Concerns
+## Privacy Concerns
 
 - The 'trillion trillion' example ([Article](https://kyivindependent.com/russian-court-fines-google-2-5-trillion-trillion-trillion/)) <!-- .element: class="fragment" data-fragment-index="2" -->
 - Data collection and online tracking <!-- .element: class="fragment" data-fragment-index="3" -->
 - Personal digital privacy <!-- .element: class="fragment" data-fragment-index="4" -->
 - Mitigating privacy risks <!-- .element: class="fragment" data-fragment-index="5" -->
+- Biometrics <!-- .element: class="fragment" data-fragment-index="6" -->
 
 Speaker Notes:
 - Begin with the humorous “trillion trillion” example to highlight the magnitude of data privacy concerns.
@@ -299,7 +300,7 @@ Speaker Notes:
 - Provide tips to limit tracking (e.g., browser extensions, private mode) and discuss legislative protections for privacy.
 
 
-# Encryption and Decryption
+## Encryption and Decryption
 
 - Practical exercise: Convert your name to binary <!-- .element: class="fragment" data-fragment-index="2" -->
 - Role of encryption in security <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -312,7 +313,7 @@ Speaker Notes:
 - Demonstrate simple techniques like Caesar Cipher, then discuss real-world applications (e.g., SSL/TLS for web security).
 
 
-# Virtual Private Networks (VPNs)
+## Virtual Private Networks (VPNs)
 
 - How VPNs work to secure browsing <!-- .element: class="fragment" data-fragment-index="2" -->
 - Benefits of using a VPN <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -324,7 +325,7 @@ Speaker Notes:
 - Give guidelines for choosing trustworthy VPN providers, highlighting transparency and no-logs policies.
 
 
-# Configuring Firewalls
+## Configuring Firewalls
 
 - Basic firewall setup <!-- .element: class="fragment" data-fragment-index="2" -->
 - Practical exercise: configuring a firewall <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -337,7 +338,7 @@ Speaker Notes:
 - Share the “Malicious Life” example to illustrate the power of firewalls in blocking unauthorized access.
 
 
-# Setting Up a VPN
+## Setting Up a VPN
 
 - Choosing the right VPN <!-- .element: class="fragment" data-fragment-index="2" -->
 - Steps to install a VPN <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -349,7 +350,7 @@ Speaker Notes:
 - Cover best settings for ensuring privacy, like kill-switch and DNS leak protection.
 
 
-# Encrypting and Decrypting Files
+## Encrypting and Decrypting Files
 
 - Using OpenSSL for encryption <!-- .element: class="fragment" data-fragment-index="2" -->
 - Practical exercise: password-protect a zipped file <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -362,7 +363,7 @@ Speaker Notes:
 - Mention AI's potential role in advancing encryption methods for end-to-end security.
 
 
-# Two-Factor Authentication (2FA)
+## Two-Factor Authentication (2FA)
 
 - Why 2FA matters for security <!-- .element: class="fragment" data-fragment-index="2" -->
 - How 2FA adds protection <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -376,7 +377,7 @@ Speaker Notes:
 - Share examples from widely used apps, like Gmail and Instagram, where 2FA has prevented breaches.
 
 
-# Single Sign-On (SSO)
+## Single Sign-On (SSO)
 
 - SSO providers <!-- .element: class="fragment" data-fragment-index="2" -->
 - How SSO architecture works <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -388,13 +389,13 @@ Speaker Notes:
 - Briefly introduce SAP’s SSO solutions for enterprise contexts to show how SSO scales in large organizations.
 
 
-# Exercise 
+## Exercise 
 - Let simprove our app with a simple encryption meachism
 - Introducing base64
 - advanced concept: md5, sha256
 
 
-# API security
+## API security
 
 - API keys <!-- .element: class="fragment" data-fragment-index="2" -->
 - Public/Private keys <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -405,7 +406,7 @@ Speaker Notes:
 # Session 3: Web Security and Online Safety
 
 
-# Web Technologies and Security
+## Web Technologies and Security
 
 - SSH <!-- .element: class="fragment" data-fragment-index="2" -->
 - Importance of port security <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -418,7 +419,7 @@ Speaker Notes:
 - Cover port security basics, such as limiting open ports to reduce attack surfaces.
 
 
-# Common Web Vulnerabilities
+## Common Web Vulnerabilities
 
 - Overview of common web vulnerabilities ([Resource](https://www.google.com/search?client=firefox-b-d&q=Common+Web+Vulnerabilities)) <!-- .element: class="fragment" data-fragment-index="2" -->
 - SQL injection: risks and defenses <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -431,7 +432,7 @@ Speaker Notes:
 - Highlight additional vulnerabilities such as CSRF and insecure deserialization.
 
 
-# Online Safety
+## Online Safety
 
 - Identifying spear phishing <!-- .element: class="fragment" data-fragment-index="2" -->
 - Social engineering tactics <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -443,7 +444,7 @@ Speaker Notes:
 - Offer advice on dealing with online harassment and protecting digital identity.
 
 
-# The cryptoworld
+## The cryptoworld
 
 - Drops <!-- .element: class="fragment" data-fragment-index="2" -->
 - Integrations <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -451,7 +452,7 @@ Speaker Notes:
 - Whales and other scams <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
-# Secure Coding Practices
+## Secure Coding Practices
 
 - Avoiding common pitfalls in code <!-- .element: class="fragment" data-fragment-index="2" -->
 - Best practices for handling keys <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -463,7 +464,7 @@ Speaker Notes:
 - Mention tips to prevent keylogging, such as securing devices and using anti-keylogging software.
 
 
-# Test-Driven Development (TDD)
+## Test-Driven Development (TDD)
 
 - Overview of TDD methodologies <!-- .element: class="fragment" data-fragment-index="2" -->
 - Role of TDD in improving security <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -475,7 +476,7 @@ Speaker Notes:
 - Discuss the real-world security benefits of TDD, including bug reduction and code resilience.
 
 
-# Vulnerability Scanning
+## Vulnerability Scanning
 
 - Basics of using nmap for scanning <!-- .element: class="fragment" data-fragment-index="2" -->
 - Web application vulnerability scanning <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -487,7 +488,7 @@ Speaker Notes:
 - Teach participants to interpret scan results and prioritize found vulnerabilities.
 
 
-# Setting Up HTTPS
+## Setting Up HTTPS
 
 - Why HTTPS is essential for security <!-- .element: class="fragment" data-fragment-index="2" -->
 - Using Certbot to set up HTTPS <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -499,7 +500,7 @@ Speaker Notes:
 - Include a step-by-step implementation for a practical setup experience.
 
 
-# JWT Token Authentication
+## JWT Token Authentication
 
 - Introduction to JWT (JSON Web Tokens) <!-- .element: class="fragment" data-fragment-index="2" -->
 - Hands-on: analyzing the structure of a JWT <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -511,14 +512,14 @@ Speaker Notes:
 - Discuss the three components of a JWT and how each part contributes to security.
 
 
-# Exercise 
+## Exercise 
 - Continue making our website
 
 
 # Session 4: Security for Developers and DevOps
 
 
-# Secure Coding and SDLC
+## Secure Coding and SDLC
 
 - Best practices for secure coding <!-- .element: class="fragment" data-fragment-index="2" -->
 - Overview of SDLC (Software Development Life Cycle) <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -530,7 +531,7 @@ Speaker Notes:
 - Explain the importance of salting and hashing, especially for passwords, to prevent attacks like rainbow tables.
 
 
-# DevOps and Security
+## DevOps and Security
 
 - Integrating security in CI/CD pipelines <!-- .element: class="fragment" data-fragment-index="2" -->
 - Enhancing security in DevOps workflows <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -542,7 +543,7 @@ Speaker Notes:
 - Provide real-world examples of CI/CD security tools, such as Snyk or Aqua Security.
 
 
-# Security Testing
+## Security Testing
 
 - Introduction to static and dynamic analysis <!-- .element: class="fragment" data-fragment-index="2" -->
 - Penetration testing essentials <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -555,7 +556,7 @@ Speaker Notes:
 - List tools like SonarQube for static analysis and OWASP ZAP for dynamic testing.
 
 
-# Agile and Waterfall Methodologies
+## Agile and Waterfall Methodologies
 
 - Secure development within Agile <!-- .element: class="fragment" data-fragment-index="2" -->
 - Comparing Agile vs Waterfall in security contexts <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -567,7 +568,7 @@ Speaker Notes:
 - Discuss how to adapt security practices based on methodology and project needs.
 
 
-# Secure Coding Practice
+## Secure Coding Practice
 
 - Advanced exercises in secure coding <!-- .element: class="fragment" data-fragment-index="2" -->
 - Secure code examples in Python <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -596,7 +597,7 @@ Speaker Notes:
 - Introduce ClamAV as a simple, effective antivirus tool for DevOps environments.
 
 
-# Setting Up Secure CI/CD Pipelines
+## Setting Up Secure CI/CD Pipelines
 
 - Security considerations in CI/CD <!-- .element: class="fragment" data-fragment-index="2" -->
 - Using Jenkins, GitLab CI/CD, CircleCI for secure deployments <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -608,7 +609,7 @@ Speaker Notes:
 - Offer a practical guide, from setting up access controls to automating security scans.
 
 
-# Agile vs Waterfall
+## Agile vs Waterfall
 
 - Methodology-specific security exercises <!-- .element: class="fragment" data-fragment-index="2" -->
 - Comparing Agile and Waterfall through hands-on scenarios <!-- .element: class="fragment" data-fragment-index="3" -->
@@ -620,7 +621,7 @@ Speaker Notes:
 - Summarize which method to choose based on project type, emphasizing flexibility vs. structure.
 
 
-### Wrap-Up and Q&A
+## Wrap-Up and Q&A
 
 Speaker Notes:
 - Summarize each session highlight for reinforcement.
@@ -628,7 +629,7 @@ Speaker Notes:
 - Encourage participants to review their practices and apply what they’ve learned.
 
 
-# Open Floor for Questions
+## Open Floor for Questions
 
 Speaker Notes:
 - Open the floor for questions and engage with participants’ thoughts.
